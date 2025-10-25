@@ -1,0 +1,11 @@
+
+# Local only
+.env.local
+
+# Build output
+.next/
+.open-next/
+
+# Dependencies
+node_modules/
+

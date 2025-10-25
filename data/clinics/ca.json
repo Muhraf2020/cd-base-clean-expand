@@ -1,0 +1,6753 @@
+[
+  {
+    "id": "ChIJuyf38i7HwoARBT-XfKzgFDQ",
+    "name": "Metropolis Dermatology | DTLA",
+    "formattedAddress": "888 S Figueroa St Suite 1050, Los Angeles, CA 90017",
+    "location": {
+      "latitude": 34.046490399999996,
+      "longitude": -118.2618443
+    },
+    "phone": "(213) 319-3339",
+    "website": "https://www.metropolisdermatology.com/",
+    "rating": 4.8,
+    "userRatingCount": 355,
+    "types": [
+      "skin_care_clinic",
+      "massage",
+      "hair_care",
+      "beauty_salon",
+      "body_art_service",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJrXdh-a_HwoARakunk4ATfeM",
+    "name": "California Skin Institute - DTLA - part of Schweiger Dermatology Group",
+    "formattedAddress": "1127 Wilshire Blvd UNIT 600, Los Angeles, CA 90017",
+    "location": {
+      "latitude": 34.0528036,
+      "longitude": -118.26401899999999
+    },
+    "phone": "(213) 278-0021",
+    "website": "https://www.californiaskininstitute.com/locations/los-angeles-ca/",
+    "rating": 4.6,
+    "userRatingCount": 648,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJebgPd9_HwoARrnHmPncW5t0",
+    "name": "California Dermatology Institute",
+    "formattedAddress": "1701 E Cesar E Chavez Ave Suite 305, Los Angeles, CA 90033",
+    "location": {
+      "latitude": 34.0513785,
+      "longitude": -118.2171632
+    },
+    "phone": "(888) 367-1850",
+    "website": "https://www.calderminstitute.com/dermatologist-los-angeles/",
+    "rating": 4.8,
+    "userRatingCount": 240,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJzdGjRE25woARdMDP0k3MshU",
+    "name": "Tower Dermatology",
+    "formattedAddress": "8631 W 3rd St #1035, Los Angeles, CA 90048",
+    "location": {
+      "latitude": 34.0738287,
+      "longitude": -118.38043829999998
+    },
+    "phone": "(310) 659-9075",
+    "website": "https://toplosangelesdermatologist.com/",
+    "rating": 4.9,
+    "userRatingCount": 573,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJRcMGLAi8woAREuxE827B5CE",
+    "name": "Dermatology Associates Medical Group",
+    "formattedAddress": "465 N Roxbury Dr #803, Beverly Hills, CA 90210",
+    "location": {
+      "latitude": 34.067910100000006,
+      "longitude": -118.40727360000001
+    },
+    "phone": "(310) 274-9954",
+    "website": "https://www.derm90210.com/",
+    "rating": 5,
+    "userRatingCount": 603,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJXxSrqdOwwoARKh87gXnZrQw",
+    "name": "Westchester Dermatology Medical Clinic",
+    "formattedAddress": "8930 S Sepulveda Blvd #104, Los Angeles, CA 90045",
+    "location": {
+      "latitude": 33.9551367,
+      "longitude": -118.39589649999998
+    },
+    "phone": "(310) 645-6001",
+    "website": "https://www.peacemd.com/",
+    "rating": 4.8,
+    "userRatingCount": 791,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJv39W6TfGwoAR2K1unaObMpw",
+    "name": "Irradiance Medical Group Dermatology",
+    "formattedAddress": "420 E 3rd St #805, Los Angeles, CA 90013",
+    "location": {
+      "latitude": 34.0466058,
+      "longitude": -118.24201089999998
+    },
+    "phone": "(213) 687-3214",
+    "website": "https://www.doctor-ho.com/",
+    "rating": 4.7,
+    "userRatingCount": 726,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJDeEO2wiZwoARGsVXWDSTF-I",
+    "name": "Castle Dermatology Institute; Peyman Ghasri, MD, Pedram Ghasri, MD",
+    "formattedAddress": "18555 Ventura Blvd Unit E, Tarzana, CA 91356",
+    "location": {
+      "latitude": 34.1698879,
+      "longitude": -118.53803299999998
+    },
+    "phone": "(818) 344-3376",
+    "website": "http://www.castlederm.com/",
+    "rating": 4.8,
+    "userRatingCount": 781,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJXxSrqdOwwoAR__VcZLg3DeM",
+    "name": "Dermatology Research Associates: Howard Sofen MD",
+    "formattedAddress": "8930 S Sepulveda Blvd # 114, Los Angeles, CA 90045",
+    "location": {
+      "latitude": 33.9551511,
+      "longitude": -118.3957564
+    },
+    "phone": "(310) 337-7171",
+    "website": "http://www.drsofen.com/",
+    "rating": 4.9,
+    "userRatingCount": 294,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJC3FsI527woARpjTkRV0ZkKg",
+    "name": "Skin and Cancer Institute - Los Angeles (Westwood)",
+    "formattedAddress": "10884 Santa Monica Blvd 3rd floor, Los Angeles, CA 90025",
+    "location": {
+      "latitude": 34.0492382,
+      "longitude": -118.43746139999999
+    },
+    "phone": "(310) 446-4400",
+    "website": "https://skinandcancerinstitute.com/location/westwood/",
+    "rating": 4.6,
+    "userRatingCount": 1455,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJY1JrxMS_woARYEWzB1j_-jo",
+    "name": "Skin and Beauty Center - Burbank",
+    "formattedAddress": "2720 W Magnolia Blvd, Burbank, CA 91505",
+    "location": {
+      "latitude": 34.170867799999996,
+      "longitude": -118.3372229
+    },
+    "phone": "(818) 842-8000",
+    "website": "https://www.dermla.com/locations/burbank/",
+    "rating": 4.8,
+    "userRatingCount": 1527,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ62ktOFG5woARpQZ_jccBYRA",
+    "name": "Wallace Skin and Body Institute - Paul Wallace MD",
+    "formattedAddress": "5120 Goldleaf Cir #20, Los Angeles, CA 90056",
+    "location": {
+      "latitude": 33.9885114,
+      "longitude": -118.36783510000001
+    },
+    "phone": "(323) 296-3376",
+    "website": "https://www.wallaceskinandbodyinstitute.com/",
+    "rating": 4.5,
+    "userRatingCount": 106,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJJfyC_p-8woARNw1Fc0tMZoo",
+    "name": "Skinpeccable Dermatology",
+    "formattedAddress": "11611 San Vicente Blvd, Los Angeles, CA 90049",
+    "location": {
+      "latitude": 34.054140499999995,
+      "longitude": -118.4627341
+    },
+    "phone": "(310) 979-7546",
+    "website": "https://www.skinpeccable.com/",
+    "rating": 4.9,
+    "userRatingCount": 118,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "beauty_salon",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJM8X4THzDwoAR35vaHwVFErY",
+    "name": "Comprehensive Dermatology Center of Pasadena",
+    "formattedAddress": "625 S Fair Oaks Ave UNIT 200, Pasadena, CA 91105",
+    "location": {
+      "latitude": 34.1354159,
+      "longitude": -118.150779
+    },
+    "phone": "(626) 793-7790",
+    "website": "http://compdermcenter.com/",
+    "rating": 4.9,
+    "userRatingCount": 1048,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJHasRHtGxwoARin4UT_K7dyM",
+    "name": "SoCal Skin and Surgery",
+    "formattedAddress": "12555 W Jefferson Blvd #202, Los Angeles, CA 90066",
+    "location": {
+      "latitude": 33.9798948,
+      "longitude": -118.41305589999999
+    },
+    "phone": "(424) 541-1756",
+    "website": "http://www.socalskinsurg.com/?utm_campaign=gmb",
+    "rating": 4.9,
+    "userRatingCount": 158,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJY7Xnd5nJwoARfEl50zfPW0w",
+    "name": "California Dermatology Institute",
+    "formattedAddress": "5725 S Soto St, Huntington Park, CA 90255",
+    "location": {
+      "latitude": 33.9904485,
+      "longitude": -118.21959109999999
+    },
+    "phone": "(805) 222-5803",
+    "website": "https://www.calderminstitute.com/dermatologist-huntington-park/",
+    "rating": 4.7,
+    "userRatingCount": 501,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJKa5vzfe7woAR9e5MwQKbmfM",
+    "name": "Dermatologist Beverly Hills: Dr. Monika Kiripolsky",
+    "formattedAddress": "9735 Wilshire Blvd Suite 216, Beverly Hills, CA 90212",
+    "location": {
+      "latitude": 34.0672895,
+      "longitude": -118.4075993
+    },
+    "phone": "(424) 652-6563",
+    "website": "https://drkiripolsky.com/",
+    "rating": 4.8,
+    "userRatingCount": 74,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "body_art_service",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJL9TVBwi8woARHTsL_3SPOPM",
+    "name": "Beverly Hills Dermatology Consultants",
+    "formattedAddress": "433 N Camden Dr Suite #805 Floor 8, Beverly Hills, CA 90210",
+    "location": {
+      "latitude": 34.069077,
+      "longitude": -118.40487999999999
+    },
+    "phone": "(310) 550-7661",
+    "website": "http://www.beverlyhillsdermatologyconsultants.com/",
+    "rating": 4.7,
+    "userRatingCount": 113,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJGU9mFb-7woAR9wW1JmI0Bv0",
+    "name": "Metropolis Dermatology | Brentwood",
+    "formattedAddress": "11645 Wilshire Blvd # 900, Los Angeles, CA 90025",
+    "location": {
+      "latitude": 34.0502548,
+      "longitude": -118.4603285
+    },
+    "phone": "(424) 243-7668",
+    "website": "https://www.metropolisdermatology.com/",
+    "rating": 4.8,
+    "userRatingCount": 165,
+    "types": [
+      "skin_care_clinic",
+      "massage",
+      "hair_care",
+      "beauty_salon",
+      "body_art_service",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJV-U2io6AhYARJ7UCNhdK_CI",
+    "name": "San Francisco Dermatology",
+    "formattedAddress": "490 Post St Suite 320, San Francisco, CA 94102",
+    "location": {
+      "latitude": 37.7884071,
+      "longitude": -122.40975739999999
+    },
+    "phone": "(415) 781-1932",
+    "website": "http://www.sfskin.com/",
+    "rating": 4.9,
+    "userRatingCount": 812,
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJnZFBObaAhYARDrA7GM1gcVY",
+    "name": "Bay Area Cosmetic Dermatology",
+    "formattedAddress": "2299 Post St STE 312, San Francisco, CA 94115",
+    "location": {
+      "latitude": 37.784116999999995,
+      "longitude": -122.4392111
+    },
+    "phone": "(415) 292-6350",
+    "website": "https://weloveskin.com/bay-area-cosmetic-dermatology",
+    "rating": 4.8,
+    "userRatingCount": 649,
+    "types": [
+      "doctor",
+      "skin_care_clinic",
+      "beauty_salon",
+      "hair_care",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJmVhE6a2HhYARlcYS_BkKsT0",
+    "name": "California Skin Institute",
+    "formattedAddress": "3838 California St RM 610, San Francisco, CA 94118",
+    "location": {
+      "latitude": 37.786182,
+      "longitude": -122.4574719
+    },
+    "phone": "(415) 387-8007",
+    "website": "https://www.californiaskininstitute.com/locations/laurel-heights-san-francisco/",
+    "rating": 4.8,
+    "userRatingCount": 910,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJRVbVCqiAhYARxDhZgqvBuS8",
+    "name": "California Skin Institute",
+    "formattedAddress": "45 Castro St #332, San Francisco, CA 94114",
+    "location": {
+      "latitude": 37.7686242,
+      "longitude": -122.4354309
+    },
+    "phone": "(415) 861-2600",
+    "website": "http://dermcentersf.com/",
+    "rating": 4.8,
+    "userRatingCount": 707,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJJY-D88aAhYARRehiTfAHCfk",
+    "name": "Pacific Skin and Cosmetic Dermatology San Francisco",
+    "formattedAddress": "2100 Webster St # 305, San Francisco, CA 94115",
+    "location": {
+      "latitude": 37.790637499999995,
+      "longitude": -122.43218449999999
+    },
+    "phone": "(415) 202-1540",
+    "website": "https://pacificskin.com/pacific-skin-san-francisco",
+    "rating": 4.7,
+    "userRatingCount": 187,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJn7CoW3J8j4ARUdIf28lZQgI",
+    "name": "San Francisco Dermatopathology Institute",
+    "formattedAddress": "1618 Sullivan Ave UNIT 208, Daly City, CA 94015",
+    "location": {
+      "latitude": 37.6873314,
+      "longitude": -122.47257379999999
+    },
+    "phone": "(650) 756-5500",
+    "website": "http://www.dermatopathologyinstitute.com/",
+    "rating": 5,
+    "userRatingCount": 114,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJt2bQvZWAhYARE5rsuwkmszI",
+    "name": "Berman Skin Institute | Medical & Cosmetic Dermatology",
+    "formattedAddress": "1 Daniel Burnham Ct Ste 350c, San Francisco, CA 94109",
+    "location": {
+      "latitude": 37.7868002,
+      "longitude": -122.42250779999999
+    },
+    "phone": "(415) 771-6300",
+    "website": "https://www.skinmds.com/locations/san-francisco/",
+    "rating": 4.3,
+    "userRatingCount": 340,
+    "types": [
+      "massage",
+      "hair_care",
+      "beauty_salon",
+      "body_art_service",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJU21-nZOAhYARKPiBVaiVsUo",
+    "name": "California Skin Institute",
+    "formattedAddress": "909 Hyde St #419, San Francisco, CA 94109",
+    "location": {
+      "latitude": 37.7893337,
+      "longitude": -122.41754379999998
+    },
+    "phone": "(415) 678-5887",
+    "website": "https://www.californiaskininstitute.com/locations/nob-hill-san-francisco/",
+    "rating": 4.7,
+    "userRatingCount": 324,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJvSBYApGBhYARDCA9IbstRec",
+    "name": "Kaveri Karhade MD Dermatology",
+    "formattedAddress": "2100 Webster St #505, San Francisco, CA 94115",
+    "location": {
+      "latitude": 37.7905733,
+      "longitude": -122.4321487
+    },
+    "website": "https://www.kavimd.com/",
+    "rating": 4.9,
+    "userRatingCount": 37,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "beauty_salon",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJeZm5M7l9j4ARUh0P2Ypl6aE",
+    "name": "California Skin Institute - SF-Lakeside - part of Schweiger Dermatology Group",
+    "formattedAddress": "2555 Ocean Ave # 203, San Francisco, CA 94132",
+    "location": {
+      "latitude": 37.7314106,
+      "longitude": -122.4732035
+    },
+    "phone": "(415) 921-3322",
+    "website": "http://www.dermcentersf.com/",
+    "rating": 4.7,
+    "userRatingCount": 157,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJNSFXTI6AhYARMTmlqjC9wSI",
+    "name": "Arya Derm",
+    "formattedAddress": "459 Geary St #400, San Francisco, CA 94102",
+    "location": {
+      "latitude": 37.786882299999995,
+      "longitude": -122.4108404
+    },
+    "phone": "(415) 329-5100",
+    "website": "https://www.aryaderm.com/",
+    "rating": 4.7,
+    "userRatingCount": 185,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJwZLhRHWahYARtZ28j2f6k6A",
+    "name": "Zand Dermatology",
+    "formattedAddress": "South Building, 655 Redwood Hwy Suite 246, Mill Valley, CA 94941",
+    "location": {
+      "latitude": 37.8914036,
+      "longitude": -122.51729610000001
+    },
+    "phone": "(415) 301-5000",
+    "website": "http://www.zanddermatology.com/?utm_source=gmb_auth",
+    "rating": 5,
+    "userRatingCount": 648,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJqRhcpY6AhYARo9zVEfi9bGg",
+    "name": "Union Square Dermatology",
+    "formattedAddress": "450 Sutter St RM 830, San Francisco, CA 94108",
+    "location": {
+      "latitude": 37.7896794,
+      "longitude": -122.4078572
+    },
+    "phone": "(415) 393-9550",
+    "website": "http://www.unionsquarederm.com/",
+    "rating": 4,
+    "userRatingCount": 34,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJTyVJqeryj4ARMYWjox_i8eo",
+    "name": "California Dermatology Care",
+    "formattedAddress": "2262 Camino Ramon #200, San Ramon, CA 94583",
+    "location": {
+      "latitude": 37.7759487,
+      "longitude": -121.9696636
+    },
+    "phone": "(925) 328-0255",
+    "website": "https://www.drwilliamting.com/",
+    "rating": 4.8,
+    "userRatingCount": 3028,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJDUm_9IyahYAR_5mIIjJebL8",
+    "name": "Pacific Skin and Cosmetic Dermatology Marin",
+    "formattedAddress": "770 Tamalpais Dr Ste 403, Corte Madera, CA 94925",
+    "location": {
+      "latitude": 37.926277,
+      "longitude": -122.517203
+    },
+    "phone": "(415) 924-2055",
+    "website": "https://pacificskin.com/pacific-skin-corte-madera/?utm_source=google&utm_medium=organic&utm_campaign=GMB",
+    "rating": 4.9,
+    "userRatingCount": 275,
+    "types": [
+      "skin_care_clinic",
+      "beauty_salon",
+      "spa",
+      "hair_care",
+      "massage",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJAVAqHrV3j4AR7njvfe9IFwY",
+    "name": "Peninsula Dermatology Med Group",
+    "formattedAddress": "1750 El Camino Real # 206, Burlingame, CA 94010",
+    "location": {
+      "latitude": 37.5940262,
+      "longitude": -122.38175369999999
+    },
+    "phone": "(650) 692-0182",
+    "website": "https://www.peninsuladermatology.com/",
+    "rating": 4.9,
+    "userRatingCount": 786,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ_7MpLXR8j4AREx0QrLXfUO8",
+    "name": "California Skin Institute - Daly City - part of Schweiger Dermatology Group",
+    "formattedAddress": "1800 Sullivan Ave #403, Daly City, CA 94015",
+    "location": {
+      "latitude": 37.680712899999996,
+      "longitude": -122.47471970000001
+    },
+    "phone": "(650) 994-3238",
+    "website": "https://www.californiaskininstitute.com/locations/daly-city-ca/",
+    "rating": 4.7,
+    "userRatingCount": 370,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJdVFMVddU2YARvqtHHU_7O9s",
+    "name": "West Dermatology Mission Valley/San Diego",
+    "formattedAddress": "9095 Rio San Diego Dr # 300, San Diego, CA 92108",
+    "location": {
+      "latitude": 32.7752736,
+      "longitude": -117.1358377
+    },
+    "phone": "(619) 754-8610",
+    "website": "https://www.westdermatology.com/location/missionvalleysandiego/",
+    "rating": 4.6,
+    "userRatingCount": 2311,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJT0NUTNdU2YARfyozS5cdaRc",
+    "name": "MedDerm Dermatology",
+    "formattedAddress": "3965 Fifth Ave Suite 200, San Diego, CA 92103",
+    "location": {
+      "latitude": 32.749006,
+      "longitude": -117.15997069999999
+    },
+    "phone": "(619) 542-0013",
+    "website": "https://medderm.net/?utm_source=GBP",
+    "rating": 4.8,
+    "userRatingCount": 432,
+    "types": [
+      "skin_care_clinic",
+      "body_art_service",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJdVFMVddU2YAR0yfq2Fk6zaI",
+    "name": "Dermatology & Laser Center of San Diego",
+    "formattedAddress": "4060 Fourth Ave Suite 209, San Diego, CA 92103",
+    "location": {
+      "latitude": 32.751047,
+      "longitude": -117.16193390000001
+    },
+    "phone": "(619) 776-3892",
+    "website": "http://www.dermlasercenter.com/?utm_source=gmb_auth",
+    "rating": 4.7,
+    "userRatingCount": 364,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ5YPQvy4H3IARXR0p64-sCNo",
+    "name": "West Dermatology - La Jolla/UTC",
+    "formattedAddress": "9339 Genesee Ave #350a, San Diego, CA 92121",
+    "location": {
+      "latitude": 32.8761136,
+      "longitude": -117.21318099999999
+    },
+    "phone": "(858) 454-4300",
+    "website": "https://www.westdermatology.com/location/la-jolla-utc?utm_source=yext&utm_medium=organic",
+    "rating": 4.7,
+    "userRatingCount": 1620,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ-66Gp94G3IARS1TwFcuMEdo",
+    "name": "Coastal Medical & Cosmetic Dermatology",
+    "formattedAddress": "9850 Genesee Ave #850, La Jolla, CA 92037",
+    "location": {
+      "latitude": 32.8829803,
+      "longitude": -117.22618500000002
+    },
+    "phone": "(858) 657-0267",
+    "website": "http://www.coastaldermonline.com/",
+    "rating": 4.9,
+    "userRatingCount": 1171,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJpXIsPQlV2YAR1mSM9ecH9x8",
+    "name": "Seaver L. Soon, MD; The Skin Clinic MD",
+    "formattedAddress": "3737 Fourth Ave, San Diego, CA 92103",
+    "location": {
+      "latitude": 32.745832,
+      "longitude": -117.16140340000001
+    },
+    "phone": "(619) 299-0700",
+    "website": "http://www.theskinclinicmd.com/",
+    "rating": 4.9,
+    "userRatingCount": 290,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJY_oavi4H3IAR0AUSm_0yPt8",
+    "name": "Cosmetic Laser Dermatology",
+    "formattedAddress": "9339 Genesee Ave UNIT 300, San Diego, CA 92121",
+    "location": {
+      "latitude": 32.875662999999996,
+      "longitude": -117.21336469999999
+    },
+    "phone": "(858) 943-2113",
+    "website": "https://clderm.com/",
+    "rating": 4.7,
+    "userRatingCount": 816,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJuyZ7wNMG3IARlSqPf_KR68w",
+    "name": "Pacific Dermatology & Cosmetic Laser Center",
+    "formattedAddress": "8899 University Center Ln #150, San Diego, CA 92122",
+    "location": {
+      "latitude": 32.8697835,
+      "longitude": -117.227726
+    },
+    "phone": "(858) 535-1400",
+    "website": "http://www.pacificdermatologycenter.com/",
+    "rating": 4.9,
+    "userRatingCount": 206,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJVb_wLopW2YAR9d-Ms8G4ZH4",
+    "name": "Dermatology & Laser Center of San Diego",
+    "formattedAddress": "6386 Alvarado Ct #205, San Diego, CA 92120",
+    "location": {
+      "latitude": 32.7761965,
+      "longitude": -117.06050429999999
+    },
+    "phone": "(619) 287-2877",
+    "website": "http://www.dermlasercenter.com/",
+    "rating": 4.9,
+    "userRatingCount": 79,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJn6BxCeMD3IARG2ZH-kBoMpQ",
+    "name": "La Jolla Cosmetic Laser Clinic & Dermatology",
+    "formattedAddress": "7720 Fay Ave, La Jolla, CA 92037",
+    "location": {
+      "latitude": 32.8437404,
+      "longitude": -117.2751558
+    },
+    "phone": "(858) 454-2700",
+    "website": "https://www.lajollalaser.com/",
+    "rating": 4.8,
+    "userRatingCount": 978,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "beauty_salon",
+      "spa",
+      "massage",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJJS_Qp94G3IARNRpAntMY8s8",
+    "name": "Dermatologist Medical Group of North County, Inc.",
+    "formattedAddress": "11943 El Camino Real #220, San Diego, CA 92130",
+    "location": {
+      "latitude": 32.9361168,
+      "longitude": -117.2371381
+    },
+    "phone": "(760) 758-5340",
+    "website": "http://www.dmgnc.com/",
+    "rating": 4.8,
+    "userRatingCount": 169,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJf5H7mqNV2YARjxkpkPiaGS0",
+    "name": "Premier Derm MD",
+    "formattedAddress": "4011 Goldfinch St, San Diego, CA 92103",
+    "location": {
+      "latitude": 32.7501752,
+      "longitude": -117.1711078
+    },
+    "phone": "(858) 888-1082",
+    "website": "http://www.mypremierdermmd.com/",
+    "rating": 5,
+    "userRatingCount": 134,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJWxkkOcn_24ARVG17ZCOKvT4",
+    "name": "Therapeutics Dermatology: Neal Bhatia, MD",
+    "formattedAddress": "9025 Balboa Ave #105, San Diego, CA 92123",
+    "location": {
+      "latitude": 32.8216494,
+      "longitude": -117.1342384
+    },
+    "phone": "(858) 571-6800",
+    "website": "https://www.therapeuticsderm.com/?%20utm_source=gmb_auth",
+    "rating": 4.8,
+    "userRatingCount": 113,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ_RiTx0X324AR5edE2pGd0F0",
+    "name": "Skin Surgery & Aesthetic Dermatology",
+    "formattedAddress": "16918 Dove Canyon Rd Suite 102, San Diego, CA 92127",
+    "location": {
+      "latitude": 33.0175092,
+      "longitude": -117.1120897
+    },
+    "phone": "(858) 292-5101",
+    "website": "https://healthyskinsd.com/",
+    "rating": 5,
+    "userRatingCount": 77,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ6zi00isH3IARZfXyDuOdO2M",
+    "name": "Mona Z. Mofid, MD, Dermatologist",
+    "formattedAddress": "8929 University Center Ln #202, San Diego, CA 92122",
+    "location": {
+      "latitude": 32.8699781,
+      "longitude": -117.2265858
+    },
+    "phone": "(858) 412-3271",
+    "website": "http://www.drmonamofid.com/",
+    "rating": 4.8,
+    "userRatingCount": 136,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJmZyqcv1N2YARoYc3mzkeK24",
+    "name": "Dermatology & Laser Center of San Diego",
+    "formattedAddress": "344 F St 2nd Floor, Chula Vista, CA 91910",
+    "location": {
+      "latitude": 32.6404734,
+      "longitude": -117.0816607
+    },
+    "phone": "(619) 658-4583",
+    "website": "http://www.dermlasercenter.com/?utm_source=gmb_auth",
+    "rating": 4.6,
+    "userRatingCount": 240,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJsTKXLYQL3IARTTfRK3kwH-0",
+    "name": "California Skin Institute - Encinitas - part of Schweiger Dermatology Group",
+    "formattedAddress": "285 N El Camino Real Suite 117, Encinitas, CA 92024",
+    "location": {
+      "latitude": 33.0538495,
+      "longitude": -117.26040839999999
+    },
+    "phone": "(760) 633-1000",
+    "website": "https://www.californiaskininstitute.com/locations/encinitas-ca/",
+    "rating": 4.8,
+    "userRatingCount": 569,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ8YU55z8D3IARlP58ApMTJ_U",
+    "name": "La Jolla Dermatology & Laser Surgery Center",
+    "formattedAddress": "7301 Girard Ave #202, La Jolla, CA 92037",
+    "location": {
+      "latitude": 32.8377141,
+      "longitude": -117.2712399
+    },
+    "phone": "(858) 326-3770",
+    "website": "https://www.lajollalaserderm.com/",
+    "rating": 4.8,
+    "userRatingCount": 179,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "beauty_salon",
+      "spa",
+      "massage",
+      "doctor",
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ3VAB3cFV2YARx37qnGzSwEw",
+    "name": "Gene Lee Skin Clinic",
+    "formattedAddress": "3765 10th Ave, San Diego, CA 92103",
+    "location": {
+      "latitude": 32.7468538,
+      "longitude": -117.1550106
+    },
+    "phone": "(707) 533-4363",
+    "website": "http://geneleeskinclinic.com/",
+    "rating": 5,
+    "userRatingCount": 198,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJvxFkm3JX2YAR0S7YZNZFpek",
+    "name": "Coastal Skin and Eye Institute",
+    "formattedAddress": "8860 Center Dr # 300, La Mesa, CA 91942",
+    "location": {
+      "latitude": 32.782493599999995,
+      "longitude": -117.0066662
+    },
+    "phone": "(619) 462-1670",
+    "website": "https://www.grossmontdermatology.com/",
+    "rating": 4.6,
+    "userRatingCount": 228,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJs8xJYPNW2YAR2h3W9YaqC3I",
+    "name": "Ginsberg Dermatology",
+    "formattedAddress": "6719 Alvarado Rd STE 207, San Diego, CA 92120",
+    "location": {
+      "latitude": 32.776157,
+      "longitude": -117.0541237
+    },
+    "phone": "(619) 265-2152",
+    "website": "https://www.ginsberg.doctor/",
+    "rating": 5,
+    "userRatingCount": 8,
+    "types": [
+      "skin_care_clinic",
+      "medical_lab",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJH4tAEClS2YAROhQlvtwFvzQ",
+    "name": "San Diego Family Dermatology National City",
+    "formattedAddress": "655 Euclid Ave Suite 200 Floor 3, National City, CA 91950",
+    "location": {
+      "latitude": 32.6840937,
+      "longitude": -117.0825718
+    },
+    "phone": "(619) 267-8303",
+    "website": "http://www.sdfamilyderm.com/",
+    "rating": 4.3,
+    "userRatingCount": 96,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ0crVu0w0joAROg52QeOQM6o",
+    "name": "California Skin Institute",
+    "formattedAddress": "2420 Samaritan Dr, San Jose, CA 95124",
+    "location": {
+      "latitude": 37.2508779,
+      "longitude": -121.94621559999997
+    },
+    "phone": "(408) 369-5600",
+    "website": "https://www.californiaskininstitute.com/locations/los-gatos-ca/",
+    "rating": 4.5,
+    "userRatingCount": 2897,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJnRfO5RfLj4ARkAqGAnNGgMM",
+    "name": "Silicon Valley Dermatology: Mychael Luu, M.D.",
+    "formattedAddress": "2050 Clarmar Way, San Jose, CA 95128",
+    "location": {
+      "latitude": 37.326104,
+      "longitude": -121.93490779999999
+    },
+    "phone": "(408) 294-7551",
+    "website": "https://sivalleyderm.com/",
+    "rating": 4.7,
+    "userRatingCount": 167,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJdzcW-K1KjoAR1GEAkXa0b9o",
+    "name": "California Skin Institute",
+    "formattedAddress": "18988 Cox Ave STE B, Saratoga, CA 95070",
+    "location": {
+      "latitude": 37.2814674,
+      "longitude": -122.00408770000001
+    },
+    "phone": "(408) 253-4407",
+    "website": "https://www.californiaskininstitute.com/locations/saratoga-ca/",
+    "rating": 4.9,
+    "userRatingCount": 968,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJd1yXjDrPj4ARWqP9Aa9aq58",
+    "name": "Center for Dermatology Cosmetic and Laser Surgery",
+    "formattedAddress": "995 Montague Expy suite 111, Milpitas, CA 95035",
+    "location": {
+      "latitude": 37.4137913,
+      "longitude": -121.88504100000002
+    },
+    "phone": "(408) 957-7676",
+    "website": "http://www.centerforderm.com/?utm_medium=local&utm_source=google&utm_campaign=yext",
+    "rating": 4.7,
+    "userRatingCount": 444,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJM5qVTmLNj4ARRyAs5ODTHHQ",
+    "name": "Metropolis Dermatology | San Jose",
+    "formattedAddress": "111 N Market St #1000, San Jose, CA 95113",
+    "location": {
+      "latitude": 37.337794099999996,
+      "longitude": -121.89426979999999
+    },
+    "phone": "(408) 581-0161",
+    "website": "https://metropolisdermatology.com/",
+    "rating": 4.6,
+    "userRatingCount": 107,
+    "types": [
+      "skin_care_clinic",
+      "beauty_salon",
+      "spa",
+      "hair_care",
+      "body_art_service",
+      "massage",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJBYCiZui2j4AR1xy_4yRHN5Q",
+    "name": "California Skin Institute",
+    "formattedAddress": "603 S Knickerbocker Dr, Sunnyvale, CA 94087",
+    "location": {
+      "latitude": 37.3740978,
+      "longitude": -122.05857970000001
+    },
+    "phone": "(408) 736-0441",
+    "website": "https://www.californiaskininstitute.com/locations/sunnyvale-ca/",
+    "rating": 4.6,
+    "userRatingCount": 873,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJn2FpW7_Bj4ARjAFYqs6zkEI",
+    "name": "Berman Skin Institute | Medical & Cosmetic Dermatology",
+    "formattedAddress": "39465 Paseo Padre Pkwy # 2600, Fremont, CA 94538",
+    "location": {
+      "latitude": 37.5498996,
+      "longitude": -121.9760583
+    },
+    "phone": "(510) 456-2390",
+    "website": "https://www.skinmds.com/locations/fremont/",
+    "rating": 4.5,
+    "userRatingCount": 369,
+    "types": [
+      "skin_care_clinic",
+      "body_art_service",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ1euyUn-7j4ARgeo2SGFQuRc",
+    "name": "Berman Skin Institute | Medical & Cosmetic Dermatology",
+    "formattedAddress": "4300 El Camino Real Suite 100, Los Altos, CA 94022",
+    "location": {
+      "latitude": 37.4052894,
+      "longitude": -122.11960929999998
+    },
+    "phone": "(650) 325-6000",
+    "website": "https://www.skinmds.com/locations/los-altos-location/",
+    "rating": 4.4,
+    "userRatingCount": 487,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "beauty_salon",
+      "body_art_service",
+      "spa",
+      "massage",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ3V61od4zjoARINLN9ZEKcvQ",
+    "name": "Glow DermSolutions",
+    "formattedAddress": "6950 Santa Teresa Blvd STE E, San Jose, CA 95119",
+    "location": {
+      "latitude": 37.228086999999995,
+      "longitude": -121.77809099999999
+    },
+    "phone": "(408) 794-5503",
+    "website": "http://www.glowdermsolutions.co/",
+    "rating": 4.6,
+    "userRatingCount": 18,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJSxPMf3g1joARq6fCKLinQBc",
+    "name": "Golden State Dermatology",
+    "formattedAddress": "555 Knowles Dr Suite 220, Los Gatos, CA 95032",
+    "location": {
+      "latitude": 37.262105399999996,
+      "longitude": -121.9660795
+    },
+    "phone": "(408) 317-3688",
+    "website": "https://www.goldenstatedermatology.com/los-gatos/?y_source=1_MTAwNDU1MTA1OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "rating": 4.8,
+    "userRatingCount": 193,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJCyoZy5XKj4ARbdCppxSSSVU",
+    "name": "Advanced Dermatology & Skin Surgery, George Hsieh, M.D.",
+    "formattedAddress": "4155 Moorpark Ave #3, San Jose, CA 95117",
+    "location": {
+      "latitude": 37.3162151,
+      "longitude": -121.97472579999999
+    },
+    "phone": "(408) 217-1905",
+    "website": "http://www.advanderm.com/",
+    "rating": 2.7,
+    "userRatingCount": 55,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJC8dwAf81joARwttQxZ6WAeI",
+    "name": "Pacific Bay Dermatology",
+    "formattedAddress": "15215 National Ave Suite 204, Los Gatos, CA 95032",
+    "location": {
+      "latitude": 37.2471896,
+      "longitude": -121.95046620000001
+    },
+    "phone": "(408) 848-0888",
+    "website": "http://www.pacificbaydermatology.com/",
+    "rating": 4.3,
+    "userRatingCount": 18,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ1yXAZws1joAR3K2oCfdLihE",
+    "name": "Los Gatos Dermatology",
+    "formattedAddress": "777 Knowles Dr #16, Los Gatos, CA 95032",
+    "location": {
+      "latitude": 37.2621684,
+      "longitude": -121.9685497
+    },
+    "phone": "(408) 374-1320",
+    "website": "http://www.losgatosdermatology.com/",
+    "rating": 4.9,
+    "userRatingCount": 547,
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJgVkXMDejj4ARVEDN5pLNYv8",
+    "name": "Pacific Coast Dermatology & Wellness Center | Dr. Shaheen Khosla",
+    "formattedAddress": "100 Arch St #1, Redwood City, CA 94062",
+    "location": {
+      "latitude": 37.4879162,
+      "longitude": -122.2388732
+    },
+    "website": "http://paccoastderm.com/",
+    "rating": 4.5,
+    "userRatingCount": 43,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ11ShoerMj4AREU77pWUquc0",
+    "name": "Vienna Skin Clinic",
+    "formattedAddress": "6020 Hellyer Ave #150, San Jose, CA 95138",
+    "location": {
+      "latitude": 37.258542299999995,
+      "longitude": -121.7804304
+    },
+    "phone": "(408) 224-3300",
+    "website": "http://www.viennaskinclinic.com/",
+    "rating": 4.4,
+    "userRatingCount": 28,
+    "types": [
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJVTivlj3Lj4ARVjwfhrKuxNA",
+    "name": "Rani V. Ramachandran M.D - Skin Care Clinic in San Jose",
+    "formattedAddress": "2081 Forest Ave #1, San Jose, CA 95128",
+    "location": {
+      "latitude": 37.327459399999995,
+      "longitude": -121.93621780000001
+    },
+    "phone": "(408) 294-2399",
+    "website": "https://ranimd.com/?utm_source=Google&utm_medium=Maps",
+    "rating": 4.8,
+    "userRatingCount": 50,
+    "types": [
+      "skin_care_clinic",
+      "beauty_salon",
+      "spa",
+      "hair_care",
+      "body_art_service",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJD1K5qfrNj4ARUoK-zixDoJE",
+    "name": "Khalma Skincare and Aesthetics",
+    "formattedAddress": "280 N Jackson Ave D, San Jose, CA 95116",
+    "location": {
+      "latitude": 37.3649279,
+      "longitude": -121.84922309999999
+    },
+    "phone": "(669) 444-4401",
+    "website": "http://www.khalmaskincare.com/",
+    "rating": 4.9,
+    "userRatingCount": 117,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJJ5m89__amoARuv79JEG9crY",
+    "name": "Calkin & Boudreaux Dermatology Associates, A Golden State Dermatology Affiliate",
+    "formattedAddress": "2625 Fair Oaks Blvd Suite 1 & 4, Sacramento, CA 95864",
+    "location": {
+      "latitude": 38.574795,
+      "longitude": -121.40075119999999
+    },
+    "phone": "(916) 646-3376",
+    "website": "https://www.sacdermatology.com/?y_source=1_MTAwNjQ4NjQ2MC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "rating": 4.7,
+    "userRatingCount": 428,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJA0Q1VH3amoARnxMnsH2cxYg",
+    "name": "Center for Dermatology & Laser Surgery, A Golden State Dermatology Affiliate",
+    "formattedAddress": "5601 J St, Sacramento, CA 95819",
+    "location": {
+      "latitude": 38.5648242,
+      "longitude": -121.43452219999999
+    },
+    "phone": "(916) 454-5922",
+    "website": "https://dermatologyandlasersurgery.com/?y_source=1_MTAwNDU1MTA4OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "rating": 4.8,
+    "userRatingCount": 336,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJv1Y1YJrbmoARcUbNm9vqdyw",
+    "name": "Pacific Skin Institute",
+    "formattedAddress": "1495 River Park Dr # 200, Sacramento, CA 95815",
+    "location": {
+      "latitude": 38.5994421,
+      "longitude": -121.43784980000001
+    },
+    "phone": "(916) 925-7020",
+    "website": "http://www.psiderm.com/",
+    "rating": 4.5,
+    "userRatingCount": 323,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJi3zkXprQmoARkrKy3mn9jZU",
+    "name": "Laser & Skin Surgery Center of Northern California",
+    "formattedAddress": "3835 J St, Sacramento, CA 95816",
+    "location": {
+      "latitude": 38.5706609,
+      "longitude": -121.4556892
+    },
+    "phone": "(916) 456-0400",
+    "website": "https://www.skinlasers.com/",
+    "rating": 4.8,
+    "userRatingCount": 736,
+    "types": [
+      "skin_care_clinic",
+      "beauty_salon",
+      "spa",
+      "hair_care",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ54qNn4_bmoARf_4Li0Qatlg",
+    "name": "University Skin Institute/Pantea Hashemi, MD",
+    "formattedAddress": "650 University Ave #200, Sacramento, CA 95825",
+    "location": {
+      "latitude": 38.567160799999996,
+      "longitude": -121.4189252
+    },
+    "phone": "(916) 571-5200",
+    "website": "https://universityskininstitute.com/",
+    "rating": 4.9,
+    "userRatingCount": 229,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJLZ3DWJnmmoARNZmBRiiGUwc",
+    "name": "Dermatology Center of Northern California",
+    "formattedAddress": "192 Blue Ravine Rd, Folsom, CA 95630",
+    "location": {
+      "latitude": 38.6553439,
+      "longitude": -121.1777168
+    },
+    "phone": "(916) 983-3373",
+    "website": "https://norcaldermatology.com/?y_source=1_MTA1OTE1MjIxNC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "rating": 4.9,
+    "userRatingCount": 349,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJCdmzqZPRmoARIIBzrqYA3Eo",
+    "name": "Berman Skin Institute | Medical & Cosmetic Dermatology",
+    "formattedAddress": "1792 Tribute Rd Suite 200, Sacramento, CA 95815",
+    "location": {
+      "latitude": 38.5981881,
+      "longitude": -121.445712
+    },
+    "phone": "(916) 678-7270",
+    "website": "https://www.skinmds.com/locations/sacramento/",
+    "rating": 4.6,
+    "userRatingCount": 99,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJc2dkGnDamoAR56DsFhEGIqk",
+    "name": "Dermatology Consultants",
+    "formattedAddress": "2410 Fair Oaks Blvd # 220, Sacramento, CA 95825",
+    "location": {
+      "latitude": 38.5734792,
+      "longitude": -121.405553
+    },
+    "phone": "(916) 739-1505",
+    "website": "http://www.sactoderm.com/",
+    "rating": 4,
+    "userRatingCount": 29,
+    "types": [
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJZzb5sPjFmoARD1ZX1vLxgOY",
+    "name": "DirectDerm",
+    "formattedAddress": "8100 Timberlake Way F, Sacramento, CA 95823",
+    "location": {
+      "latitude": 38.463474,
+      "longitude": -121.4144934
+    },
+    "phone": "(510) 241-2884",
+    "website": "https://www.directderm.com/",
+    "rating": 4.5,
+    "userRatingCount": 110,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJSbq3HaPQmoAR-S2hKXiPP2Q",
+    "name": "UC Davis Health Dermatology",
+    "formattedAddress": "3301 C St #1300, Sacramento, CA 95816",
+    "location": {
+      "latitude": 38.5798159,
+      "longitude": -121.45731789999998
+    },
+    "phone": "(916) 734-6111",
+    "website": "https://health.ucdavis.edu/dermatology/",
+    "rating": 3.6,
+    "userRatingCount": 24,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJAQx0uJHHmoARmA4hX7cSQ1c",
+    "name": "Pacific Skin Institute",
+    "formattedAddress": "9250 Big Horn Blvd #100, Elk Grove, CA 95758",
+    "location": {
+      "latitude": 38.420707799999995,
+      "longitude": -121.40706429999999
+    },
+    "phone": "(916) 925-7020",
+    "website": "http://psiderm.com/",
+    "rating": 4.7,
+    "userRatingCount": 129,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJbfeDUgLamoARvENzea3mZmU",
+    "name": "Integrative Skin Science and Research",
+    "formattedAddress": "1451 River Park Dr suite 222, Sacramento, CA 95815",
+    "location": {
+      "latitude": 38.59878,
+      "longitude": -121.43937869999999
+    },
+    "phone": "(916) 524-1216",
+    "website": "https://www.integrativeskinresearch.com/contact",
+    "rating": 5,
+    "userRatingCount": 29,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJc2s14zB9hYARa_sKvvb8TZ8",
+    "name": "Dermatology Center of the East Bay",
+    "formattedAddress": "3300 Webster St # 509, Oakland, CA 94609",
+    "location": {
+      "latitude": 37.8212656,
+      "longitude": -122.26205089999999
+    },
+    "phone": "(510) 452-0330",
+    "website": "https://dermcentereastbay.com/",
+    "rating": 4.5,
+    "userRatingCount": 35,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJv50kVtN9hYAR9WxMMVFE9Eo",
+    "name": "AllSkin Dermatology",
+    "formattedAddress": "2828 Telegraph Ave, Berkeley, CA 94705",
+    "location": {
+      "latitude": 37.858846,
+      "longitude": -122.25957000000001
+    },
+    "phone": "(510) 848-8404",
+    "website": "https://www.allskindermatology.com/",
+    "rating": 4.7,
+    "userRatingCount": 326,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJRyx5xtZ9hYARTwxlET70rHw",
+    "name": "Golden State Dermatology",
+    "formattedAddress": "2320 Woolsey St STE 202, Berkeley, CA 94705",
+    "location": {
+      "latitude": 37.8527495,
+      "longitude": -122.26052449999997
+    },
+    "phone": "(510) 486-1700",
+    "website": "https://www.goldenstatedermatology.com/berkeley/?y_source=1_MTAwNDU1MTA2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "rating": 4.6,
+    "userRatingCount": 334,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJp6hjMf59hYAR06AC7YojBjc",
+    "name": "Affiliates in Dermatology",
+    "formattedAddress": "460 34th St, Oakland, CA 94609",
+    "location": {
+      "latitude": 37.822314999999996,
+      "longitude": -122.264446
+    },
+    "phone": "(510) 652-8091",
+    "website": "http://affiliatesindermatology.com/",
+    "rating": 3.9,
+    "userRatingCount": 14,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJM0wTdLqGj4ARRJgt4JFWr34",
+    "name": "California Skin Institute",
+    "formattedAddress": "501 S Shore Center W #103A, Alameda, CA 94501",
+    "location": {
+      "latitude": 37.759289599999995,
+      "longitude": -122.2536125
+    },
+    "phone": "(510) 227-7028",
+    "website": "https://www.californiaskininstitute.com/locations/alameda-ca/",
+    "rating": 4.4,
+    "userRatingCount": 532,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJMfQh1sN9hYAR860g9Smca3Q",
+    "name": "Illustra Dermatology",
+    "formattedAddress": "8 Cam Encinas #115, Orinda, CA 94563",
+    "location": {
+      "latitude": 37.8770858,
+      "longitude": -122.180764
+    },
+    "phone": "(925) 317-1180",
+    "website": "http://www.illustradermatology.com/",
+    "rating": 4.8,
+    "userRatingCount": 118,
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJl9D04Sl9hYARwDfeX_ZiIxs",
+    "name": "NorCal Dermatology Group",
+    "formattedAddress": "2435 Webster St Suite 101, Berkeley, CA 94705",
+    "location": {
+      "latitude": 37.8555768,
+      "longitude": -122.2585206
+    },
+    "phone": "(510) 646-8065",
+    "website": "https://www.icecreamderm.com/our-locations/berkeley-location/",
+    "rating": 4.5,
+    "userRatingCount": 446,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJl3MsQJR5hYARjza9QdQTgV8",
+    "name": "Golden State Dermatology",
+    "formattedAddress": "400 Evelyn Ave Suite 115, Albany, CA 94706",
+    "location": {
+      "latitude": 37.898718099999996,
+      "longitude": -122.2975634
+    },
+    "phone": "(510) 524-0224",
+    "website": "https://www.goldenstatedermatology.com/albany/?y_source=1_MTAwNDU1MTA2Mi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "rating": 4.8,
+    "userRatingCount": 329,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJhZNPfuF9hYARt7mKPDIcEJ8",
+    "name": "De La Derma",
+    "formattedAddress": "4131 Piedmont Ave Second Floor Suite, Oakland, CA 94611",
+    "location": {
+      "latitude": 37.8269427,
+      "longitude": -122.25204099999998
+    },
+    "phone": "(415) 686-7885",
+    "website": "https://deladerma.com/",
+    "rating": 5,
+    "userRatingCount": 18,
+    "types": [
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ9Z6vu4uRj4ARI0L1k25iQx0",
+    "name": "California Skin Institute",
+    "formattedAddress": "20400 Lake Chabot Rd #202, Castro Valley, CA 94546",
+    "location": {
+      "latitude": 37.696312299999995,
+      "longitude": -122.0861871
+    },
+    "phone": "(510) 881-7822",
+    "website": "https://www.californiaskininstitute.com/locations/castro-valley-ca/",
+    "rating": 4.7,
+    "userRatingCount": 1166,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJuTnw_faHj4ARzkn-2TkeM4E",
+    "name": "SkinSpirit Oakland - Montclair",
+    "formattedAddress": "2017 Mountain Blvd, Oakland, CA 94611",
+    "location": {
+      "latitude": 37.826944499999996,
+      "longitude": -122.21004459999999
+    },
+    "phone": "(510) 368-7500",
+    "website": "https://www.skinspirit.com/locations/montclair/?utm_source=citation&utm_medium=organic&utm_campaign=oakland",
+    "rating": 4.8,
+    "userRatingCount": 136,
+    "types": [
+      "skin_care_clinic",
+      "beauty_salon",
+      "spa",
+      "massage",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJMwY3_lldlIARTOaHCnaT-2Y",
+    "name": "Skin and Cancer Institute - Fresno",
+    "formattedAddress": "6181 N Thesta St Suite #104, Fresno, CA 93710",
+    "location": {
+      "latitude": 36.8262046,
+      "longitude": -119.78339659999999
+    },
+    "phone": "(559) 825-0300",
+    "website": "https://skinandcancerinstitute.com/location/fresno/",
+    "rating": 4.6,
+    "userRatingCount": 1723,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJcQ0nfT1olIARwGyGgk2_lFU",
+    "name": "Valley Skin Institute",
+    "formattedAddress": "7777 N Ingram Ave, Fresno, CA 93711",
+    "location": {
+      "latitude": 36.850588099999996,
+      "longitude": -119.8027754
+    },
+    "phone": "(559) 472-7546",
+    "website": "https://valleyskininstitute.com/",
+    "rating": 4.8,
+    "userRatingCount": 843,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ1TIz49ZnlIARrPd9JqXtJKk",
+    "name": "Boswell Dermatology",
+    "formattedAddress": "6730 N West Ave, Fresno, CA 93711",
+    "location": {
+      "latitude": 36.8360394,
+      "longitude": -119.82468229999998
+    },
+    "phone": "(559) 439-3000",
+    "website": "https://www.boswelldermatology.com/",
+    "rating": 4.6,
+    "userRatingCount": 205,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJXQOozKxClIARUzEYPNHZY8E",
+    "name": "Golden State Dermatology",
+    "formattedAddress": "6769 N Fresno St #101, Fresno, CA 93710",
+    "location": {
+      "latitude": 36.8371522,
+      "longitude": -119.7815619
+    },
+    "phone": "(559) 435-0337",
+    "website": "https://www.goldenstatedermatology.com/fresno/?y_source=1_MTAwNDU1MTA3NC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "rating": 4.4,
+    "userRatingCount": 205,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJCR7zW9dclIARC3xmJRqHfnQ",
+    "name": "Paz Dermatology",
+    "formattedAddress": "7095 N Recreation Ave Suite 105, Fresno, CA 93720",
+    "location": {
+      "latitude": 36.8391217,
+      "longitude": -119.74095009999999
+    },
+    "phone": "(559) 233-3376",
+    "website": "https://www.pazderm.com/",
+    "rating": 4.6,
+    "userRatingCount": 287,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJB2eX9xtelIARpuRlXKKlvYY",
+    "name": "Inspire Health Medical Group - Dermatology",
+    "formattedAddress": "2335 E Kashian Ln, Fresno, CA 93701",
+    "location": {
+      "latitude": 36.7435407,
+      "longitude": -119.78318109999998
+    },
+    "phone": "(559) 320-1090",
+    "website": "https://www.inspirehealth.org/medical-practice-locations/inspire-health-medical-group-dermatology/?utm_medium=IHMGDerm&utm_source=GMBSocialClimb",
+    "rating": 4.4,
+    "userRatingCount": 126,
+    "types": [
+      "hospital",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ_QKpWp5DlIAR1w3n_wuoBSs",
+    "name": "DirectDerm",
+    "formattedAddress": "5305 N Fresno St Suite 105, Fresno, CA 93710",
+    "location": {
+      "latitude": 36.8140485,
+      "longitude": -119.78182389999999
+    },
+    "phone": "(510) 241-2884",
+    "website": "http://directderm.com/",
+    "rating": 4.3,
+    "userRatingCount": 49,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJHWkd9DRdlIAR9_F6vVUg2DM",
+    "name": "Behr Laser & Skin Care Center",
+    "formattedAddress": "1125 E Spruce Ave UNIT 207, Fresno, CA 93720",
+    "location": {
+      "latitude": 36.840013899999995,
+      "longitude": -119.7615335
+    },
+    "phone": "(559) 435-7546",
+    "website": "https://www.435skin.com/?utm_source=google&utm_medium=gbp",
+    "rating": 4.7,
+    "userRatingCount": 265,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJrzmWRDNdlIAR5fOvxxmy_CM",
+    "name": "Macias Dermatology",
+    "formattedAddress": "7115 N Chestnut Ave, Fresno, CA 93720",
+    "location": {
+      "latitude": 36.8394245,
+      "longitude": -119.7366632
+    },
+    "phone": "(559) 431-2397",
+    "website": "http://www.maciasdermatology.com/",
+    "rating": 3.7,
+    "userRatingCount": 89,
+    "types": [
+      "skin_care_clinic",
+      "beauty_salon",
+      "hair_care",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJoQeai6xClIARIE0u_hl_OZo",
+    "name": "Rao Dermatology",
+    "formattedAddress": "7055 N Fresno St # 310, Fresno, CA 93720",
+    "location": {
+      "latitude": 36.838688999999995,
+      "longitude": -119.7819717
+    },
+    "phone": "(559) 446-0285",
+    "website": "http://www.raodermatology.com/",
+    "rating": 4.3,
+    "userRatingCount": 42,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJl3bnaMZnlIARXaGvm0HRDtc",
+    "name": "Valley Skin Institute",
+    "formattedAddress": "5701 N West Ave, Fresno, CA 93711",
+    "location": {
+      "latitude": 36.8209389,
+      "longitude": -119.82669159999999
+    },
+    "phone": "(559) 472-7546",
+    "website": "https://www.valleyskininstitute.com/",
+    "rating": 4.7,
+    "userRatingCount": 13,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ2VlFYHZDlIARmAzSIE-DDmE",
+    "name": "Advanced Skin Care",
+    "formattedAddress": "7760 N Fresno St # 103, Fresno, CA 93720",
+    "location": {
+      "latitude": 36.851382,
+      "longitude": -119.78319900000001
+    },
+    "phone": "(559) 282-8810",
+    "website": "https://advancedskincare.us/",
+    "rating": 4.9,
+    "userRatingCount": 29,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJNdv_CBxelIARas8EtDMBqGc",
+    "name": "University Dermatology Associates: Calmes Robert L MD",
+    "formattedAddress": "2335 E Kashian Ln Suite 301, Fresno, CA 93701",
+    "location": {
+      "latitude": 36.743696199999995,
+      "longitude": -119.78317080000001
+    },
+    "phone": "(559) 264-9100",
+    "website": "http://universitymds.com/",
+    "rating": 5,
+    "userRatingCount": 1,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ7Y6yaddclIARkpw-8_w6YAs",
+    "name": "Buddiga Family Allergy Asthma Sinus & Skin Immunology - Center of Excellence",
+    "formattedAddress": "7105 N Chestnut Ave Suite103, Fresno, CA 93720",
+    "location": {
+      "latitude": 36.839341499999996,
+      "longitude": -119.73817009999999
+    },
+    "phone": "(559) 421-9009",
+    "website": "https://www.buddiga.com/",
+    "rating": 4.9,
+    "userRatingCount": 1286,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJY4oV60tdlIARG-g30I9NWi4",
+    "name": "Clovis Dermatology",
+    "formattedAddress": "275 Herndon Ave, Clovis, CA 93612",
+    "location": {
+      "latitude": 36.8384194,
+      "longitude": -119.71542980000001
+    },
+    "phone": "(559) 298-7220",
+    "website": "http://www.clovisderm.com/",
+    "rating": 4.5,
+    "userRatingCount": 10,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJQ62JhJcz3YARVZKw3LKNEOk",
+    "name": "Comprehensive Dermatology of Long Beach",
+    "formattedAddress": "3736 Atlantic Ave Ste 101, Long Beach, CA 90807",
+    "location": {
+      "latitude": 33.825542999999996,
+      "longitude": -118.18464560000001
+    },
+    "phone": "(562) 256-9929",
+    "website": "https://www.longbeachdermdocs.com/",
+    "rating": 4.9,
+    "userRatingCount": 630,
+    "types": [
+      "skin_care_clinic",
+      "beauty_salon",
+      "spa",
+      "massage",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJaYc0LUIx3YAR9RZtLqiWOUA",
+    "name": "W Dermatology Long Beach",
+    "formattedAddress": "1045 Atlantic Ave Suites 816 & 819, Long Beach, CA 90813",
+    "location": {
+      "latitude": 33.7802724,
+      "longitude": -118.18532399999998
+    },
+    "phone": "(562) 435-5621",
+    "website": "http://wdermatology.com/",
+    "rating": 4.9,
+    "userRatingCount": 259,
+    "types": [
+      "skin_care_clinic",
+      "beauty_salon",
+      "spa",
+      "hair_care",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJq9U78Jsz3YARFLjtjGi1LY8",
+    "name": "Laser Skin Care Center",
+    "formattedAddress": "3828 Schaufele Ave #300, Long Beach, CA 90808",
+    "location": {
+      "latitude": 33.8283444,
+      "longitude": -118.14749529999999
+    },
+    "phone": "(562) 997-1144",
+    "website": "https://www.lasercarespecialists.com/",
+    "rating": 4.8,
+    "userRatingCount": 1380,
+    "types": [
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJvbqbPHsv3YARy6HpUp32Oc0",
+    "name": "Pacific Dermatology Specialists",
+    "formattedAddress": "13900 Seal Beach Blvd A, Seal Beach, CA 90740",
+    "location": {
+      "latitude": 33.7619677,
+      "longitude": -118.07811179999997
+    },
+    "phone": "(562) 444-8800",
+    "website": "https://pacificdermatologyspecialists.com/locations/seal-beach-ca/?utm_medium=local&utm_source=google&utm_campaign=yext",
+    "rating": 4.8,
+    "userRatingCount": 228,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ74EVJbcv3YARPS1OYTEgXuo",
+    "name": "West Dermatology Los Alamitos",
+    "formattedAddress": "4281 Katella Ave # 220, Los Alamitos, CA 90720",
+    "location": {
+      "latitude": 33.8038887,
+      "longitude": -118.05837779999999
+    },
+    "phone": "(562) 592-8341",
+    "website": "https://www.westdermatology.com/location/los-alamitos?utm_source=yext&utm_medium=organic",
+    "rating": 4.8,
+    "userRatingCount": 692,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJOaAZ718u3YARl9i5lPc6Ic0",
+    "name": "Advanced Dermatology Care",
+    "formattedAddress": "3851 Katella Ave UNIT 105, Los Alamitos, CA 90720",
+    "location": {
+      "latitude": 33.8034485,
+      "longitude": -118.0656734
+    },
+    "phone": "(562) 799-3330",
+    "website": "https://mddermcare.com/",
+    "rating": 4.7,
+    "userRatingCount": 283,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ_z9Hxx5L3YARyb-ncBQD5ww",
+    "name": "Coast Dermatology Medical Associates",
+    "formattedAddress": "23550 Hawthorne Blvd Suite 200, Torrance, CA 90505",
+    "location": {
+      "latitude": 33.8116167,
+      "longitude": -118.3499474
+    },
+    "phone": "(310) 373-2636",
+    "website": "http://www.coastdermatology.com/?utm_source=yext&utm_medium=organic",
+    "rating": 4.8,
+    "userRatingCount": 1200,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ_ycW1yhvwokRCC0vUPJ5EVE",
+    "name": "Advanced Dermatology P.C. | Long Beach",
+    "formattedAddress": "265 W Park Ave, Long Beach, NY 11561",
+    "location": {
+      "latitude": 40.5888323,
+      "longitude": -73.6721309
+    },
+    "phone": "(516) 401-3548",
+    "website": "https://www.advanceddermatologypc.com/location/long-beach/",
+    "rating": 4.9,
+    "userRatingCount": 99,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ1w1G4Kl6wokRlcMo37laEvs",
+    "name": "Schweiger Dermatology Group - Long Beach",
+    "formattedAddress": "604 E Park Ave, Long Beach, NY 11561",
+    "location": {
+      "latitude": 40.588256,
+      "longitude": -73.64640039999999
+    },
+    "phone": "(516) 432-0011",
+    "website": "https://www.schweigerderm.com/location/new-york/long-beach/",
+    "rating": 4.7,
+    "userRatingCount": 283,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJR48WZQEu3YAR1eWk1rHwhoE",
+    "name": "Modern Dermatology",
+    "formattedAddress": "2921 Palo Verde Ave #102, Long Beach, CA 90815",
+    "location": {
+      "latitude": 33.8095251,
+      "longitude": -118.10850570000001
+    },
+    "phone": "(562) 999-3483",
+    "website": "https://www.modderm.com/",
+    "rating": 5,
+    "userRatingCount": 6,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ3TtfZKIv3YARF7ZdedYSGGI",
+    "name": "Patient Preferred Dermatology (Pacific Dermatology Specialists)",
+    "formattedAddress": "13900 Seal Beach Blvd A, Seal Beach, CA 90740",
+    "location": {
+      "latitude": 33.7619677,
+      "longitude": -118.07811179999997
+    },
+    "phone": "(562) 430-4294",
+    "website": "https://pacificdermatologyspecialists.com/locations/los-alamitos-ca-patient-preferred-dermatology/?utm_medium=local&utm_source=google&utm_campaign=yext",
+    "rating": 4.8,
+    "userRatingCount": 144,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJPw5_17wv3YARR32gkuBgEls",
+    "name": "Grace Dermatology",
+    "formattedAddress": "5122 Katella Ave #307, Los Alamitos, CA 90720",
+    "location": {
+      "latitude": 33.8026048,
+      "longitude": -118.04334720000001
+    },
+    "phone": "(562) 502-7144",
+    "website": "https://gracedermatologyclinic.com/",
+    "rating": 5,
+    "userRatingCount": 28,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ7SsgoYcz3YARbMi-jc8ol_4",
+    "name": "California Dermatology Institute",
+    "formattedAddress": "3490 Linden Ave STE 2, Long Beach, CA 90807",
+    "location": {
+      "latitude": 33.8198685,
+      "longitude": -118.18614840000001
+    },
+    "phone": "(805) 222-5803",
+    "website": "https://www.calderminstitute.com/",
+    "rating": 4.1,
+    "userRatingCount": 36,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ2ZERDZsx3YARoyJ5LJWG9jU",
+    "name": "Dermatology Associates Of Southern California Inc.",
+    "formattedAddress": "1850 Redondo Ave #108, Signal Hill, CA 90755",
+    "location": {
+      "latitude": 33.791131799999995,
+      "longitude": -118.1514759
+    },
+    "phone": "(562) 498-2131",
+    "website": "http://www.dermgroup.com/",
+    "rating": 5,
+    "userRatingCount": 4,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJrc-vWdEx3YARl1MvXbSBKQc",
+    "name": "Long Beach VA Dermatology",
+    "formattedAddress": "5901 E 7th St, Long Beach, CA 90822",
+    "location": {
+      "latitude": 33.7770897,
+      "longitude": -118.11906560000001
+    },
+    "phone": "(562) 826-5459",
+    "website": "http://www.longbeach.va.gov/",
+    "rating": 3,
+    "userRatingCount": 2,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJc-5W918u3YARRfQSTyDnuRE",
+    "name": "Coastal Dermatology & Plastic Surgery",
+    "formattedAddress": "3801 Katella Ave #425, Los Alamitos, CA 90720",
+    "location": {
+      "latitude": 33.803447,
+      "longitude": -118.06577999999999
+    },
+    "phone": "(562) 598-8593",
+    "website": "https://www.coastaldermatologyandplasticsurgery.com/",
+    "rating": 4.7,
+    "userRatingCount": 80,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJhyICpx9L3YAROA3NWhnCqdo",
+    "name": "Good Dermatology",
+    "formattedAddress": "3640 Lomita Blvd #301, Torrance, CA 90505",
+    "location": {
+      "latitude": 33.814340699999995,
+      "longitude": -118.3489401
+    },
+    "phone": "(310) 405-0693",
+    "website": "http://www.goodderms.com/",
+    "rating": 4.8,
+    "userRatingCount": 79,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJP6zlcB4v3YAROau7re-8T50",
+    "name": "SkinSpirit Long Beach at 2nd &PCH",
+    "formattedAddress": "6460 Pacific Coast Hwy, Long Beach, CA 90803",
+    "location": {
+      "latitude": 33.755851199999995,
+      "longitude": -118.1095399
+    },
+    "phone": "(562) 512-7900",
+    "website": "https://www.skinspirit.com/locations/long-beach/",
+    "rating": 4.8,
+    "userRatingCount": 158,
+    "types": [
+      "skin_care_clinic",
+      "beauty_salon",
+      "spa",
+      "hair_care",
+      "massage",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJbcc6M5cx3YARyTMVW4R5LJY",
+    "name": "Heller Dermatology & Aesthetic Surgery",
+    "formattedAddress": "1760 Termino Ave UNIT 114, Long Beach, CA 90804",
+    "location": {
+      "latitude": 33.7895385,
+      "longitude": -118.14541539999998
+    },
+    "phone": "(562) 498-2459",
+    "website": "http://hellerderm.com/",
+    "rating": 3.5,
+    "userRatingCount": 8,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJabBJxvZB6oARQT6olP3GTVw",
+    "name": "Skin and Cancer Institute - Bakersfield (California Ave.)",
+    "formattedAddress": "5600 California Ave Suite #101, Bakersfield, CA 93309",
+    "location": {
+      "latitude": 35.3562333,
+      "longitude": -119.06179769999999
+    },
+    "phone": "(661) 322-2700",
+    "website": "https://skinandcancerinstitute.com/location/bakersfield/",
+    "rating": 4.7,
+    "userRatingCount": 2728,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJoWnInmBD6oARu0bpi1bu1Pc",
+    "name": "Skin and Cancer Institute",
+    "formattedAddress": "4805 Centennial Plaza Way, Bakersfield, CA 93312",
+    "location": {
+      "latitude": 35.403289799999996,
+      "longitude": -119.09378439999999
+    },
+    "phone": "(661) 843-6420",
+    "website": "https://skinandcancerinstitute.com/location/bakersfield-4/",
+    "rating": 4.8,
+    "userRatingCount": 2094,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJt5kJ8alD6oARcuDWKHwrsTk",
+    "name": "Skin and Cancer Institute - Bakersfield (Old River Rd.)",
+    "formattedAddress": "300 Old River Rd #125, Bakersfield, CA 93311",
+    "location": {
+      "latitude": 35.352649299999996,
+      "longitude": -119.11222489999999
+    },
+    "phone": "(661) 322-2700",
+    "website": "https://skinandcancerinstitute.com/location/bakersfield-2/",
+    "rating": 4.8,
+    "userRatingCount": 1248,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJpw4AMRxB6oAR9K9twpSnziA",
+    "name": "Skin and Cancer Institute - Bakersfield (Camino)",
+    "formattedAddress": "8605 Camino Media Ste 300, Bakersfield, CA 93311",
+    "location": {
+      "latitude": 35.3424735,
+      "longitude": -119.09916079999999
+    },
+    "phone": "(661) 322-2700",
+    "website": "https://skinandcancerinstitute.com/location/bakersfield-3/",
+    "rating": 4.8,
+    "userRatingCount": 936,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJkV0Q-m5D6oARIS3mkApRV6w",
+    "name": "Advanced Dermatology & Cosmetic Care",
+    "formattedAddress": "4100 Empire Dr Ste 120, Bakersfield, CA 93309",
+    "location": {
+      "latitude": 35.3750146,
+      "longitude": -119.04678609999999
+    },
+    "phone": "(661) 689-7575",
+    "website": "https://www.bakersfielddermatology.com/",
+    "rating": 4.8,
+    "userRatingCount": 83,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJQWXcQBtC6oAR3hZ8ssFG4Uk",
+    "name": "Bakersfield Dermatology",
+    "formattedAddress": "5101 Commerce Dr Suite 101, Bakersfield, CA 93309",
+    "location": {
+      "latitude": 35.3674841,
+      "longitude": -119.05882349999999
+    },
+    "phone": "(661) 327-3756",
+    "website": "https://www.bakersfieldderm.com/",
+    "rating": 3.7,
+    "userRatingCount": 48,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJIzv8LjtD6oARTz7waZWZ6W0",
+    "name": "LUX Dermatology",
+    "formattedAddress": "9500 Stockdale Hwy #101, Bakersfield, CA 93311",
+    "location": {
+      "latitude": 35.3555407,
+      "longitude": -119.10747610000001
+    },
+    "phone": "(661) 541-2017",
+    "website": "https://www.luxdermatologists.com/",
+    "rating": 4.9,
+    "userRatingCount": 62,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJK4FRQAND6oARxAuk_tGocBM",
+    "name": "CBCC Dermatology Center",
+    "formattedAddress": "6401 Truxtun Ave A, Bakersfield, CA 93309",
+    "location": {
+      "latitude": 35.3619884,
+      "longitude": -119.0737294
+    },
+    "phone": "(661) 616-1671",
+    "website": "https://www.cbccusa.com/cancer-treatment/skin-cancer/",
+    "rating": 4.6,
+    "userRatingCount": 53,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJGaGWFm1p6oAR9aojPL1PpRQ",
+    "name": "California Dermatology Institute",
+    "formattedAddress": "3543 San Dimas St Unit A, Bakersfield, CA 93301",
+    "location": {
+      "latitude": 35.3918781,
+      "longitude": -119.00848979999999
+    },
+    "phone": "(805) 222-5803",
+    "website": "https://www.calderminstitute.com/dermatologist-bakersfield/",
+    "rating": 4.6,
+    "userRatingCount": 15,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJmwFQdAlD6oARGregSk6ZHgg",
+    "name": "Advanced Cosmetic Dermatology",
+    "formattedAddress": "3400 Calloway Dr STE 200, Bakersfield, CA 93312",
+    "location": {
+      "latitude": 35.391417,
+      "longitude": -119.10943569999999
+    },
+    "phone": "(661) 410-7546",
+    "website": "https://acdmd.com/",
+    "rating": 3.1,
+    "userRatingCount": 30,
+    "types": [
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJlwLASG1D6oAR2eh5h53syNM",
+    "name": "Elite Aesthetics and Dermatology",
+    "formattedAddress": "3409 Calloway Dr UNIT 602, Bakersfield, CA 93312",
+    "location": {
+      "latitude": 35.3915545,
+      "longitude": -119.11120179999999
+    },
+    "phone": "(661) 218-9923",
+    "website": "https://www.eliteaestheticsandderm.com/",
+    "rating": 5,
+    "userRatingCount": 34,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ6UawSo1p6oARjCsbegRNseI",
+    "name": "Kern Dermatology Medical Group",
+    "formattedAddress": "2215 G St, Bakersfield, CA 93301",
+    "location": {
+      "latitude": 35.379602,
+      "longitude": -119.0225928
+    },
+    "phone": "(661) 324-1312",
+    "rating": 2.8,
+    "userRatingCount": 5,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJAYrB__Mp3YARsqx1EnaYAp0",
+    "name": "California Skin Institute - Anaheim - part of Schweiger Dermatology Group",
+    "formattedAddress": "1165 N Euclid St, Anaheim, CA 92801",
+    "location": {
+      "latitude": 33.8495256,
+      "longitude": -117.94248979999999
+    },
+    "phone": "(714) 991-9990",
+    "website": "https://www.californiaskininstitute.com/locations/anaheim-ca/",
+    "rating": 4.7,
+    "userRatingCount": 1138,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJAcbuIvQp3YARkj2Oy5yGm4g",
+    "name": "Renu dermatology and wellness",
+    "formattedAddress": "1741 W Romneya Dr # E, Anaheim, CA 92801",
+    "location": {
+      "latitude": 33.8509467,
+      "longitude": -117.94343769999998
+    },
+    "phone": "(714) 215-4516",
+    "website": "https://www.renudermatology.com/",
+    "rating": 4.7,
+    "userRatingCount": 65,
+    "types": [
+      "skin_care_clinic",
+      "wellness_center",
+      "hair_care",
+      "beauty_salon",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJfdFCoaLZ3IARPOobHKQNj80",
+    "name": "Southern California Dermatology, Inc",
+    "formattedAddress": "1125 17th St W-248, Santa Ana, CA 92701",
+    "location": {
+      "latitude": 33.7620259,
+      "longitude": -117.85542889999999
+    },
+    "phone": "(714) 547-5151",
+    "website": "http://www.socalderm.org/",
+    "rating": 4.8,
+    "userRatingCount": 1444,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ31aC_SLX3IARk7SgWrYZdPs",
+    "name": "Sand Dermatology",
+    "formattedAddress": "1122 E Lincoln Ave STE 105, Orange, CA 92865",
+    "location": {
+      "latitude": 33.835879,
+      "longitude": -117.8414457
+    },
+    "phone": "(714) 987-9880",
+    "website": "http://www.sanddermatology.com/",
+    "rating": 5,
+    "userRatingCount": 368,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJVSA-DVrQ3IARZZx8cChmlqw",
+    "name": "Cosmetic Dermatology of Orange County",
+    "formattedAddress": "500 S Anaheim Hills Rd Suite 210, Anaheim, CA 92807",
+    "location": {
+      "latitude": 33.843208499999996,
+      "longitude": -117.7767799
+    },
+    "phone": "(714) 974-3272",
+    "website": "https://www.laserdermdoc.com/",
+    "rating": 4.7,
+    "userRatingCount": 193,
+    "types": [
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJv9lwotAp3YARxa6dNMkfBB8",
+    "name": "DermLounge",
+    "formattedAddress": "1713 W Katella Ave, Anaheim, CA 92804",
+    "location": {
+      "latitude": 33.8033042,
+      "longitude": -117.9417995
+    },
+    "phone": "(714) 798-2900",
+    "website": "https://www.mydermlounge.com/?utm_source=google-map&utm_campaign=gmb&utm_medium=organic",
+    "rating": 4.8,
+    "userRatingCount": 25,
+    "types": [
+      "skin_care_clinic",
+      "massage",
+      "hair_care",
+      "beauty_salon",
+      "body_art_service",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ6TvyHHYq3YARJE4LrAyQ-mo",
+    "name": "Hodge Dermatology",
+    "formattedAddress": "1440 N Harbor Blvd #300, Fullerton, CA 92835",
+    "location": {
+      "latitude": 33.88536260000001,
+      "longitude": -117.9253123
+    },
+    "phone": "(714) 526-7546",
+    "website": "https://www.hodgedermatology.com/?utm_source=yext&utm_medium=organic",
+    "rating": 4.8,
+    "userRatingCount": 583,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJYZ8a0sor3YARuoSbybwDz6Q",
+    "name": "Exceptional Dermatology Care",
+    "formattedAddress": "2720 N Harbor Blvd Ste. 205, Fullerton, CA 92835",
+    "location": {
+      "latitude": 33.9012613,
+      "longitude": -117.92865959999999
+    },
+    "phone": "(714) 882-5525",
+    "website": "https://exceptionaldermatology.com/?utm_medium=local&utm_source=google&utm_campaign=yext",
+    "rating": 4.9,
+    "userRatingCount": 370,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJJ75nJhIp3YARqfYUZ8AKA24",
+    "name": "True Dermatology",
+    "formattedAddress": "408 S Beach Blvd STE 211, Anaheim, CA 92804",
+    "location": {
+      "latitude": 33.8271533,
+      "longitude": -117.9927179
+    },
+    "phone": "(626) 635-1688",
+    "website": "https://www.truedermmd.com/",
+    "rating": 5,
+    "userRatingCount": 2,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJv18VxzjW3IARFvWMrn0lYqg",
+    "name": "Neoderma",
+    "formattedAddress": "1175 E Lincoln Ave, Anaheim, CA 92805",
+    "location": {
+      "latitude": 33.838344,
+      "longitude": -117.90313800000001
+    },
+    "phone": "(714) 533-4777",
+    "website": "http://neodermacenter.com/",
+    "rating": 4.8,
+    "userRatingCount": 524,
+    "types": [
+      "skin_care_clinic",
+      "massage",
+      "hair_care",
+      "beauty_salon",
+      "body_art_service",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJXb2we3Qr3YARjDVl8wm8bfw",
+    "name": "Pacific Dermatology Specialists",
+    "formattedAddress": "2720 N Harbor Blvd #300, Fullerton, CA 92835",
+    "location": {
+      "latitude": 33.9012758,
+      "longitude": -117.9286133
+    },
+    "phone": "(657) 632-0123",
+    "website": "http://www.pacificdermatologyspecialists.com/?utm_medium=local&utm_source=google&utm_campaign=yext",
+    "rating": 4.9,
+    "userRatingCount": 100,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ-YP0_oLZ3IARmZDZvDyStho",
+    "name": "California Dermatology Institute",
+    "formattedAddress": "1211 N Broadway, Santa Ana, CA 92701",
+    "location": {
+      "latitude": 33.7554817,
+      "longitude": -117.8694364
+    },
+    "phone": "(805) 222-5803",
+    "website": "https://www.calderminstitute.com/dermatologist-santa-ana/",
+    "rating": 4.8,
+    "userRatingCount": 63,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJD6p-jfMp3YARpdgXnj6FfBM",
+    "name": "California Dermatology Institute",
+    "formattedAddress": "3400 W Ball Rd # 204, Anaheim, CA 92804",
+    "location": {
+      "latitude": 33.8169155,
+      "longitude": -118.0083242
+    },
+    "phone": "(888) 367-1850",
+    "website": "https://www.calderminstitute.com/dermatologist-anaheim/",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ6VgVEgAp3YARwO-_2FwCjm0",
+    "name": "Aesthetic Dermatology & Laser Center",
+    "formattedAddress": "3055 W Orange Ave Ste 207, Anaheim, CA 92804",
+    "location": {
+      "latitude": 33.8250032,
+      "longitude": -117.9960555
+    },
+    "phone": "(714) 229-8246",
+    "website": "http://www.wonderfulskin.com/",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJNfPJOULf3IARn0tbIFzcofM",
+    "name": "Metropolis Dermatology | Costa Mesa",
+    "formattedAddress": "3080 Bristol St #650, Costa Mesa, CA 92626",
+    "location": {
+      "latitude": 33.6846618,
+      "longitude": -117.8851895
+    },
+    "phone": "(949) 317-2558",
+    "website": "https://www.metropolisdermatology.com/",
+    "rating": 4.9,
+    "userRatingCount": 94,
+    "types": [
+      "skin_care_clinic",
+      "massage",
+      "hair_care",
+      "beauty_salon",
+      "body_art_service",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJkx1hm_fV3IARobpsmQfxo_U",
+    "name": "Imperial Dermatology",
+    "formattedAddress": "3000 E Imperial Hwy #150, Brea, CA 92821",
+    "location": {
+      "latitude": 33.910747799999996,
+      "longitude": -117.8570009
+    },
+    "phone": "(714) 987-1818",
+    "website": "https://imperialderm.com/",
+    "rating": 4.4,
+    "userRatingCount": 35,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJU98Tczsr3YARc8gTCV6j3Vo",
+    "name": "Advanced SkinCare",
+    "formattedAddress": "2720 N Harbor Blvd #230, Fullerton, CA 92835",
+    "location": {
+      "latitude": 33.901556299999996,
+      "longitude": -117.92847649999999
+    },
+    "phone": "(714) 879-9936",
+    "website": "https://www.ascdermcare.com/?utm_campaign=gmb",
+    "rating": 4.8,
+    "userRatingCount": 120,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJP0C1YOkm3YARpM0QaIJjUkE",
+    "name": "Cosmetic Dermatology of Orange County",
+    "formattedAddress": "17822 Beach Blvd # 452, Huntington Beach, CA 92647",
+    "location": {
+      "latitude": 33.703258,
+      "longitude": -117.98809500000002
+    },
+    "phone": "(714) 848-5851",
+    "website": "http://www.laserdermdoc.com/",
+    "rating": 4.8,
+    "userRatingCount": 88,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJz4gdvgXR3IARY_77lEmGfm0",
+    "name": "Visage Laser & Skin Care Center",
+    "formattedAddress": "5636 E La Palma Ave #C, Anaheim, CA 92807",
+    "location": {
+      "latitude": 33.8583964,
+      "longitude": -117.79211889999999
+    },
+    "phone": "(714) 777-6625",
+    "website": "http://www.visageskin.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=5502225432586147611",
+    "rating": 4.8,
+    "userRatingCount": 62,
+    "types": [
+      "skin_care_clinic",
+      "massage",
+      "hair_care",
+      "beauty_salon",
+      "body_art_service",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJP4hgss_R3IAR-AV4RX8H2Cs",
+    "name": "Skin Nirvana Medspa",
+    "formattedAddress": "8082 E Santa Ana Canyon Rd, Anaheim, CA 92808",
+    "location": {
+      "latitude": 33.866267,
+      "longitude": -117.751021
+    },
+    "phone": "(714) 283-1433",
+    "website": "https://skinnirvana.com/",
+    "rating": 5,
+    "userRatingCount": 63,
+    "types": [
+      "skin_care_clinic",
+      "massage",
+      "hair_care",
+      "beauty_salon",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJGZB-UTTZ3IARd6xQCQLY2Eo",
+    "name": "Santa Ana Dermatology",
+    "formattedAddress": "2621 S Bristol St Suite 309, Santa Ana, CA 92704",
+    "location": {
+      "latitude": 33.7119163,
+      "longitude": -117.8847571
+    },
+    "phone": "(949) 720-1170",
+    "website": "https://islanddermatology.net/locations/santa-ana/?utm_medium=local&utm_source=google&utm_campaign=yext",
+    "rating": 4.6,
+    "userRatingCount": 290,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJEShid6LZ3IARXYHo1YqNOgo",
+    "name": "Rbgb Dermatology Group",
+    "formattedAddress": "1125 17th St, Santa Ana, CA 92701",
+    "location": {
+      "latitude": 33.7621296,
+      "longitude": -117.8554792
+    },
+    "phone": "(714) 547-5151",
+    "rating": 4.1,
+    "userRatingCount": 14,
+    "types": [
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ04UYFMQn3YARBOtCa5Qobow",
+    "name": "First OC Dermatology",
+    "formattedAddress": "17271 Brookhurst St, Fountain Valley, CA 92708",
+    "location": {
+      "latitude": 33.7123726,
+      "longitude": -117.9551131
+    },
+    "phone": "(714) 531-2966",
+    "website": "https://firstocdermatology.com/",
+    "rating": 4.7,
+    "userRatingCount": 1118,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJKUpVL3zZ3IAROEWp2esLIW0",
+    "name": "OC Skin Institute",
+    "formattedAddress": "800 N Tustin Ave G, Santa Ana, CA 92705",
+    "location": {
+      "latitude": 33.752258,
+      "longitude": -117.8349599
+    },
+    "phone": "(714) 547-6111",
+    "website": "http://www.ocskininstitute.com/",
+    "rating": 4.2,
+    "userRatingCount": 63,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJf_XaJmYn3YARnhSNJcYqgEE",
+    "name": "California Skin Institute - Fountain Valley - part of Schweiger Dermatology Group",
+    "formattedAddress": "11100 Warner Ave # 264, Fountain Valley, CA 92708",
+    "location": {
+      "latitude": 33.7157291,
+      "longitude": -117.93624810000001
+    },
+    "phone": "(714) 549-1770",
+    "website": "https://www.californiaskininstitute.com/locations/fountain-valley-ca/",
+    "rating": 4.8,
+    "userRatingCount": 230,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJuQpbNo_g3IARyFzzBH0oDRk",
+    "name": "Island Dermatology",
+    "formattedAddress": "360 San Miguel Dr #501, Newport Beach, CA 92660",
+    "location": {
+      "latitude": 33.6133612,
+      "longitude": -117.87167699999999
+    },
+    "phone": "(949) 720-1170",
+    "website": "https://islanddermatology.net/locations/newport-beach/?utm_medium=local&utm_source=google&utm_campaign=yext",
+    "rating": 4.6,
+    "userRatingCount": 1478,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJV61m_okn3YARq0xQ5-AMrqg",
+    "name": "DC Dermatology, Medical Corporation",
+    "formattedAddress": "18113 Magnolia St, Fountain Valley, CA 92708",
+    "location": {
+      "latitude": 33.699696900000006,
+      "longitude": -117.9721038
+    },
+    "phone": "(657) 204-9510",
+    "website": "https://www.dinhdermatology.com/?utm_source=gmb_auth",
+    "rating": 5,
+    "userRatingCount": 14,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ6xtC75ne3IARfbozX24UuXs",
+    "name": "First OC Dermatology",
+    "formattedAddress": "17305 Von Karman Ave # 107, Irvine, CA 92614",
+    "location": {
+      "latitude": 33.6902999,
+      "longitude": -117.84229270000002
+    },
+    "phone": "(949) 679-9994",
+    "website": "https://firstocdermatology.com/",
+    "rating": 4.7,
+    "userRatingCount": 600,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJd7mWprrZ3IARnBwJc5e_1DU",
+    "name": "St. Joseph Heritage Santa Ana - Dermatology",
+    "formattedAddress": "2212 E 4th St Suite 304, Santa Ana, CA 92705",
+    "location": {
+      "latitude": 33.747717,
+      "longitude": -117.8351658
+    },
+    "phone": "(714) 288-3230",
+    "website": "https://www.providence.org/locations/socal/santa-ana-dermatology?ls=location&y_source=1_MTAwNDEzNzYyOS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ9xPFvQzc3IARg89TBacoRM0",
+    "name": "South Coast Dermatology Institute",
+    "formattedAddress": "2552 Walnut Ave #120, Tustin, CA 92780",
+    "location": {
+      "latitude": 33.71665,
+      "longitude": -117.8084957
+    },
+    "phone": "(714) 508-0754",
+    "website": "http://www.southcoastdermatology.com/",
+    "rating": 4.5,
+    "userRatingCount": 8,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJATA5_IHf3IAR_QnEMb7GDWQ",
+    "name": "Lisa Xu MD - United Dermatology & Laser Center",
+    "formattedAddress": "5010 Campus Dr ste 120, Newport Beach, CA 92660",
+    "location": {
+      "latitude": 33.6676913,
+      "longitude": -117.8577459
+    },
+    "phone": "(949) 773-4784",
+    "website": "https://unitedmd.com/unitedderm/",
+    "rating": 5,
+    "userRatingCount": 36,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJP76sJgHh3IARJv_jMCPA_-0",
+    "name": "Irvine Dermatology",
+    "formattedAddress": "6865 Alton Pkwy Ste 210, Irvine, CA 92618",
+    "location": {
+      "latitude": 33.6579425,
+      "longitude": -117.7711253
+    },
+    "phone": "(949) 800-8551",
+    "website": "http://dermatologyirvine.com/",
+    "rating": 4.8,
+    "userRatingCount": 207,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJSQSAghLv3IAR3FrkIyc3YUU",
+    "name": "OC Dermatology",
+    "formattedAddress": "30201 Golden Lantern, Laguna Niguel, CA 92677",
+    "location": {
+      "latitude": 33.524279,
+      "longitude": -117.68601210000001
+    },
+    "phone": "(949) 363-1788",
+    "website": "https://www.ocdermatology.com/?utm_source=yext&utm_medium=organic",
+    "rating": 4.9,
+    "userRatingCount": 559,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJD90bOwwg3YARYXJ88-kKs3w",
+    "name": "Advanced Skin Treatment Center : JEFFREY LAUBER, MD",
+    "formattedAddress": "320 Superior Ave #395, Newport Beach, CA 92663",
+    "location": {
+      "latitude": 33.626281999999996,
+      "longitude": -117.93279699999998
+    },
+    "phone": "(949) 646-9098",
+    "website": "http://www.advancedskinofoc.com/",
+    "rating": 4.9,
+    "userRatingCount": 283,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJkSuD8a_d3IARo_uD1HU5no0",
+    "name": "OC MedDerm",
+    "formattedAddress": "113 Waterworks Way Ste 100, Irvine, CA 92618",
+    "location": {
+      "latitude": 33.665315,
+      "longitude": -117.7631332
+    },
+    "phone": "(949) 551-1113",
+    "website": "https://irvineskin.com/",
+    "rating": 4.5,
+    "userRatingCount": 140,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "beauty_salon",
+      "body_art_service",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJxd5mLnwReogR49c4BOBEeCk",
+    "name": "Golden Coast Dermatology, Skin Cancer and Vein Center",
+    "formattedAddress": "26732 Crown Valley Pkwy Suite 571, Mission Viejo, CA 92691",
+    "location": {
+      "latitude": 33.5625644,
+      "longitude": -117.66516449999999
+    },
+    "phone": "(949) 200-7008",
+    "website": "http://www.goldencoastdermatology.com/",
+    "rating": 4.9,
+    "userRatingCount": 93,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJtyVQ8ggn3YARhPx06SBErzw",
+    "name": "Z Dermatology & Skin Wellness Center - Huntington Beach",
+    "formattedAddress": "18800 Main St #111, Huntington Beach, CA 92648",
+    "location": {
+      "latitude": 33.6884691,
+      "longitude": -117.99449179999999
+    },
+    "phone": "(714) 951-9119",
+    "website": "https://www.z-dermatology.com/?utm_source=gmb_auth",
+    "rating": 4.9,
+    "userRatingCount": 314,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJTxeJqcSw3IARfsF5AAw5Kr8",
+    "name": "PACIFIC DERMATOLOGY INSTITUTE",
+    "formattedAddress": "9041 Magnolia Ave STE 206, Riverside, CA 92503",
+    "location": {
+      "latitude": 33.9256844,
+      "longitude": -117.43805180000001
+    },
+    "phone": "(951) 354-2220",
+    "website": "http://www.pacdermatology.com/",
+    "rating": 4.6,
+    "userRatingCount": 505,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ_UvC7Ay33IARN_h7ly8rN3s",
+    "name": "West Dermatology Riverside",
+    "formattedAddress": "4244 Riverwalk Pkwy STE 170, Riverside, CA 92505",
+    "location": {
+      "latitude": 33.9036229,
+      "longitude": -117.4950934
+    },
+    "phone": "(951) 547-0667",
+    "website": "https://www.westdermatology.com/location/riverside?utm_source=yext&utm_medium=organic",
+    "rating": 4.3,
+    "userRatingCount": 725,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJmcS3o-6x3IARldgmBZbCsE4",
+    "name": "Raincross Dermatology & Cosmetic Surgery",
+    "formattedAddress": "4336 Market St, Riverside, CA 92501",
+    "location": {
+      "latitude": 33.9773115,
+      "longitude": -117.37894539999999
+    },
+    "phone": "(951) 682-9293",
+    "website": "https://www.raincrossdermatology.com/",
+    "rating": 3.4,
+    "userRatingCount": 31,
+    "types": [
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJz8IRPzex3IARuvJBHl3VZug",
+    "name": "Advanced Dermatology & Skin Cancer Specialists Riverside",
+    "formattedAddress": "9889 Magnolia Ave Suite A, Riverside, CA 92503",
+    "location": {
+      "latitude": 33.9165397,
+      "longitude": -117.45394110000001
+    },
+    "phone": "(951) 525-3548",
+    "website": "https://advanceddermspecialists.com/",
+    "rating": 2.9,
+    "userRatingCount": 30,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJFZKSB7-r3IAR5JCVM0bOavo",
+    "name": "California Skin Institute - Loma Linda - part of Schweiger Dermatology Group",
+    "formattedAddress": "25815 Barton Rd, Loma Linda, CA 92354",
+    "location": {
+      "latitude": 34.0474519,
+      "longitude": -117.2409014
+    },
+    "phone": "(909) 796-0224",
+    "website": "https://www.californiaskininstitute.com/locations/loma-linda-ca/",
+    "rating": 4.8,
+    "userRatingCount": 598,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJr6lCQEWx3IARwQ2dYAG_00Q",
+    "name": "California Dermatology Institute",
+    "formattedAddress": "4415 Brockton Ave, Riverside, CA 92501",
+    "location": {
+      "latitude": 33.9781897,
+      "longitude": -117.38365789999999
+    },
+    "phone": "(805) 222-5803",
+    "website": "https://www.calderminstitute.com/dermatologist-riverside/",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJp1uiU5Etw4ARBPnL5nG_EQM",
+    "name": "Sand Dermatology",
+    "formattedAddress": "3110 Chino Ave #120, Chino Hills, CA 91709",
+    "location": {
+      "latitude": 34.011365399999995,
+      "longitude": -117.73829939999999
+    },
+    "phone": "(909) 313-5111",
+    "website": "https://www.sanddermatology.com/",
+    "rating": 4.9,
+    "userRatingCount": 558,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ5x0tBr-r3IARhYl3lEWBBQY",
+    "name": "California Skin Institute: Cathy Macknet Kasner, MD",
+    "formattedAddress": "25815 Barton Rd #101, Loma Linda, CA 92354",
+    "location": {
+      "latitude": 34.047419500000004,
+      "longitude": -117.2401532
+    },
+    "phone": "(909) 796-0224",
+    "website": "https://californiaskininstitute.com/providers/cathy-macknet-md/",
+    "rating": 4.8,
+    "userRatingCount": 375,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJOQ5Lo_yr3IARh1k_wWNYEXs",
+    "name": "Jennifer Hayhurst, DMSc, PA-C | Radiant Dermatology",
+    "formattedAddress": "17 S 5th St Suite D, Redlands, CA 92373",
+    "location": {
+      "latitude": 34.0549427,
+      "longitude": -117.18127369999999
+    },
+    "phone": "(909) 551-3376",
+    "website": "https://radderm.com/",
+    "rating": 5,
+    "userRatingCount": 144,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ21pqhCaq3IARWKdZrNNbC4E",
+    "name": "Pacific Dermatology Institute",
+    "formattedAddress": "255 Terracina Blvd #205c, Redlands, CA 92373",
+    "location": {
+      "latitude": 34.03823250000001,
+      "longitude": -117.2055255
+    },
+    "phone": "(909) 793-2323",
+    "website": "http://www.pacdermatology.com/",
+    "rating": 4.5,
+    "userRatingCount": 435,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJB04Ipx6l3IARmJscvbWAkwo",
+    "name": "Advanced Dermatology & Skin Cancer Specialists - Moreno Valley",
+    "formattedAddress": "6485 Day St STE 301, Riverside, CA 92507",
+    "location": {
+      "latitude": 33.9318246,
+      "longitude": -117.2794382
+    },
+    "phone": "(951) 656-2200",
+    "website": "https://advanceddermspecialists.com/",
+    "rating": 3.4,
+    "userRatingCount": 10,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJCZPSEnyr3IARqIPTT-ope4I",
+    "name": "Contour Dermatology and Cosmetic Surgery Center - Loma Linda",
+    "formattedAddress": "11326 Mountain View Ave Suite B, Loma Linda, CA 92354",
+    "location": {
+      "latitude": 34.0479766,
+      "longitude": -117.24533589999999
+    },
+    "phone": "(909) 799-0029",
+    "website": "https://contourderm.com/loma-linda-clinic/",
+    "rating": 4.8,
+    "userRatingCount": 93,
+    "types": [
+      "skin_care_clinic",
+      "beauty_salon",
+      "spa",
+      "hair_care",
+      "massage",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJVVUFCTi33IARStNTvBE1-S0",
+    "name": "THE SKIN CLINIC MED SPA",
+    "formattedAddress": "6927 Brockton Ave # 1A, Riverside, CA 92506",
+    "location": {
+      "latitude": 33.948097499999996,
+      "longitude": -117.39703730000001
+    },
+    "phone": "(951) 666-0681",
+    "website": "https://skinclinicmedspa.com/",
+    "rating": 5,
+    "userRatingCount": 190,
+    "types": [
+      "spa",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJhUwgM07dW2ERorpEpdp6Q8g",
+    "name": "Evolution Skyn Aesthetics - Dermaplaning + Acne Expert + DMK Facialist",
+    "formattedAddress": "3679 Arlington Ave Suite E, Riverside, CA 92506",
+    "location": {
+      "latitude": 33.9465769,
+      "longitude": -117.3957118
+    },
+    "phone": "(951) 258-4646",
+    "website": "http://www.evolutionskyn.com/",
+    "rating": 5,
+    "userRatingCount": 160,
+    "types": [
+      "skin_care_clinic",
+      "massage",
+      "beauty_salon",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJMT76Qwyq3IARVwE6QgupzKQ",
+    "name": "SKINAESTHETICA",
+    "formattedAddress": "147 E Vine St Suite 49, Redlands, CA 92373",
+    "location": {
+      "latitude": 34.0549165,
+      "longitude": -117.18053859999999
+    },
+    "phone": "(909) 547-3434",
+    "website": "http://skinaestheticamedical.com/",
+    "rating": 5,
+    "userRatingCount": 282,
+    "types": [
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJp_Byc1Cl3IART8gn_KF24vA",
+    "name": "Skin & Derm Theory Med Spa Riverside",
+    "formattedAddress": "19040 Van Buren Boulevard STE 103, Riverside, CA 92508",
+    "location": {
+      "latitude": 33.887696399999996,
+      "longitude": -117.3305615
+    },
+    "phone": "(951) 776-8300",
+    "website": "http://www.skintheoryinc.com/",
+    "rating": 4.9,
+    "userRatingCount": 51,
+    "types": [
+      "skin_care_clinic",
+      "beauty_salon",
+      "spa",
+      "hair_care",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJAdqE0OGx3IAR5EEsnixFs-M",
+    "name": "MedSkinEssentials",
+    "formattedAddress": "3663 Main St STE C, Riverside, CA 92501",
+    "location": {
+      "latitude": 33.9834262,
+      "longitude": -117.3736931
+    },
+    "phone": "(949) 245-4477",
+    "website": "http://www.medskinessentials.com/",
+    "rating": 4.8,
+    "userRatingCount": 201,
+    "types": [
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJwytdYR4NkIARExesEGY9Sa4",
+    "name": "Lux Dermatology",
+    "formattedAddress": "2431 W March Ln #100, Stockton, CA 95207",
+    "location": {
+      "latitude": 37.986707599999995,
+      "longitude": -121.3376786
+    },
+    "phone": "(209) 490-5050",
+    "website": "https://www.luxdermatologists.com/",
+    "rating": 4.6,
+    "userRatingCount": 199,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ7Z15lq4NkIARy_4pZF9MnuY",
+    "name": "Advanced Dermatology & Skin Cancer Specialists Stockton",
+    "formattedAddress": "1507 E March Ln Suite C, Stockton, CA 95210",
+    "location": {
+      "latitude": 38.003021,
+      "longitude": -121.290612
+    },
+    "phone": "(209) 227-5052",
+    "website": "https://advanceddermnorcal.com/",
+    "rating": 3.1,
+    "userRatingCount": 20,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJed4vDUsMkIAR_mTHIWWR5KE",
+    "name": "California Skin & Laser Center",
+    "formattedAddress": "1617 St Marks Plaza STE C, Stockton, CA 95207",
+    "location": {
+      "latitude": 37.988842,
+      "longitude": -121.3267364
+    },
+    "phone": "(209) 751-4292",
+    "website": "http://www.californiaskinlaser.com/",
+    "rating": 4.5,
+    "userRatingCount": 151,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJe_WU8fgMkIARmE9g9qXuaGY",
+    "name": "Advanced Dermatology & Skin Cancer Specialists Stockton",
+    "formattedAddress": "5345 N El Dorado St #12, Stockton, CA 95207",
+    "location": {
+      "latitude": 37.9994428,
+      "longitude": -121.3066082
+    },
+    "phone": "(209) 957-6662",
+    "website": "https://advanceddermnorcal.com/",
+    "rating": 3.4,
+    "userRatingCount": 21,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ5xtyU2ygmoARGK0TFifSAb0",
+    "name": "Golden State Dermatology",
+    "formattedAddress": "801 S Ham Ln # A, Lodi, CA 95242",
+    "location": {
+      "latitude": 38.1244687,
+      "longitude": -121.28862780000001
+    },
+    "phone": "(209) 333-3366",
+    "website": "https://www.goldenstatedermatology.com/lodi/?y_source=1_MTAwNDU1MTA4Mi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "rating": 4.6,
+    "userRatingCount": 291,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJf8ZD-oVBkIARz9uYDGk3aSE",
+    "name": "Golden State Dermatology",
+    "formattedAddress": "200 Cottage Ave #201, Manteca, CA 95336",
+    "location": {
+      "latitude": 37.7996535,
+      "longitude": -121.1979464
+    },
+    "phone": "(209) 924-4086",
+    "website": "https://www.goldenstatedermatology.com/manteca/?y_source=1_MTAwNDU1MTA2Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "rating": 4.8,
+    "userRatingCount": 219,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJQ52mL1j_j4AR8Rh_Qf42Uvg",
+    "name": "Golden State Dermatology",
+    "formattedAddress": "1200 Central Blvd D, Brentwood, CA 94513",
+    "location": {
+      "latitude": 37.937968399999995,
+      "longitude": -121.69828960000001
+    },
+    "phone": "(925) 308-9510",
+    "website": "https://www.goldenstatedermatology.com/brentwood/?y_source=1_MTAwNDU1MTA3MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "rating": 4.7,
+    "userRatingCount": 421,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJG0ws-fgLkIAROI6nrE8OYhQ",
+    "name": "Dermatology: Stockton Medical Plaza SMP II: Sutter Gould Medical Foundation",
+    "formattedAddress": "2545 W Hammer Ln floor 3, Stockton, CA 95209",
+    "location": {
+      "latitude": 38.0215502,
+      "longitude": -121.34741550000001
+    },
+    "phone": "(209) 957-3821",
+    "website": "http://www.suttergould.org/locations/stockton-hammer-lane.html?utm_medium=local&utm_source=google_plus-local&utm_campaign=local-Stockton-SGMF-60",
+    "rating": 4,
+    "userRatingCount": 2,
+    "types": [
+      "dental_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJqaRMda9BkIARANpMgzI1X8A",
+    "name": "Lux Dermatology",
+    "formattedAddress": "296 Cottage Ave, Manteca, CA 95336",
+    "location": {
+      "latitude": 37.800865099999996,
+      "longitude": -121.19810480000001
+    },
+    "phone": "(209) 624-7006",
+    "website": "https://www.luxdermatologists.com/",
+    "rating": 4.8,
+    "userRatingCount": 173,
+    "types": [
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJwdaFJZQg06wRJLnR0ITv2e4",
+    "name": "Skin Glo Aesthetics",
+    "formattedAddress": "6653 Embarcadero Dr Suite J, Stockton, CA 95219",
+    "location": {
+      "latitude": 38.002437,
+      "longitude": -121.3679663
+    },
+    "phone": "(209) 788-3944",
+    "website": "https://skinglo.net/",
+    "rating": 5,
+    "userRatingCount": 10,
+    "types": [
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ5xQiegANkIARKiobkp4TGf4",
+    "name": "Cosmetic Dermatology | Kaiser Permanente Stockton Medical Offices",
+    "formattedAddress": "7373 West Ln 3rd Floor, Stockton, CA 95210",
+    "location": {
+      "latitude": 38.0179997,
+      "longitude": -121.29753369999999
+    },
+    "phone": "(209) 476-2166",
+    "website": "https://www.kpcosmeticservices.com/locations/stockton/",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJgyJdVEwNkIARmv1VflOEGsw",
+    "name": "Roma Skin Health and Wellness",
+    "formattedAddress": "3031 W March Ln Suite # 104-S, Stockton, CA 95219",
+    "location": {
+      "latitude": 37.9844846,
+      "longitude": -121.349181
+    },
+    "phone": "(209) 627-6755",
+    "website": "https://romaskinhealth.com/",
+    "rating": 5,
+    "userRatingCount": 19,
+    "types": [
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJt6FC4XKgmoARUrwzbdHXQFU",
+    "name": "California Skin & Laser Center",
+    "formattedAddress": "999 S Fairmont Ave #120, Lodi, CA 95240",
+    "location": {
+      "latitude": 38.1206058,
+      "longitude": -121.28724290000001
+    },
+    "phone": "(209) 330-0764",
+    "website": "http://www.californiaskinlaser.com/",
+    "rating": 1.9,
+    "userRatingCount": 9,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJSwrcMW7d3IARQeU8txw-rSs",
+    "name": "Total Dermatology",
+    "formattedAddress": "16100 Sand Canyon Ave # 190, Irvine, CA 92618",
+    "location": {
+      "latitude": 33.662841,
+      "longitude": -117.77176000000001
+    },
+    "phone": "(949) 727-3800",
+    "website": "https://www.totaldermatology.com/?utm_source=GMB&utm_medium=organic&utm_campaign=GMB%20Homepage",
+    "rating": 4.3,
+    "userRatingCount": 80,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJJfBOgZzf3IARrj-fAT9y5RI",
+    "name": "Coastline Dermatology Laser & Medical Center",
+    "formattedAddress": "400 Newport Center Dr #501, Newport Beach, CA 92660",
+    "location": {
+      "latitude": 33.6141935,
+      "longitude": -117.87238029999999
+    },
+    "phone": "(949) 646-3307",
+    "website": "http://coastlinedermatology.com/?utm_source=gmb_auth",
+    "rating": 4.9,
+    "userRatingCount": 437,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ_ZmZCI_g3IAR8vkrtYb4cA4",
+    "name": "Newport Beach Dermatology and Plastic Surgery",
+    "formattedAddress": "1441 Avocado Ave #702, Newport Beach, CA 92660",
+    "location": {
+      "latitude": 33.6134192,
+      "longitude": -117.8698696
+    },
+    "phone": "(949) 706-7886",
+    "website": "http://www.newportbeachdps.com/",
+    "rating": 4.8,
+    "userRatingCount": 101,
+    "types": [
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJNSZ65qfh3IARm_Agaa5JIdY",
+    "name": "Newport Cove Dermatology + Aesthetics",
+    "formattedAddress": "180 Newport Center Dr #270, Newport Beach, CA 92660",
+    "location": {
+      "latitude": 33.6106955,
+      "longitude": -117.87533800000001
+    },
+    "phone": "(949) 868-6382",
+    "website": "http://www.newportcovedermatology.com/",
+    "rating": 4.9,
+    "userRatingCount": 166,
+    "types": [
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJWaD2Zgze3IARaOoQlQaU7wY",
+    "name": "DermaSmooth Clinic, Inc.",
+    "formattedAddress": "7700 Irvine Center Dr #800, Irvine, CA 92618",
+    "location": {
+      "latitude": 33.65811,
+      "longitude": -117.7511805
+    },
+    "phone": "(949) 415-4530",
+    "website": "https://dermasmooth.clinic/",
+    "rating": 5,
+    "userRatingCount": 27,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJWWloNo_g3IARpx0rRhCmCDA",
+    "name": "California Skin Institute - Newport Beach - San Miguel - part of Schweiger Dermatology Group",
+    "formattedAddress": "360 San Miguel Dr #309, Newport Beach, CA 92660",
+    "location": {
+      "latitude": 33.6134169,
+      "longitude": -117.8716798
+    },
+    "phone": "(949) 640-0434",
+    "website": "https://www.erderm.com/?utm_source=gmb_auth",
+    "rating": 4.9,
+    "userRatingCount": 534,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJif-B4Vre3IAR956uCI24doI",
+    "name": "Newport Coast Dermatology",
+    "formattedAddress": "3991 MacArthur Blvd Ste 228, Newport Beach, CA 92660",
+    "location": {
+      "latitude": 33.6595978,
+      "longitude": -117.86351470000001
+    },
+    "phone": "(949) 863-0988",
+    "website": "http://www.newportcoastdermatology.com/",
+    "rating": 4.6,
+    "userRatingCount": 47,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJkSuD8a_d3IARLZ24Wo0UvEU",
+    "name": "Seaside Dermatology and Skin Cancer Center",
+    "formattedAddress": "4950 Barranca Pkwy Suite 307, Irvine, CA 92604",
+    "location": {
+      "latitude": 33.675303,
+      "longitude": -117.79491800000001
+    },
+    "phone": "(949) 552-1313",
+    "website": "http://www.dermandmohs.com/",
+    "rating": 3.2,
+    "userRatingCount": 21,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJcY0v-pXh3IARfEzLZIyIXIc",
+    "name": "Dermatology Center of Newport",
+    "formattedAddress": "360 San Miguel Dr Suite 406, Newport Beach, CA 92660",
+    "location": {
+      "latitude": 33.6134157,
+      "longitude": -117.87173269999998
+    },
+    "phone": "(949) 525-0700",
+    "website": "https://www.dermatologyofnewport.com/",
+    "rating": 4.9,
+    "userRatingCount": 41,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJH14vdGbp3IARluXxHKmm9vs",
+    "name": "Laguna Dermatology + Aesthetics",
+    "formattedAddress": "23521 Paseo De Valencia #102, Laguna Hills, CA 92653",
+    "location": {
+      "latitude": 33.6111611,
+      "longitude": -117.7118854
+    },
+    "phone": "(949) 520-1815",
+    "website": "https://www.lagunadermatology.net/",
+    "rating": 4.9,
+    "userRatingCount": 457,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJs6d5rYjg3IAR-rCYH4TvE1E",
+    "name": "West Dermatology Newport Beach",
+    "formattedAddress": "400 Newport Center Dr suite #702, Newport Beach, CA 92660",
+    "location": {
+      "latitude": 33.6141605,
+      "longitude": -117.8723965
+    },
+    "phone": "(951) 801-4634",
+    "website": "https://www.westdermatology.com/location/newport-beach?utm_source=yext&utm_medium=organic",
+    "rating": 4.8,
+    "userRatingCount": 661,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ0Xyd82nd3IAR9uGj12YUz2c",
+    "name": "Amoderm Cosmetic and Wellness Medical Center",
+    "formattedAddress": "18 Endeavor STE 200, Irvine, CA 92618",
+    "location": {
+      "latitude": 33.6670721,
+      "longitude": -117.76172480000001
+    },
+    "phone": "(949) 266-7346",
+    "website": "https://www.amoderm.com/?utm_source=gmb&utm_medium=organic&utm_campaign=leads",
+    "rating": 4.9,
+    "userRatingCount": 647,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "beauty_salon",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ7Vwvn4rd3IARTB9qG9BGQIE",
+    "name": "Spectrum Skin Clinic",
+    "formattedAddress": "114 Pacifica #280, Irvine, CA 92618",
+    "location": {
+      "latitude": 33.6609915,
+      "longitude": -117.75428810000001
+    },
+    "phone": "(949) 647-5234",
+    "website": "https://www.spectrumskinclinic.com/",
+    "rating": 5,
+    "userRatingCount": 23,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "beauty_salon",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJefWHsP1N2YARmhluHyVPLUI",
+    "name": "Dermatology Institute",
+    "formattedAddress": "256 Landis Ave Suite 300, Chula Vista, CA 91910",
+    "location": {
+      "latitude": 32.6425228,
+      "longitude": -117.0818729
+    },
+    "phone": "(619) 426-9600",
+    "website": "https://www.drrullan.com/",
+    "rating": 4.7,
+    "userRatingCount": 127,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJzSdjwFBF2YARRLkk6H4eCJo",
+    "name": "West Dermatology Chula Vista",
+    "formattedAddress": "2300 Boswell Rd Suite 130, Chula Vista, CA 91914",
+    "location": {
+      "latitude": 32.6547152,
+      "longitude": -116.96601760000001
+    },
+    "phone": "(619) 837-8902",
+    "website": "https://www.westdermatology.com/location/chula-vista?utm_source=yext&utm_medium=organic",
+    "rating": 4.5,
+    "userRatingCount": 440,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJYR2BpTSt3oAR7WbVAqJxXH0",
+    "name": "Dermatology Institute Coronado",
+    "formattedAddress": "Located on C, 1222 1st St #1, Coronado, CA 92118",
+    "location": {
+      "latitude": 32.6979064,
+      "longitude": -117.17112030000001
+    },
+    "phone": "(619) 426-9600",
+    "website": "http://www.drrullan.com/",
+    "rating": 5,
+    "userRatingCount": 6,
+    "types": [
+      "hospital",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJmZyqcv1N2YARzmKdNhaxMZ8",
+    "name": "Amy Han, MD - Dermatology & Laser Center of San Diego",
+    "formattedAddress": "344 F St Suite 200, Chula Vista, CA 91910",
+    "location": {
+      "latitude": 32.6404734,
+      "longitude": -117.0816607
+    },
+    "phone": "(619) 229-0361",
+    "website": "https://www.sharp.com/doctors/amy-han?utm_source=google&utm_medium=organic&utm_campaign=yext&y_source=1_MTY3OTY1NTQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "rating": 5,
+    "userRatingCount": 2,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJt71P3IXAj4AREDxWSUKTNVI",
+    "name": "Center for Dermatology Cosmetic and Laser Surgery",
+    "formattedAddress": "2557 Mowry Ave #25, Fremont, CA 94538",
+    "location": {
+      "latitude": 37.555841,
+      "longitude": -121.98306699999999
+    },
+    "phone": "(510) 797-4111",
+    "website": "http://www.centerforderm.com/?utm_medium=local&utm_source=google&utm_campaign=yext",
+    "rating": 4.5,
+    "userRatingCount": 467,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJX1F6jprAj4ARoh1f3hfvZXc",
+    "name": "California Skin Institute - Fremont - part of Schweiger Dermatology Group",
+    "formattedAddress": "39210 State St # 218, Fremont, CA 94538",
+    "location": {
+      "latitude": 37.549617100000006,
+      "longitude": -121.98245720000001
+    },
+    "phone": "(510) 790-0477",
+    "website": "https://www.californiaskininstitute.com/locations/fremont-ca/",
+    "rating": 4.9,
+    "userRatingCount": 585,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJYzlD54XAj4ARVL042XGFk5w",
+    "name": "East Bay Dermatology Med Group",
+    "formattedAddress": "2557 Mowry Ave, Fremont, CA 94538",
+    "location": {
+      "latitude": 37.555841199999996,
+      "longitude": -121.9830667
+    },
+    "phone": "(510) 797-1910",
+    "rating": 4.7,
+    "userRatingCount": 296,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ7cQfbQnnj4ARd5DlWWpjD7k",
+    "name": "California Dermatology Care",
+    "formattedAddress": "48 Fenton St, Livermore, CA 94550",
+    "location": {
+      "latitude": 37.678015099999996,
+      "longitude": -121.78281299999999
+    },
+    "phone": "(925) 359-6255",
+    "website": "https://www.drwilliamting.com/",
+    "rating": 4.9,
+    "userRatingCount": 474,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "beauty_salon",
+      "spa",
+      "massage",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJmT8XKM2kj4ARyX3DbHabcf0",
+    "name": "Gould-Jacobson Dermatology",
+    "formattedAddress": "695 Oak Grove Ave STE 220, Menlo Park, CA 94025",
+    "location": {
+      "latitude": 37.453028,
+      "longitude": -122.18506099999999
+    },
+    "phone": "(650) 327-5783",
+    "website": "https://www.gjdermatology.com/?utm_source=gmb_auth",
+    "rating": 4.9,
+    "userRatingCount": 188,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJb_bQ1Zulj4ARyAkyuPji8O8",
+    "name": "Pacific Coast Dermatology & Wellness Center",
+    "formattedAddress": "325 Sharon Park Dr suite d2, Menlo Park, CA 94025",
+    "location": {
+      "latitude": 37.423316299999996,
+      "longitude": -122.19752760000002
+    },
+    "phone": "(650) 482-7546",
+    "website": "https://www.paccoastderm.com/",
+    "rating": 4.3,
+    "userRatingCount": 26,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJS2GC3oXAj4ARS9D0H_STOmg",
+    "name": "Center For Dermatology Clinical Research",
+    "formattedAddress": "2557 Mowry Ave # 21, Fremont, CA 94538",
+    "location": {
+      "latitude": 37.555841199999996,
+      "longitude": -121.9830667
+    },
+    "phone": "(510) 797-0140",
+    "website": "https://centerforderm.com/clinical-research/",
+    "rating": 5,
+    "userRatingCount": 1,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJlZWGUbm7j4ARm0AHw5SnPzw",
+    "name": "Palo Alto Dermatology Institute",
+    "formattedAddress": "301 High St, Palo Alto, CA 94301",
+    "location": {
+      "latitude": 37.4456825,
+      "longitude": -122.16561879999999
+    },
+    "phone": "(650) 606-7234",
+    "website": "https://www.paloaltoderm.com/",
+    "rating": 4.8,
+    "userRatingCount": 224,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJLzZ1nD2ij4ARkaLJVwLuXm8",
+    "name": "Premier Aesthetic Dermatology",
+    "formattedAddress": "378 El Camino Real, San Carlos, CA 94070",
+    "location": {
+      "latitude": 37.5094655,
+      "longitude": -122.26319
+    },
+    "phone": "(650) 262-1504",
+    "website": "https://premier-dermatology.com/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=gmb",
+    "rating": 4.9,
+    "userRatingCount": 112,
+    "types": [
+      "massage",
+      "wellness_center",
+      "hair_care",
+      "beauty_salon",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ2WwEKAa_j4ARJgMpXJEOzFI",
+    "name": "Skin Vibe",
+    "formattedAddress": "37120 Fremont Blvd suite 27, Fremont, CA 94536",
+    "location": {
+      "latitude": 37.5598497,
+      "longitude": -122.0096351
+    },
+    "phone": "(510) 925-6899",
+    "website": "https://skinvibe-medspa.com/",
+    "rating": 5,
+    "userRatingCount": 65,
+    "types": [
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJDV3oF3pTw4ARO81d2oUIe_I",
+    "name": "Pacific Dermatology Institute",
+    "formattedAddress": "1666 N Waterman Ave, San Bernardino, CA 92404",
+    "location": {
+      "latitude": 34.129450299999995,
+      "longitude": -117.2791979
+    },
+    "phone": "(909) 886-4965",
+    "website": "http://www.pacdermatology.com/",
+    "rating": 4.4,
+    "userRatingCount": 612,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJA0Rmqg1W24ARva3z_l-wG1k",
+    "name": "West Dermatology Redlands",
+    "formattedAddress": "1457 Ford St STE 105, Redlands, CA 92373",
+    "location": {
+      "latitude": 34.039724899999996,
+      "longitude": -117.1559327
+    },
+    "phone": "(909) 748-5900",
+    "website": "https://www.westdermatology.com/location/redlands?utm_source=yext&utm_medium=organic",
+    "rating": 4.8,
+    "userRatingCount": 1112,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJV4DAi1RTw4ARmqTObc9xXhs",
+    "name": "California Dermatology Institute",
+    "formattedAddress": "980 N D St, San Bernardino, CA 92410",
+    "location": {
+      "latitude": 34.1172301,
+      "longitude": -117.29236440000001
+    },
+    "phone": "(805) 222-5803",
+    "website": "https://www.calderminstitute.com/",
+    "rating": 4.8,
+    "userRatingCount": 23,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJI1piZgBX24ARkPktPwVl1dc",
+    "name": "Pacific Dermatology Institute",
+    "formattedAddress": "1481 Ford St STE 102, Redlands, CA 92373",
+    "location": {
+      "latitude": 34.037949999999995,
+      "longitude": -117.15303939999998
+    },
+    "phone": "(909) 748-5503",
+    "website": "http://www.pacdermatology.com/",
+    "rating": 4.5,
+    "userRatingCount": 411,
+    "types": [
+      "doctor",
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ2YEVwMmr3IARn2xoCswtgmg",
+    "name": "Skin and Cancer Institute - Redlands",
+    "formattedAddress": "1210 Nevada St #100, Redlands, CA 92374",
+    "location": {
+      "latitude": 34.069557599999996,
+      "longitude": -117.21712760000001
+    },
+    "phone": "(909) 809-5250",
+    "website": "https://skinandcancerinstitute.com/location/redlands-dermatology-skin-cancer/",
+    "rating": 4.9,
+    "userRatingCount": 281,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJCc-tzLM2w4AR6aHkOKdp8hI",
+    "name": "Pacific Dermatology Institute",
+    "formattedAddress": "585 N Mountain Ave Suite A, Upland, CA 91786",
+    "location": {
+      "latitude": 34.1013236,
+      "longitude": -117.67163509999999
+    },
+    "phone": "(909) 608-7546",
+    "website": "http://www.pacdermatology.com/",
+    "rating": 4.4,
+    "userRatingCount": 592,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJP9vhbxVNw4ARq9-s8ZryEAM",
+    "name": "Pacific Dermatology Institute",
+    "formattedAddress": "16465 Sierra Lakes Pkwy #275, Fontana, CA 92336",
+    "location": {
+      "latitude": 34.1374877,
+      "longitude": -117.44545149999999
+    },
+    "phone": "(909) 279-1010",
+    "website": "https://www.pacdermatology.com/",
+    "rating": 4.6,
+    "userRatingCount": 23,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJW13uhSaq3IARAyupKtCe2f0",
+    "name": "Advanced Dermatology & Laser Center",
+    "formattedAddress": "255 Terracina Blvd STE 206, Redlands, CA 92373",
+    "location": {
+      "latitude": 34.0384297,
+      "longitude": -117.20553509999999
+    },
+    "phone": "(909) 792-8600",
+    "website": "http://www.advanceddermatologylasercenter.com/",
+    "rating": 3.6,
+    "userRatingCount": 28,
+    "types": [
+      "hospital",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ15ydAw6C3IARYyxr_80Co1s",
+    "name": "Skin and Cancer Institute - Murrieta",
+    "formattedAddress": "40663 Murrieta Hot Springs Rd STE C3, Murrieta, CA 92562",
+    "location": {
+      "latitude": 33.5569138,
+      "longitude": -117.18500139999999
+    },
+    "phone": "(951) 677-5341",
+    "website": "https://skinandcancerinstitute.com/location/murrieta/",
+    "rating": 4.8,
+    "userRatingCount": 2023,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJJdjSTGSr3IAR1R_xe_naWBo",
+    "name": "Loma Linda University Health Department of Dermatology",
+    "formattedAddress": "25865 Barton Rd #101, Loma Linda, CA 92354",
+    "location": {
+      "latitude": 34.0473721,
+      "longitude": -117.24031269999998
+    },
+    "phone": "(909) 558-2890",
+    "website": "https://lluh.org/services/dermatology",
+    "rating": 2.8,
+    "userRatingCount": 14,
+    "types": [
+      "skin_care_clinic",
+      "beauty_salon",
+      "hair_care",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ8dJiv0Fkw4ARpq9egbbp_Oo",
+    "name": "Aesthetic Skin & Laser Medical Center",
+    "formattedAddress": "415 Orange St, Redlands, CA 92374",
+    "location": {
+      "latitude": 34.0593968,
+      "longitude": -117.18295069999998
+    },
+    "phone": "(909) 792-0001",
+    "website": "http://www.aestheticskinandlaser.com/",
+    "rating": 4.2,
+    "userRatingCount": 51,
+    "types": [
+      "skin_care_clinic",
+      "beauty_salon",
+      "spa",
+      "massage",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJY-i4tipbwoARzTaSGwqASUw",
+    "name": "California Dermatology Institute",
+    "formattedAddress": "520 W Palmdale Blvd Unit A, Palmdale, CA 93551",
+    "location": {
+      "latitude": 34.5835698,
+      "longitude": -118.1402918
+    },
+    "phone": "(805) 222-5803",
+    "website": "https://www.calderminstitute.com/dermatologist-palmdale/",
+    "rating": 4.8,
+    "userRatingCount": 242,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ84kC8zZRkIARc4zcj_9_hgI",
+    "name": "Skin and Cancer Institute - Modesto",
+    "formattedAddress": "3105 McHenry Ave Suite #101, Modesto, CA 95350",
+    "location": {
+      "latitude": 37.6835333,
+      "longitude": -120.9946713
+    },
+    "phone": "(209) 575-2700",
+    "website": "https://skinandcancerinstitute.com/location/modesto/",
+    "rating": 4.7,
+    "userRatingCount": 1617,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ3b5xDA5TkIARx4xfzQfyCaQ",
+    "name": "Golden State Dermatology",
+    "formattedAddress": "1324 Nelson Ave STE B, Modesto, CA 95350",
+    "location": {
+      "latitude": 37.6625486,
+      "longitude": -120.98789089999998
+    },
+    "phone": "(209) 524-9481",
+    "website": "https://www.goldenstatedermatology.com/modesto/?y_source=1_MTAwNDU1MTA2OC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "rating": 4.8,
+    "userRatingCount": 418,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJebipQyJRkIARXCJqHTyJpv4",
+    "name": "California Skin Institute",
+    "formattedAddress": "1524 McHenry Ave Suite 470, Modesto, CA 95350",
+    "location": {
+      "latitude": 37.6664619,
+      "longitude": -120.9923934
+    },
+    "phone": "(209) 578-5072",
+    "website": "https://www.californiaskininstitute.com/locations/modesto-ca/",
+    "rating": 4.7,
+    "userRatingCount": 1153,
+    "types": [
+      "skin_care_clinic",
+      "hair_care",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJtzaQoi1TkIAR4O9XfsNj7Qs",
+    "name": "Central Valley Skin Specialists",
+    "formattedAddress": "1325 Melrose Ave # C, Modesto, CA 95350",
+    "location": {
+      "latitude": 37.662563299999995,
+      "longitude": -120.98767690000001
+    },
+    "phone": "(209) 755-7546",
+    "website": "https://www.centralvalleyskin.com/",
+    "rating": 5,
+    "userRatingCount": 55,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJg1Ps9Uf4kIARnDF7o2VqvuA",
+    "name": "Golden State Dermatology",
+    "formattedAddress": "1425 W H St #380, Oakdale, CA 95361",
+    "location": {
+      "latitude": 37.757434599999996,
+      "longitude": -120.8625675
+    },
+    "phone": "(209) 524-9481",
+    "website": "https://www.goldenstatedermatology.com/oakdale/?y_source=1_MTAwNDU1MTA1Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "rating": 4.9,
+    "userRatingCount": 195,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJI1LUMYYHkYAR8dxOinuZ7LY",
+    "name": "Golden State Dermatology",
+    "formattedAddress": "1000 Delbon Ave Suite 8, Turlock, CA 95382",
+    "location": {
+      "latitude": 37.5103618,
+      "longitude": -120.83675500000001
+    },
+    "phone": "(209) 226-4644",
+    "website": "https://www.goldenstatedermatology.com/turlock/?y_source=1_MTAwNDU1MTA2NS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "rating": 4.9,
+    "userRatingCount": 326,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJTXoMGLcHkYARuFEWpr_Jez4",
+    "name": "Skin and Cancer Institute - Turlock",
+    "formattedAddress": "800 Delbon Ave, Turlock, CA 95382",
+    "location": {
+      "latitude": 37.5102142,
+      "longitude": -120.8395012
+    },
+    "phone": "(209) 454-0494",
+    "website": "https://skinandcancerinstitute.com/location/turlock-ii/",
+    "rating": 4.9,
+    "userRatingCount": 1358,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJq356s8j5kIARDCB80twcTLg",
+    "name": "Central Valley Skin Specialists",
+    "formattedAddress": "1390 W H St suite a, Oakdale, CA 95361",
+    "location": {
+      "latitude": 37.758473699999996,
+      "longitude": -120.86198340000001
+    },
+    "phone": "(209) 755-7546",
+    "website": "https://centralvalleyskin.com/",
+    "rating": 5,
+    "userRatingCount": 37,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJc-ENR_JTkIARzYZPJjuTAGE",
+    "name": "Skinology",
+    "formattedAddress": "1517 K St, Modesto, CA 95354",
+    "location": {
+      "latitude": 37.645385999999995,
+      "longitude": -120.9965406
+    },
+    "phone": "(209) 872-6466",
+    "website": "http://www.skin-ology.com/",
+    "rating": 5,
+    "userRatingCount": 26,
+    "types": [
+      "spa",
+      "massage",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJIzPOKRtUkIARtYHoUMNozCU",
+    "name": "SkinRenew Laser & Cosmetic Surgery - Grace Kwon M.D.",
+    "formattedAddress": "1213 Coffee Rd Suite Q, Modesto, CA 95355",
+    "location": {
+      "latitude": 37.6603186,
+      "longitude": -120.97654750000001
+    },
+    "phone": "(209) 526-2200",
+    "website": "http://www.skinrenewmedical.com/",
+    "rating": 4.4,
+    "userRatingCount": 62,
+    "types": [
+      "skin_care_clinic",
+      "beauty_salon",
+      "spa",
+      "hair_care",
+      "massage",
+      "health",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJnY3XVhRRkIARAA5jsriMpj0",
+    "name": "Skin Glow Care LLC",
+    "formattedAddress": "945 Coffee Rd Suite 5, Modesto, CA 95355",
+    "location": {
+      "latitude": 37.656774399999996,
+      "longitude": -120.9759607
+    },
+    "phone": "(209) 214-7718",
+    "website": "https://skinglowcaremedspa.com/",
+    "rating": 5,
+    "userRatingCount": 13,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJF2GnUbw1w4AR4zy7vYOiETM",
+    "name": "Foothill Dermatology Medical Center",
+    "formattedAddress": "10470 Foothill Blvd Suite 127, Rancho Cucamonga, CA 91730",
+    "location": {
+      "latitude": 34.1071216,
+      "longitude": -117.57641129999999
+    },
+    "phone": "(626) 852-3376",
+    "website": "https://www.foothillderm.com/?utm_source=gmb_auth",
+    "rating": 4.9,
+    "userRatingCount": 202,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJPVT9QPM1w4ARZ59mo8GU2V0",
+    "name": "The DermBar",
+    "formattedAddress": "3333 Concours St bldg 1 suite 1201, Ontario, CA 91764",
+    "location": {
+      "latitude": 34.074830399999996,
+      "longitude": -117.57870399999997
+    },
+    "phone": "(909) 476-4077",
+    "website": "https://thedermatologybar.com/",
+    "rating": 5,
+    "userRatingCount": 99,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJa2LxM_1Lw4ARLs_UluaB8vI",
+    "name": "Dermatology Specialty Billing",
+    "formattedAddress": "6626 Heathrow Ave, Fontana, CA 92336",
+    "location": {
+      "latitude": 34.133669999999995,
+      "longitude": -117.46710209999999
+    },
+    "phone": "(909) 574-4686",
+    "types": [
+      "accounting",
+      "doctor",
+      "consultant",
+      "finance",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJabjzvrM2w4ARxQvG0tlkda4",
+    "name": "Skin Physicians & Surgeons",
+    "formattedAddress": "859 E Foothill Blvd Ste B, Upland, CA 91786",
+    "location": {
+      "latitude": 34.1076206,
+      "longitude": -117.63952060000001
+    },
+    "phone": "(909) 981-8929",
+    "website": "https://www.skinps.com/?y_source=1_ODMyOTY1ODktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "rating": 4.7,
+    "userRatingCount": 862,
+    "types": [
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJI1Bqc9s2w4AR9KK_WcIzVYc",
+    "name": "Advanced Skin Clinic & Surgery",
+    "formattedAddress": "1310 San Bernardino Rd #207, Upland, CA 91786",
+    "location": {
+      "latitude": 34.1022143,
+      "longitude": -117.6336141
+    },
+    "phone": "(909) 946-8600",
+    "website": "http://www.uplanddermatology.com/",
+    "rating": 4.3,
+    "userRatingCount": 23,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJCdI2tfHu3IARaVQoF9-3_t4",
+    "name": "Alta Dermatology",
+    "formattedAddress": "27882 Forbes Rd UNIT 201, Laguna Niguel, CA 92677",
+    "location": {
+      "latitude": 33.556970299999996,
+      "longitude": -117.6754172
+    },
+    "phone": "(949) 364-9264",
+    "website": "http://lagunanigueldermatology.com/",
+    "rating": 4.7,
+    "userRatingCount": 137,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ_3MFUus2w4ARjrCKcP4knS4",
+    "name": "Alta Dermatology Medical Group",
+    "formattedAddress": "7365 Carnelian St # 137, Rancho Cucamonga, CA 91730",
+    "location": {
+      "latitude": 34.120405,
+      "longitude": -117.61470800000001
+    },
+    "phone": "(909) 948-8888",
+    "website": "http://www.altadermatology.com/",
+    "rating": 2.9,
+    "userRatingCount": 36,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJN_qHL_9N6IARIgpem9N9XE0",
+    "name": "California Skin Institute",
+    "formattedAddress": "1700 N Rose Ave Suite 450, Oxnard, CA 93030",
+    "location": {
+      "latitude": 34.2163402,
+      "longitude": -119.1556911
+    },
+    "phone": "(805) 201-7150",
+    "website": "https://www.californiaskininstitute.com/locations/oxnard-ca/",
+    "rating": 4.8,
+    "userRatingCount": 1365,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJA5f8sf1M6IAR4JGPWeOq2Ao",
+    "name": "Dermatology Medical Group",
+    "formattedAddress": "2811 N Ventura Rd, Oxnard, CA 93036",
+    "location": {
+      "latitude": 34.244124299999996,
+      "longitude": -119.1831124
+    },
+    "phone": "(805) 983-0343",
+    "website": "http://dmgskincare.com/",
+    "rating": 3.5,
+    "userRatingCount": 26,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJtTa1rb9N6IARXP1tHF2X_zg",
+    "name": "Ventura Institute for Dermatologic Arts",
+    "formattedAddress": "1190 S Victoria Ave UNIT 300, Ventura, CA 93003",
+    "location": {
+      "latitude": 34.264361199999996,
+      "longitude": -119.2115363
+    },
+    "phone": "(805) 221-8786",
+    "website": "https://www.venturadermarts.com/?utm_source=gmb_auth",
+    "rating": 5,
+    "userRatingCount": 336,
+    "types": [
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJnRm9bz-t6YARPuorFFstw-k",
+    "name": "California Dermatology Institute",
+    "formattedAddress": "1500 Palma Dr suite 187, Ventura, CA 93003",
+    "location": {
+      "latitude": 34.2597517,
+      "longitude": -119.2272079
+    },
+    "phone": "(805) 222-5803",
+    "website": "https://www.calderminstitute.com/dermatologist-ventura/",
+    "rating": 4.5,
+    "userRatingCount": 203,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJu95u61tN6IARGJ6UpYNFGgk",
+    "name": "California Dermatology Institute",
+    "formattedAddress": "1300 N Ventura Rd # 2, Oxnard, CA 93030",
+    "location": {
+      "latitude": 34.2147619,
+      "longitude": -119.19385889999998
+    },
+    "phone": "(805) 222-5803",
+    "website": "https://www.calderminstitute.com/dermatologist-oxnard/",
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJV8_k8rUV6YARzOGLV-7cloI",
+    "name": "California Dermatology Group, PC",
+    "formattedAddress": "2323 Oak Park Ln Suite #202, Santa Barbara, CA 93105",
+    "location": {
+      "latitude": 34.4287008,
+      "longitude": -119.72512540000001
+    },
+    "phone": "(805) 892-8111",
+    "website": "https://www.cadermgroup.com/",
+    "rating": 4.9,
+    "userRatingCount": 77,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ0e7gMd416IAR0Hn0fUQZVPE",
+    "name": "Coastal Dermatology",
+    "formattedAddress": "3615 Las Posas Rd Suite F-100, Camarillo, CA 93010",
+    "location": {
+      "latitude": 34.241074999999995,
+      "longitude": -119.02197299999999
+    },
+    "phone": "(805) 484-2813",
+    "website": "https://www.coastal-dermatology.com/",
+    "rating": 4.8,
+    "userRatingCount": 309,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ4aAe5t416IARI23q1m45_Ww",
+    "name": "California Skin Institute - Camarillo - part of Schweiger Dermatology Group",
+    "formattedAddress": "2438 N Ponderosa Dr Ste C105, Camarillo, CA 93010",
+    "location": {
+      "latitude": 34.242272,
+      "longitude": -119.02154700000001
+    },
+    "phone": "(805) 388-2068",
+    "website": "https://www.californiaskininstitute.com/locations/camarillo-ca/",
+    "rating": 4.8,
+    "userRatingCount": 839,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJwUa58oNO6IARiSAYjTy6mmY",
+    "name": "Soft Touch Skin Center, Inc.",
+    "formattedAddress": "826 S A St, Oxnard, CA 93030",
+    "location": {
+      "latitude": 34.193140299999996,
+      "longitude": -119.17836050000001
+    },
+    "phone": "(805) 483-5000",
+    "website": "http://www.softtouchskincenter.com/",
+    "rating": 4.7,
+    "userRatingCount": 15,
+    "types": [
+      "hair_care",
+      "beauty_salon",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ2SPRhpSn3IAR0KOIlAsnJhw",
+    "name": "Skin Journey",
+    "formattedAddress": "12981 Perris Blvd ste 112, Moreno Valley, CA 92553",
+    "location": {
+      "latitude": 33.9321055,
+      "longitude": -117.2267153
+    },
+    "website": "https://www.vagaro.com/skinjourney",
+    "rating": 4.9,
+    "userRatingCount": 20,
+    "types": [
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ_4F6XAum3IART9-DbQKGqxQ",
+    "name": "Skinology Cosmetic Center",
+    "formattedAddress": "22940 Alessandro Blvd, Moreno Valley, CA 92553",
+    "location": {
+      "latitude": 33.9175707,
+      "longitude": -117.2622488
+    },
+    "phone": "(951) 497-5090",
+    "rating": 3.3,
+    "userRatingCount": 29,
+    "types": [
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ46ZVw6d_24ARHyn357pZGoA",
+    "name": "Skin and Cancer Institute - Temecula",
+    "formattedAddress": "30589 Temecula Pkwy, Temecula, CA 92592",
+    "location": {
+      "latitude": 33.4755305,
+      "longitude": -117.12699049999999
+    },
+    "phone": "(951) 412-1540",
+    "website": "https://skinandcancerinstitute.com/location/temecula/",
+    "rating": 4.9,
+    "userRatingCount": 415,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJTzHqhkhv24ARNiA96CX8w2A",
+    "name": "TRI-VALLEY DERMATOLOGY",
+    "formattedAddress": "901 S State St Suite 100, Hemet, CA 92543",
+    "location": {
+      "latitude": 33.7327654,
+      "longitude": -116.97216599999999
+    },
+    "phone": "(951) 658-9461",
+    "website": "http://www.tri-valleydermatology.com/",
+    "rating": 3.7,
+    "userRatingCount": 41,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJHZ3NDuin3IAR3lvZnEziXvY",
+    "name": "Frutels Skin Care",
+    "formattedAddress": "27932 John F Kennedy Dr UNIT C, Moreno Valley, CA 92555",
+    "location": {
+      "latitude": 33.903772599999996,
+      "longitude": -117.17529640000001
+    },
+    "types": [
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJS9DsOzMh3YARVlCyd876NcY",
+    "name": "California Dermatology Physicians",
+    "formattedAddress": "19582 Beach Blvd #217, Huntington Beach, CA 92648",
+    "location": {
+      "latitude": 33.678205999999996,
+      "longitude": -117.98729449999999
+    },
+    "phone": "(949) 650-1244",
+    "website": "https://www.cdpskin.com/",
+    "rating": 4.7,
+    "userRatingCount": 72,
+    "types": [
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ_UJaYcYm3YAR_YusOfX_x1Q",
+    "name": "Coastal Dermatology and Plastic Surgery",
+    "formattedAddress": "17822 Beach Blvd #427, Huntington Beach, CA 92647",
+    "location": {
+      "latitude": 33.7032679,
+      "longitude": -117.98825599999999
+    },
+    "phone": "(714) 842-7796",
+    "website": "http://www.coastaldermatologyandplasticsurgery.com/",
+    "rating": 4.5,
+    "userRatingCount": 50,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJJ3M3jtMh3YARdxHyjWihmH4",
+    "name": "Surf City Dermatology",
+    "formattedAddress": "10061 Adams Ave Ste 103, Huntington Beach, CA 92646",
+    "location": {
+      "latitude": 33.6738785,
+      "longitude": -117.95251849999998
+    },
+    "phone": "(657) 215-8755",
+    "website": "https://www.surfcitydermatology.com/",
+    "rating": 5,
+    "userRatingCount": 26,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJGZQxW7ol3YARh6aUO6dzn68",
+    "name": "Huntington Beach Dermatology Medical Center",
+    "formattedAddress": "16897 Algonquin St Suite 106, Huntington Beach, CA 92649",
+    "location": {
+      "latitude": 33.7165228,
+      "longitude": -118.0512579
+    },
+    "phone": "(714) 840-2447",
+    "website": "https://www.beachcitiesderm.com/map-directions",
+    "rating": 5,
+    "userRatingCount": 3,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJh1lZFgkl3YARaWtPT2l-p7k",
+    "name": "Dr. Garrison Skin and Wellness",
+    "formattedAddress": "4911 Warner Ave Suite 205, Huntington Beach, CA 92649",
+    "location": {
+      "latitude": 33.715915599999995,
+      "longitude": -118.0430116
+    },
+    "phone": "(714) 316-0611",
+    "website": "http://skincarehb.com/",
+    "rating": 5,
+    "userRatingCount": 16,
+    "types": [
+      "doctor",
+      "skin_care_clinic",
+      "hair_care",
+      "beauty_salon",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJbaQphQwg3YARohkGYxYBtjQ",
+    "name": "Blue Harbor Dermatology & Laser Institute:: Newport Beach Office",
+    "formattedAddress": "1501 Superior Ave, Newport Beach, CA 92663",
+    "location": {
+      "latitude": 33.629199,
+      "longitude": -117.93131720000001
+    },
+    "phone": "(949) 640-7546",
+    "website": "http://www.blueharbordermatology.com/",
+    "rating": 4.5,
+    "userRatingCount": 115,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJFXrwZ3Il3YARX4N6PRt2zD4",
+    "name": "DermFx Sunset Beach",
+    "formattedAddress": "16501 CA-1, Sunset Beach, CA 90742",
+    "location": {
+      "latitude": 33.722504199999996,
+      "longitude": -118.0757226
+    },
+    "phone": "(562) 554-4340",
+    "website": "http://www.dermfx.com/?utm_source=google&utm_medium=gmb",
+    "rating": 4.9,
+    "userRatingCount": 615,
+    "types": [
+      "skin_care_clinic",
+      "beauty_salon",
+      "spa",
+      "hair_care",
+      "body_art_service",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJTzym8dMl3YARFNV594L_GVo",
+    "name": "SHAPE & SKIN Medical Spa & Weight Loss",
+    "formattedAddress": "5911 Warner Ave, Huntington Beach, CA 92649",
+    "location": {
+      "latitude": 33.7162419,
+      "longitude": -118.025203
+    },
+    "phone": "(714) 377-7546",
+    "website": "https://www.shapeandskinmedical.com/",
+    "rating": 4.9,
+    "userRatingCount": 100,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJMYAUf2on3YARI-22fYRzI9U",
+    "name": "Amazing Skin Aesthetics",
+    "formattedAddress": "16111 Beach Blvd Suite F, Huntington Beach, CA 92647",
+    "location": {
+      "latitude": 33.72846330000001,
+      "longitude": -117.98973109999999
+    },
+    "phone": "(714) 848-2232",
+    "website": "https://www.amazingskinaesthetics.com/",
+    "rating": 4.9,
+    "userRatingCount": 61,
+    "types": [
+      "skin_care_clinic",
+      "hair_salon",
+      "beauty_salon",
+      "spa",
+      "hair_care",
+      "gift_shop",
+      "massage",
+      "health",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJXZBaE0_AwoARKCvGuWAzQFg",
+    "name": "Skin and Beauty Center - Glendale-South",
+    "formattedAddress": "1577 E Chevy Chase Dr #320, Glendale, CA 91206",
+    "location": {
+      "latitude": 34.153392,
+      "longitude": -118.23013200000001
+    },
+    "phone": "(818) 246-4936",
+    "website": "https://www.glenderm.com/",
+    "rating": 4.8,
+    "userRatingCount": 831,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJxbpY7gXqwoARac9VFBrfB7M",
+    "name": "Skin and Beauty Center - Glendale-Verdugo Hills",
+    "formattedAddress": "1818 Verdugo Blvd UNIT 304, Glendale, CA 91208",
+    "location": {
+      "latitude": 34.2035286,
+      "longitude": -118.216652
+    },
+    "phone": "(818) 790-3588",
+    "website": "https://www.dermla.com/locations/glendale-verdugo-hills/",
+    "rating": 4.9,
+    "userRatingCount": 374,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJS-5fow3qwoARpGQu4GUl3ok",
+    "name": "Verdugo Dermatology",
+    "formattedAddress": "3600 N Verdugo Rd #210, Glendale, CA 91208",
+    "location": {
+      "latitude": 34.203823,
+      "longitude": -118.2256774
+    },
+    "phone": "(818) 658-2300",
+    "website": "http://www.verdugodermatology.com/",
+    "rating": 4.8,
+    "userRatingCount": 115,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJkxvOGwvBwoARgtk5_0AWbns",
+    "name": "BHSkin Dermatology",
+    "formattedAddress": "1505 Wilson Terrace #240, Glendale, CA 91206",
+    "location": {
+      "latitude": 34.15007140000001,
+      "longitude": -118.23087029999999
+    },
+    "phone": "(310) 205-3555",
+    "website": "https://bhskin.com/?utm_source=yext&utm_medium=directory",
+    "rating": 4.6,
+    "userRatingCount": 166,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJwXi2FPHBwoARUfYmuIsh3Qc",
+    "name": "California Dermatology Institute",
+    "formattedAddress": "1560 E Chevy Chase Dr # 330, Glendale, CA 91206",
+    "location": {
+      "latitude": 34.1527636,
+      "longitude": -118.23025589999999
+    },
+    "phone": "(805) 222-5803",
+    "website": "https://www.calderminstitute.com/dermatologist-glendale/",
+    "rating": 5,
+    "userRatingCount": 12,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJx0y8eVzDwoARqgN9oVL6PmA",
+    "name": "Pasadena Premier Dermatology",
+    "formattedAddress": "960 E Green St UNIT 330, Pasadena, CA 91106",
+    "location": {
+      "latitude": 34.144398599999995,
+      "longitude": -118.12993089999999
+    },
+    "phone": "(626) 449-4207",
+    "website": "http://www.pasadenapremierdermatology.com/",
+    "rating": 5,
+    "userRatingCount": 155,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJTeuyHYppK4cRP1R1TL3okOc",
+    "name": "Pinnacle Dermatology - Glendale",
+    "formattedAddress": "5651 W Talavi Blvd #150, Glendale, AZ 85306",
+    "location": {
+      "latitude": 33.6360707,
+      "longitude": -112.1798079
+    },
+    "phone": "(623) 887-9320",
+    "website": "https://pinnacleskin.com/our-locations/glendale/?y_source=1_MjQ5NzA3NjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "rating": 4.8,
+    "userRatingCount": 240,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJRZ1U-2doK4cRDEEynYhlFjc",
+    "name": "Center for Dermatology & Plastic Surgery",
+    "formattedAddress": "6316 W Union Hills Dr Suite #200, Glendale, AZ 85308",
+    "location": {
+      "latitude": 33.6544258,
+      "longitude": -112.1974283
+    },
+    "phone": "(480) 905-8485",
+    "website": "https://azcdps.com/?utm_source=gbp&utm_medium=organic&utm_campaign=website_link",
+    "rating": 4.8,
+    "userRatingCount": 2130,
+    "types": [
+      "skin_care_clinic",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJlUCKU3zDwoARA9eZtVYhhFw",
+    "name": "Neda Black,MD,FAAD - California Dermatology and Mohs Surgery Specialists",
+    "formattedAddress": "50 Bellefontaine St Suite 202, Pasadena, CA 91105",
+    "location": {
+      "latitude": 34.1313817,
+      "longitude": -118.1517523
+    },
+    "phone": "(626) 654-3376",
+    "website": "https://www.californiadermatology.com/provider/neda-black-md-faad",
+    "rating": 5,
+    "userRatingCount": 122,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ_Yv2W5fBwoAROVr6oRAZqX0",
+    "name": "Guidance to Glow Skin Care",
+    "formattedAddress": "540 W Colorado St UNIT 17, Glendale, CA 91204",
+    "location": {
+      "latitude": 34.142306,
+      "longitude": -118.26638000000001
+    },
+    "phone": "(818) 863-6299",
+    "website": "http://guidancetoglow.com/",
+    "rating": 5,
+    "userRatingCount": 180,
+    "types": [
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ7_c0sPjAwoARUjme0pujlG8",
+    "name": "Skin Laundry - Glendale",
+    "formattedAddress": "1309 Galleria Way, Glendale, CA 91210",
+    "location": {
+      "latitude": 34.1453395,
+      "longitude": -118.25910309999999
+    },
+    "phone": "(818) 649-6513",
+    "website": "https://www.skinlaundry.com/locations/glendale-galleria",
+    "rating": 3.7,
+    "userRatingCount": 81,
+    "types": [
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJV9_8a2PBwoAR5acee6-3gZg",
+    "name": "The Skin Agency",
+    "formattedAddress": "1005 S Central Ave, Glendale, CA 91204",
+    "location": {
+      "latitude": 34.1346765,
+      "longitude": -118.25807189999999
+    },
+    "phone": "(818) 696-2643",
+    "website": "https://theskinagency.com/",
+    "rating": 4.8,
+    "userRatingCount": 103,
+    "types": [
+      "beauty_salon",
+      "spa",
+      "hair_care",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ88LB3h_BwoARraHB2wLIN7U",
+    "name": "LA Beauty Skin Center",
+    "formattedAddress": "1330 S Glendale Ave, Glendale, CA 91205",
+    "location": {
+      "latitude": 34.1290379,
+      "longitude": -118.25234250000001
+    },
+    "phone": "(818) 888-0001",
+    "website": "https://labeautyskincenter.com/",
+    "rating": 4.4,
+    "userRatingCount": 235,
+    "types": [
+      "beauty_salon",
+      "spa",
+      "hair_care",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJFyUh8uF9woAREa5UMAQEcgE",
+    "name": "Advanced Dermatology & Cosmetic Care",
+    "formattedAddress": "28212 Kelly Johnson Pkwy Ste 245, Valencia, CA 91355",
+    "location": {
+      "latitude": 34.448583,
+      "longitude": -118.57900699999999
+    },
+    "phone": "(661) 254-3686",
+    "website": "http://www.creatingbeauty.com/",
+    "rating": 4.8,
+    "userRatingCount": 434,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJrdsOXPd9woARqDU5B1PAqRc",
+    "name": "Skin & Beauty Center",
+    "formattedAddress": "23501 Cinema Dr UNIT 111, Valencia, CA 91355",
+    "location": {
+      "latitude": 34.420669499999995,
+      "longitude": -118.54612730000001
+    },
+    "phone": "(661) 258-3811",
+    "website": "https://www.dermla.com/locations/santa-clarita/",
+    "rating": 4.8,
+    "userRatingCount": 997,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJgxGRFUeHwoARz0SNIet73ck",
+    "name": "Skin and Cancer Institute",
+    "formattedAddress": "25802 Hemingway Ave Suite #105, Stevenson Ranch, CA 91381",
+    "location": {
+      "latitude": 34.387072499999995,
+      "longitude": -118.5807129
+    },
+    "phone": "(661) 284-2600",
+    "website": "https://skinandcancerinstitute.com/location/valencia/",
+    "rating": 4.8,
+    "userRatingCount": 1364,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJK2DsSIyHwoARX-omSWKaOyU",
+    "name": "Golden Oak Dermatology",
+    "formattedAddress": "23823 Valencia Blvd #150, Santa Clarita, CA 91355",
+    "location": {
+      "latitude": 34.4138753,
+      "longitude": -118.55247680000001
+    },
+    "phone": "(661) 380-7751",
+    "website": "https://www.goldenoakdermatology.com/",
+    "rating": 5,
+    "userRatingCount": 20,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJE7685muHwoARio652YD_qB0",
+    "name": "California Dermatology Institute",
+    "formattedAddress": "21050 Centre Pointe Pkwy, Santa Clarita, CA 91350",
+    "location": {
+      "latitude": 34.412013699999996,
+      "longitude": -118.5035179
+    },
+    "phone": "(888) 367-1850",
+    "website": "https://www.calderminstitute.com/dermatologist-santa-clarita/",
+    "rating": 4.6,
+    "userRatingCount": 59,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJae4YYvGIwoAR1MKhIQIEI3E",
+    "name": "Family Dermatology",
+    "formattedAddress": "18591 Soledad Canyon Rd, Santa Clarita, CA 91351",
+    "location": {
+      "latitude": 34.416524599999995,
+      "longitude": -118.45818030000001
+    },
+    "phone": "(661) 252-7778",
+    "rating": 5,
+    "userRatingCount": 4,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJEWR3rI6IwoAROtFXF2Ojjgo",
+    "name": "My Skin Dermatology",
+    "formattedAddress": "27141 Hidaway Ave #104, Santa Clarita, CA 91351",
+    "location": {
+      "latitude": 34.414777,
+      "longitude": -118.469258
+    },
+    "phone": "(661) 299-6900",
+    "website": "http://www.myskindermatology.com/",
+    "rating": 4.3,
+    "userRatingCount": 12,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJGeiKd4uGwoARt_U3JXOFPzI",
+    "name": "Faces Dermatology",
+    "formattedAddress": "23206 Lyons Ave #104, Newhall, CA 91321",
+    "location": {
+      "latitude": 34.3791401,
+      "longitude": -118.53823319999998
+    },
+    "phone": "(661) 254-7400",
+    "website": "http://www.faceslaser.com/",
+    "rating": 4.4,
+    "userRatingCount": 7,
+    "types": [
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJh-tyXvd9woARoTF2TgiUnl4",
+    "name": "DermaCure",
+    "formattedAddress": "27871 Smyth Dr, Santa Clarita, CA 91355",
+    "location": {
+      "latitude": 34.4399175,
+      "longitude": -118.56778430000001
+    },
+    "phone": "(661) 257-8400",
+    "website": "https://www.dermacurevalencia.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+    "rating": 4.8,
+    "userRatingCount": 169,
+    "types": [
+      "wellness_center",
+      "skin_care_clinic",
+      "beauty_salon",
+      "spa",
+      "massage",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ15Q41aZ9woARtODUwjOTCbg",
+    "name": "The Skin Agency",
+    "formattedAddress": "27916 Seco Canyon Rd UNIT 202, Santa Clarita, CA 91350",
+    "location": {
+      "latitude": 34.4589364,
+      "longitude": -118.53387259999998
+    },
+    "phone": "(661) 788-6898",
+    "website": "https://www.theskinagency.com/",
+    "rating": 4.9,
+    "userRatingCount": 139,
+    "types": [
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJTxEc6y-bwoARvX1W89cksa0",
+    "name": "California Dermatology Institute",
+    "formattedAddress": "18433 Roscoe Blvd # 104, Northridge, CA 91325",
+    "location": {
+      "latitude": 34.2211292,
+      "longitude": -118.53472739999998
+    },
+    "phone": "(888) 367-1850",
+    "website": "https://www.calderminstitute.com/dermatologist-northridge/",
+    "rating": 4.7,
+    "userRatingCount": 378,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ4dl8AOGGwoARvy_7AU2w050",
+    "name": "Dr. Bernard I. Raskin, MD",
+    "formattedAddress": "28212 Kelly Johnson Pkwy Ste 245, Santa Clarita, CA 91355",
+    "location": {
+      "latitude": 34.4488621,
+      "longitude": -118.5790117
+    },
+    "phone": "(661) 254-3686",
+    "website": "http://www.creatingbeauty.com/",
+    "rating": 3.1,
+    "userRatingCount": 23,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJScIa37g66IARiEhmR4sM4TA",
+    "name": "Conejo Dermatology",
+    "formattedAddress": "55 Rolling Oaks Dr STE 200, Thousand Oaks, CA 91361",
+    "location": {
+      "latitude": 34.1763742,
+      "longitude": -118.87583839999998
+    },
+    "phone": "(805) 209-4397",
+    "website": "http://conejodermatology.com/",
+    "rating": 4.9,
+    "userRatingCount": 1998,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ-UGFQ-0n3YARJ9S24d8bSLc",
+    "name": "Derma Noor Medical Spa",
+    "formattedAddress": "14331 Euclid St Suite 104/204, Garden Grove, CA 92843",
+    "location": {
+      "latitude": 33.754343999999996,
+      "longitude": -117.9381576
+    },
+    "phone": "(714) 852-3311",
+    "website": "https://www.dermanoormedspa.com/",
+    "rating": 4.8,
+    "userRatingCount": 46,
+    "types": [
+      "spa",
+      "doctor",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ8QEAmxUn3YAR1HQpmMZSIGw",
+    "name": "Q-Dermatology",
+    "formattedAddress": "10175 Slater Ave #100, Fountain Valley, CA 92708",
+    "location": {
+      "latitude": 33.7096158,
+      "longitude": -117.9517758
+    },
+    "phone": "(714) 979-9911",
+    "website": "https://www.qdermclinic.com/",
+    "rating": 3.8,
+    "userRatingCount": 26,
+    "types": [
+      "doctor",
+      "health",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJKZErdn0o3YARBRzmKmg5ZIQ",
+    "name": "Bello Skin Clinic",
+    "formattedAddress": "9240 Garden Grove Blvd Ste 3, Garden Grove, CA 92844",
+    "location": {
+      "latitude": 33.7732478,
+      "longitude": -117.9705441
+    },
+    "phone": "(626) 251-7337",
+    "rating": 5,
+    "userRatingCount": 3,
+    "types": [
+      "skin_care_clinic",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJvWznB30o3YAR7fOCWzCJxR4",
+    "name": "Oasis Skin Clinic",
+    "formattedAddress": "9252 Garden Grove Blvd #3, Garden Grove, CA 92844",
+    "location": {
+      "latitude": 33.7733621,
+      "longitude": -117.96993760000001
+    },
+    "phone": "(714) 537-5432",
+    "website": "http://www.oasisskinclinic.com/",
+    "rating": 3.6,
+    "userRatingCount": 8,
+    "types": [
+      "spa",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJW-xCub4p3YARW_3-p6Hj_10",
+    "name": "Luvinage Medical Skin & Headspa",
+    "formattedAddress": "12921 Fern St I, Garden Grove, CA 92841",
+    "location": {
+      "latitude": 33.7743568,
+      "longitude": -117.988739
+    },
+    "phone": "(714) 889-9013",
+    "website": "http://www.luvinage.com/",
+    "rating": 4.6,
+    "userRatingCount": 82,
+    "types": [
+      "skin_care_clinic",
+      "spa",
+      "health",
+      "point_of_interest",
+      "establishment"
+    ],
+    "businessStatus": "OPERATIONAL"
+  }
+]
