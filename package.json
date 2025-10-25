@@ -1,0 +1,42 @@
+{
+  "name": "dermaclinicsnearme",
+  "version": "1.0.0",
+  "description": "A comprehensive directory of dermatology clinics across the USA",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "collect-data": "tsx scripts/collectClinicData.ts",
+    "fetch:unsplash": "node scripts/fetch-unsplash-images.js",
+    "verify:routes": "node -e \"const fs=require('fs');const p='.open-next/_routes.json';if(!fs.existsSync(p)){console.error('❌ .open-next/_routes.json MISSING');process.exit(1);}const j=JSON.parse(fs.readFileSync(p,'utf8'));const expect={version:1,include:['/*'],exclude:['/assets/*']};if(JSON.stringify(j)!==JSON.stringify(expect)){console.error('❌ _routes.json CONTENT MISMATCH:', j);process.exit(1);}console.log('✅ _routes.json OK');\"",
+    "pages:build": "npx @opennextjs/cloudflare@latest build && cp cloudflare/worker-wrapper.js .open-next/_worker.js && cp -f _routes.json .open-next/_routes.json",
+    "preview": "npm run pages:build && wrangler pages dev .open-next",
+    "deploy": "npm run pages:build && wrangler pages deploy .open-next"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.75.1",
+    "@types/google.maps": "^3.55.0",
+    "dotenv": "^17.2.3",
+    "next": "^15.5.2",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@opennextjs/cloudflare": "^1.11.0",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

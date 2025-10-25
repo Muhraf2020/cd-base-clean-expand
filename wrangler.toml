@@ -1,0 +1,5 @@
+name = "dc-build"
+pages_build_output_dir = ".open-next"
+
+compatibility_date = "2025-05-05"
+compatibility_flags = ["nodejs_compat"]

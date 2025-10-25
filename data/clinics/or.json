@@ -1,0 +1,954 @@
+{
+  "state": "OR",
+  "state_code": "OR",
+  "total": 11,
+  "last_updated": "2025-10-25T11:37:15.836Z",
+  "clinics": [
+    {
+      "place_id": "ChIJX_RG9Hl6z1QRsRWXQAa_hgc",
+      "display_name": "The Clinic for Dermatology & Wellness",
+      "formatted_address": "2924 Siskiyou Blvd Ste 200, Medford, OR 97504",
+      "location": {
+        "lat": 42.3191692,
+        "lng": -122.8273072
+      },
+      "primary_type": "doctor",
+      "types": [
+        "doctor",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.8,
+      "user_rating_count": 2708,
+      "current_open_now": false,
+      "phone": "(541) 200-2777",
+      "international_phone_number": "+1 541-200-2777",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": [
+          "Monday: Closed",
+          "Tuesday: 7:30 AM – 5:30 PM",
+          "Wednesday: 7:30 AM – 5:30 PM",
+          "Thursday: 7:30 AM – 5:30 PM",
+          "Friday: 7:30 AM – 5:30 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ]
+      },
+      "website": "https://www.theclinicoregon.com/?utm_source=google&utm_medium=local&utm_content=medford-practice-website",
+      "google_maps_uri": "https://maps.google.com/?cid=542330838719075761&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "business_status": "OPERATIONAL",
+      "accessibility_options": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true,
+        "wheelchairAccessibleRestroom": true
+      },
+      "parking_options": null,
+      "payment_options": {
+        "acceptsCreditCards": true,
+        "acceptsDebitCards": true,
+        "acceptsCashOnly": false,
+        "acceptsNfc": true
+      },
+      "price_level": null,
+      "city": "Medford",
+      "state_code": "OR",
+      "postal_code": "97504",
+      "photos": [
+        {
+          "name": "places/ChIJX_RG9Hl6z1QRsRWXQAa_hgc/photos/AciIO2cZX26GJV62ws4-sBirstkdnMedS-yR2_mTuZAt7tbIeKA1YAnanlbFsh4n0LeR2xtqP_oZ3HIIfCmPLW0P_ERRUAxvX_g_IEoqSlMzWDV7Aahpf-H3Tkz_jPi3E7ieT0dZTDOXtGCDFAO_o-cOnptPt_AJ2bqvC2pycr3gZ95SLse-uKY7-wvVfDu5tKMpphuA0c1ZssGokIcDHw94GK2pjn0NGcULsyiOn-aITDDksGDJtxT53CZ65HHeV4J4EY7xiO9XQKXK4CxJMrbFvHpfuLUh7-qCIxI_47zeOtmTqw",
+          "widthPx": 2048,
+          "heightPx": 1365
+        },
+        {
+          "name": "places/ChIJX_RG9Hl6z1QRsRWXQAa_hgc/photos/AciIO2erx6GX5i10ObwsJekmWrUvYXdm1qsS8TaUFw1rLvdFtRqjj0YHm39Gn_tufdeKKPMxC0FA5NC6ePGGZxBj196HjkX8thDlMLfaSMX9qrXYZYdQ75MxWvZoVve4ms4dwM7hRy41xp_VFvwBfbNM4GCv2mQOfpc5Qtv2Ar9gsOD0MCBkUO-eTFXtbeJkKhz9k2-wF-s6LxNP9S9GiVFX1nM9qmxQPEhUqvuGvFlTn9FH4M0lvNhG6O80No8SEjjRn-TWMVp1icH6-eWaJLXNC9qk0E__559J2jutw541l8Z35A",
+          "widthPx": 720,
+          "heightPx": 720
+        },
+        {
+          "name": "places/ChIJX_RG9Hl6z1QRsRWXQAa_hgc/photos/AciIO2dnN8yoeNX_u9DOV7qzGAYD3xMxasKRTyD9jvr8diyTMRniCTvlyxJNGPhgswERn2tZYl4a3I8No9NvqTiCnQF6LS3rHpr38BQAEeq7KKEitXJE4pEIdVMuqTeSeILT6zCS56dClzzm3uJGajCHZ1mCGDJIFTWl_HuXh-12cTFWt_ns1KzAIJYlpmnYRKjSMQCtb23x7x7icuxADi2W3s7wQphO5lKTYBijIdM3GReXrdB61mqBzUZxeYD4xEhf8Xz3si6b5NCtUsNCNYF5kl8eAx0KAJaIqCeA6YVjrA8wwg",
+          "widthPx": 4800,
+          "heightPx": 3199
+        },
+        {
+          "name": "places/ChIJX_RG9Hl6z1QRsRWXQAa_hgc/photos/AciIO2f-bthMoyys0djJqG2emPxdUZGLspgIYrV1gdrk831KZR7lUl8eC28y2bEvdc_shrFw-_0c4aSD2aD3te_i0Do3eXLM27E2cGoFzBTbmqmxQeDf9ulHjoSYjfwFe-YkItBb5iWUW1Nw4Ala6Obk0z4WT5l6Wubt7o4TvjopIClTZItJ6O-RWxh_Rp7WEPBOK8eug-DLF4bIVVu76tYpiP0OtFTvz9TXJZboxKbmbjXHknz3ARJyb8_jgvhVJDkPKv3Tn0ZrAjV5cCK8qBrOf3rjvIdpzqfyoLUyTat_8utr4Q",
+          "widthPx": 4800,
+          "heightPx": 3199
+        },
+        {
+          "name": "places/ChIJX_RG9Hl6z1QRsRWXQAa_hgc/photos/AciIO2e9k_x3jvOeg8gV3FVYOd_EOtVAgq1lYYOZnF_iLblLM6fA0bi0y0wlFZZw_rAIz7mxjDlfHd1zGtVAjZohnF_paOWeYbx35vE401CCm3Ovx8ny0fH9zbWjtF9M7lX4VBiR6DQ1NkKwzKnvKaihHAX1XX_Do-Axn8QfbpE08ekByN2F_41xDarp9xSl1ur9vhiwjK-pHHPs3G9DMgb3KcWktXcQUnF8-UU6DeTyGpTU-Ng0rkLLaxxNq_qb-UpnjOcyEeiSHCcwwITrVoFMZbVk5P3YkwU1X6uCAWQG_kYuGw",
+          "widthPx": 720,
+          "heightPx": 720
+        },
+        {
+          "name": "places/ChIJX_RG9Hl6z1QRsRWXQAa_hgc/photos/AciIO2fV1k0mFfCnEFF7VzBCmzxp82nQrSFH0RyIeNuGCYDVqcDIm72zf0A2gNcYTs8iH_GhZewfXSZByEB7mnrKhcTdXz4rNe456gMQQy9oP8bc3tBuQmb4rXkNGk-74tVxoMqURE14Rvp5Y8JKU6aMLeqCK5Nnw4EQdXdkF3kDSgjlOk5rfdtqcBicFVlCRtbKLCofEm8C76mgv1wvdZMblhB8MCHkGJFDxYDp7Q9OsJV80DlQG8A4Pq1pe8rdbLDrcp8GwT_C_Dt8ZivQSmTxXJ9iIgddySMI8WDpHe5j5RKx0frqnYxd2MFih6-q98SWMw7LvaYtgpaiFiCfOse9pfRVJb029jTH93Y-OaAXZjE4n30mXsvrqT_5c0dMK4k3D2VN7k-Zgu3KDIjQXc0vqWDWhunVHPRDUKZSTFPlmJoiH7cnPEINCxK-M_vxcIPJ",
+          "widthPx": 652,
+          "heightPx": 526
+        },
+        {
+          "name": "places/ChIJX_RG9Hl6z1QRsRWXQAa_hgc/photos/AciIO2fUDA9C0ooiNcstrxaJ-H3UndDWjkncj0_Xt_j0BJDV6nyJEbhuvF0O2BhP5TK7rqLl9cxP6h7huLuYlXokkGQw--mv1MWtZYYBP0QG7ppmJOWXC4dIWKOY8us4jgiiEejdUZYb1jOf4-drsMlx6atWSy8VazIrvZqFecUwq4coKXw7qBlGvd5Odc7iSiRHPqZg5UVpKC9OUHZeHKTe0wL8Aqrepb2QbDXfALzfg-qVrsO2URG5UWTyqY1biWcgcDa48bKGa6tGCMkgQaPTpguD2IBirTePkHBa8xEBmJ14bS8z-dgmd3dUx-fKMW0i70gftQ5VFWz1Tx3ewuV7rJ0zoeLM9-3Fxcig-g0GnUFng3yZiLrweu0-Iu9VWpuMUEU6kphvXSyPYqay599iHuBA8EPP-lQSc4_usKlXcUROCceL",
+          "widthPx": 3072,
+          "heightPx": 4080
+        },
+        {
+          "name": "places/ChIJX_RG9Hl6z1QRsRWXQAa_hgc/photos/AciIO2dJTAzjeyQ6C4IisbH3Rb8y__30Fcacwiclgn8nTRUxQN4MDsxSESkWZ5IGQJ4bTWUVGsvnJwFp40IUUE6jSJvqrU6UYdiIr9D2ck7Q7XhByLrYk92JbJhf3LopQIKsgnXRZPYJRvSqpxG9D-w1Zfzof-LoFLk2YI8utkSDwR4eT0JJ1zxar2PCle7BwpHEVIY29MjSs7--j43WrOkOUYgHuCH5Q1OkEBjgIKxdVRbIUrVFl0U4WFBQ8IXRQhDt32A65EFc9NKdf--Qyd911OGNnmCV4AdUl0e2k0yXXDc5t0BvFo7T08t1A3ZivYGvglnDW76RVHAzs9luh39lGRPQ2BUM1horocfBtruNhHeiQBl6E0N_zsP1GqhJnEtU6c-nqrF_oHZhv3XHn2zTHB77kOF51qqDMyIaCnYfZFd59KWFZ5P_h8tciA0o6HPi",
+          "widthPx": 3024,
+          "heightPx": 4032
+        },
+        {
+          "name": "places/ChIJX_RG9Hl6z1QRsRWXQAa_hgc/photos/AciIO2d3M2IyTWA8-kf-HnWVISoZn14cp9dNXsdCO7rWV4OGzmCaVYDUCUg_lXXfmsvGCKL4n0b5lfyguWPONETo1O4tKEy6GMDqN4Fxj-BuYiLMtViO2hPcV9IXncD6501FmA-oik0OFDbtGFNZSuspEJFPrEK1MYdOMGApGSit6Ua-z0DnPAYXbMdLwYosBIXn2llePHbi6V1dXLGeJdUKOvgXZ7yltxtgqMOwaqKkvFegeJD2K680bGV5hucCt5VB9U2fEOzFbNqpfbC_ttKZCWmMjpQD2Q6sXQuJH_Sw3X7WuAkJ8T4ApGfts9WpuJBD-9ZtlLmXc-9x4Smq-1AUGQFcrBhuvMzCefrD5l9GXpg7pZeaWVTQ3cAmR6ggAVWwVQWPw8GM6tbnm3yHttaFFLuBB9AhTzd82UpKQoqYg1MmNYQ",
+          "widthPx": 1861,
+          "heightPx": 1645
+        },
+        {
+          "name": "places/ChIJX_RG9Hl6z1QRsRWXQAa_hgc/photos/AciIO2evZ6cFs5I8kz5P40LINp8xE7a41ToTKeljvfpbrBwVUzoILt8bupuzvsCIxvrIl-qS7YtV_1h6jiumn_QPL_2TopwzvJS-mCtDwwXEUSaftdZJ5KzjLjnsqFrJM8Hw3tixwB2lqzrSBnWM46893bcJYfQRZxafIELlPgjYJeBCL8BCpUSJ3miRlRt-3PHV0w3E-SGLb6Q4UonYum8MMhqtvNadxE6yyejcoFKNIlwe8gXoBEXvQ5OjRWlPhPL7hKNw4_WWgf-QFiCHO9Z3Jd3d3Q1WdfbDSlo6ETd9kvEFoVMAaUIZ0hXQc4lFJIU4fmVk7edcYMYj6bnTIWb2OMiu5pBvkY1u1Xmvu94UNk7KphZy3PWi0OpXISn7y79JugIMS2PGG7ksyQ7y9jkgS1Tq-eWJNaEbiWc4_DJt39q1kA",
+          "widthPx": 4032,
+          "heightPx": 3024
+        }
+      ],
+      "last_fetched_at": "2025-10-25"
+    },
+    {
+      "place_id": "ChIJOZf-NfwJlVQReryvq0xVXBM",
+      "display_name": "The Oregon Clinic Portland Dermatology",
+      "formatted_address": "1414 NW Northrup St Unit 600, Portland, OR 97209",
+      "location": {
+        "lat": 45.5312067,
+        "lng": -122.6859289
+      },
+      "primary_type": "doctor",
+      "types": [
+        "skin_care_clinic",
+        "doctor",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.4,
+      "user_rating_count": 377,
+      "current_open_now": false,
+      "phone": "(503) 223-3104",
+      "international_phone_number": "+1 503-223-3104",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": [
+          "Monday: 7:00 AM – 4:30 PM",
+          "Tuesday: 7:00 AM – 4:30 PM",
+          "Wednesday: 7:00 AM – 4:30 PM",
+          "Thursday: 7:00 AM – 4:30 PM",
+          "Friday: 7:00 AM – 4:30 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ]
+      },
+      "website": "http://www.oregonclinic.com/Portland-Derm?utm_source=google&utm_medium=organic&utm_campaign=gmb-website",
+      "google_maps_uri": "https://maps.google.com/?cid=1395083772364307578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "business_status": "OPERATIONAL",
+      "accessibility_options": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true,
+        "wheelchairAccessibleRestroom": true
+      },
+      "parking_options": null,
+      "payment_options": {
+        "acceptsCreditCards": true,
+        "acceptsDebitCards": true,
+        "acceptsCashOnly": false,
+        "acceptsNfc": true
+      },
+      "price_level": null,
+      "city": "Portland",
+      "state_code": "OR",
+      "postal_code": "97209",
+      "photos": [
+        {
+          "name": "places/ChIJOZf-NfwJlVQReryvq0xVXBM/photos/AciIO2f528Q2rwyZ3d8Cq1ib2n_ThOQk3Z-F4OStw1q-kNxy4Mfc6EJ5ulsf9ogrmTNnWudfBgDFH877LoXAjl7rv7aRgaJivlXiX1rVLNRABy1f8GYBrZ1RFjY0h26wxo-10tjzJGsokaXT26Pn_wFR1IIxg6yHuzzfjPC1aT3R_y1cTWkbKHViy6vakARYlsA9v1c9v7DZh1qzbTBTcCVbdpIM8xrGVuYi8GbFtrPKgIjkAGRvjFU61HKPSysYsqjiP9H8_AyeK04GFV3sRRI_JnRnN3P5zmaeFY-xqx2ISytIidx79YK3IDElURPiS5f1UribWpjnKCgv9886tpy2kFPTeqMTGW0AAKKzYbXVzQQ-q5BbQ6GOxV1OcSxioyV_Hs5egW2sv_BDOoDOXIPeWYy2woBcmq413cAQsBMOWBQwRA",
+          "widthPx": 3024,
+          "heightPx": 4032
+        },
+        {
+          "name": "places/ChIJOZf-NfwJlVQReryvq0xVXBM/photos/AciIO2fm4pfOQvO8u2qSFWwXlujtxR73KzcrxO7XapucvxrRgOyjne8W8Q7JwaOEoSntxexI12k7kIpnwgOBD-ztZJ0JSFrTaXHMX2xu3BZVRWBi5CXrOdn_esI9g_gG0xZEjCmCSK9tO8TEEo8HNPLgao10oZd5E83BUedKAqm1LeIqYhld5MGC0sqyiZs25vGMNy37dlzqI6LpN2GbAO07zhdbbnyzRcEeNriBGnsVcfKt2Z5UQ4JsbyXaNVdEu8QOZ7mdDOGt7De0s6HchZkdetCIRLIayk6borNuH_CTKGnAI36qkRznzvZga4TioahCzKfTW51tbUZfvCiKymrsosU9RL91M5EmimwdK2dNH7xLSb-aShVOpMpqenNSmbN_H2Bp_9kt5LgA9h_akhkPyjCZX0kntvNVoGikK8ghZMIJdB5e",
+          "widthPx": 4032,
+          "heightPx": 3024
+        },
+        {
+          "name": "places/ChIJOZf-NfwJlVQReryvq0xVXBM/photos/AciIO2fVYkq3guHCsxxxrXLE-ZYMdjIB-WXQhb3So_EcVEBFvMoB4eFfNQhMuyY-2MmId3zKAj4yiMsZQ1bQILsAYtSy0imx96_8VPBHm5SiidrflQlXuDFF0wY9CKutXUK-IpPZM8o-QLXvH_nCKPj6rJSTR5QiJVZcKR-zrtjuX001mlCs8-4WK8G0JSfpbUr-Ab715cxFqSeGS03NuVMTdPkGa4fzcuVRemj-12mQ4w9ig-aNfF9rBMUD92zcVcQ-8R7rZzFKbYFT0rixo8_TrSSnLQ43mzWRsNXf4tLB30aXC13H1zNF29SyKNRdjMG2N4QANKjUmkEGJroFlVLowjC-i5lEMylWv6ksIO0jAfWZtHeaFWyS_JxbdZ-hwVcpz6Wm2juQWwvKzop_9Coym6XnBkUZAWNx_bqVAg7rJq1fg38",
+          "widthPx": 3024,
+          "heightPx": 4032
+        },
+        {
+          "name": "places/ChIJOZf-NfwJlVQReryvq0xVXBM/photos/AciIO2e7Lb3T9GGV2fjMNMaL9hwtccQ9Rgh4eXZVjbX9ju13tFwercwPUsdlaQX3sixf-OfRQIh3gAHm4ZGX2aUheltBwDWiFEnrqVauRAOC-YvsV3u_9OAKMLwd-3uoh9Gi3qwB5zjYIt07rXu4v83PK7n5P1AhKtA-qkp9MQz8kFGk9DCSqkXXrkMbISxMzliprutrzW60hOb6V2NDwg3Jz_v4XHoRB-u8Hd3046uc-fnzPqHeTgrGwqGI9EyHESG1uW87g0jvca0x4PG4sp1xwIYRsindbYqQC_W3WkIVB792r2QBL9vw8WpWyFHidSS_5jHCuqwLy8D6rdUJm8OwdBw_UuJOviw-HVStODIAbn-Vlh8rF63blfxD8XziKeEi2DoqlTho8umigWr0-8Ml3n2yubpncgwPQXZlQSPzAsskZw",
+          "widthPx": 3024,
+          "heightPx": 4032
+        },
+        {
+          "name": "places/ChIJOZf-NfwJlVQReryvq0xVXBM/photos/AciIO2eqZgPbTtuxJruJBUcsNK2oJckae46EEMikYoaqChJMpWx_i82XzFPL310qhQVfy42JBTZpPd-fJU2C18Tre3Fzbqa2xW5tjJkVkYOCZPHbf9jfdxrd6FKrtQTqLxVJEyRuaqaT9olnnHB4VNOE3zQEk9J9ouxRL_zdc6yQMWPokBA1ooQAJQLTxSWeuCTgRPX13TdpRq_AC5QT2Q3P2n2FBwu4E_NqFheYeozRskV7UH9vmUN83j96MzJxT5UPjfE6Lw9hsoZwY7Xq6cJH3XhfWF2XKArNIVgB7Z-hlD59lcWpe4bReI31EKmkgRITceFvDIJ4ipky8hawLHpQOveDuAKvPT1dlgWlmk5BIWVih602VUGkicd57BKYB92n2w0XnmboERrr4pxfUbh7EBLYEOJrKYnc4oI2C1haDI1R1w",
+          "widthPx": 2795,
+          "heightPx": 2786
+        },
+        {
+          "name": "places/ChIJOZf-NfwJlVQReryvq0xVXBM/photos/AciIO2dqEUiCPUidjlGXyOW0t0Say64-WvR0uC99BIiC589ZHnHzJW7sKUq6kW52y12DTqPsuKQcnM_fLZBRdGIeFGRepqKoI7Ep71IVJxDFDrVVuEi4tN-WIBidAqPKGPrSOEeehda9ueWqIBSTtvq75wK2XCAcU2WbJjSxtEoNLrCDjl1PfVdkEFH7e_VZLiR_xR_tJXcj8um7auRxdTFqGftchx-9mqQl2R6b0gdv_aifrtmZZZ0g3QxhwfM7N2l6YtErXiSx7sIR9hxcOAxL3SEwY57kp1DKtC1-P2Tbu3ol7L9w7qiYWhDTsapwskbtryGpAara2SthnlkGGq8NSo1m2mhseOLfIG74wLN-VYAdUHxEBe9ZuYPBn2RFSf8pENezjBjIq986rvywzRP9Gtc6-sxIbpOImSwNgw6C9GcR63I",
+          "widthPx": 3024,
+          "heightPx": 4032
+        },
+        {
+          "name": "places/ChIJOZf-NfwJlVQReryvq0xVXBM/photos/AciIO2c7uQUnwdXgXtsh5EwiQkkRJPmvMvlc6owhe2ZlGIG-wN1yKdwNHcYADxrzub4z95HvfsVapPdjhlv2Xn6wuAHCJKFs1HFkdR3rGx9f5kAOCUZ2kdEPy_j5umAje02HRMNepWG66Nk7bFdxJVeRae0PJiXUIJJR9soinAun44ETloTv2vGYWsxA4d5qoLKHYELXF6Ek4yGW7S9SEDhU_u7MfbZUCRknwlEGH_TfHtU1y26T5-GCaK7cSBAkfQxukDHZgZf-KNf4nK6XM9Le47dVfukgU2zyiuah8g7liv6cry5VjGATPBC01ByWmgQm_dYLIrEX6InrpGmkAXwXuyu39r3UZxCWsIxTx4aKRunBNc1DG5UQO3htbewi4zOEnEPW6ebOG6wIVsgQ2b8wrl-X64DOCOt8B2R1MtLvwEOpkA",
+          "widthPx": 1224,
+          "heightPx": 1890
+        },
+        {
+          "name": "places/ChIJOZf-NfwJlVQReryvq0xVXBM/photos/AciIO2cK4zwRssD37IpWqFosUDShXJ2G01behfTk_gk711p-Nc-jQ3BF4okwAwN-1LLNUOG6-Fj53xFtCx1BkMEQFF_eM1avqqvJz6NAhWJnh0FkUmh9OcTWdj1WLfw7ESZotwkgKeNRra87bjqFe-whnhuPVUu86TI3bPGmXke7RxsYgU2V2pv8OAtJY-MvGWsqFu47MFq3bejUWc6jhS1RfzTaF4bl-Nhbs5Pwst4SZcHbcMXzhKa8QrxEi-IifTD7R-fpbq8nDMHh_0bVxIGKex27FkNnWF1Z_A2nJw35jIWNww",
+          "widthPx": 600,
+          "heightPx": 400
+        },
+        {
+          "name": "places/ChIJOZf-NfwJlVQReryvq0xVXBM/photos/AciIO2fPM0QNwLErw-u7h2Yvubrg_byF4bUHd7PiS8jB98UI2qBQikgPwPsLkeWuI0ktaRMhc92HD3NmAlJK6Bh5uSJm3MgRHtXYm4pXZDMCH6Pzp_F0czIsV0W8ZwK4PpwHHCp_z5lsTGQkb5O-WhLo4L63qFrPLOGD83b8dhkSH1FN0VyWVDWXCKXVSdabE2GpurT5I3Fk3aYm0KEbbPH1b8ljG9ayY-ib3yY3Hv21mBL8-q46rDnve1WR2_GUB8H4-RzP-Ljf250XbLJzVmEup4W6l36-C5CI7RdRo1GMAiLGqA",
+          "widthPx": 600,
+          "heightPx": 424
+        },
+        {
+          "name": "places/ChIJOZf-NfwJlVQReryvq0xVXBM/photos/AciIO2c50iRfAZYdc5DoKAj23DI8z2hWPObXRSGI_no4oYVvJ7_AHm-qAoxWNnoUGmbgyAsmW94Pvc_BsdvtPsrVyo_8-ieCH8-JPFffw4RuQdO8COPgO0vjjZevMeJgSudxdfI0n5QGpkWLG4_FeAQ6XGPuShGCC-0xHG_6P_tF4oGjtoIuJQYBl68wAyXold6unCmyjKWuxpUhVO3RK4qRldpbgk-n5JYUa_tjJQvPDzUOqA94dttyL71nvD_f266D3EVXUgDL4K0_MVpagzIZLF_qw804WNGfNzZaNk_MTGvT8Q",
+          "widthPx": 600,
+          "heightPx": 415
+        }
+      ],
+      "last_fetched_at": "2025-10-25"
+    },
+    {
+      "place_id": "ChIJk1FaKu4MlVQR-9HTB5o0QI4",
+      "display_name": "Dermatology Associates - Tigard",
+      "formatted_address": "10215 SW Hall Blvd, Tigard, OR 97223",
+      "location": {
+        "lat": 45.446259,
+        "lng": -122.766009
+      },
+      "primary_type": "doctor",
+      "types": [
+        "skin_care_clinic",
+        "doctor",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.8,
+      "user_rating_count": 1605,
+      "current_open_now": false,
+      "phone": "(503) 245-2415",
+      "international_phone_number": "+1 503-245-2415",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": [
+          "Monday: 7:30 AM – 5:00 PM",
+          "Tuesday: 7:30 AM – 5:00 PM",
+          "Wednesday: 7:30 AM – 5:00 PM",
+          "Thursday: 7:30 AM – 5:00 PM",
+          "Friday: 7:30 AM – 5:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ]
+      },
+      "website": "https://www.da-pdx.com/",
+      "google_maps_uri": "https://maps.google.com/?cid=10250250588056179195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "business_status": "OPERATIONAL",
+      "accessibility_options": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true,
+        "wheelchairAccessibleRestroom": true
+      },
+      "parking_options": null,
+      "payment_options": {
+        "acceptsCreditCards": true,
+        "acceptsDebitCards": true,
+        "acceptsCashOnly": false,
+        "acceptsNfc": true
+      },
+      "price_level": null,
+      "city": "Tigard",
+      "state_code": "OR",
+      "postal_code": "97223",
+      "photos": [
+        {
+          "name": "places/ChIJk1FaKu4MlVQR-9HTB5o0QI4/photos/AciIO2dBCg9N6r82e1KpQ-oD9QyEBIu4zdy910G5gQsefA_xow6FereX-u_fazz1neYGCGjgF05Sib7LLoEpyOGsad3bmu-iXaG_ou0rmayd9GGRDGi5O5EAPxJR1jmou8ufQe1jXImXVA23Pbf1iJGtWb8z-Fmum52GhN1ufbozq8-qF8N-eAKhEozvTu1nt6rsS6Wgf7IjMtnZ2qtwy_hd53LTRHP0DC6wJX8OpP_xrjWoKtYWAvLofvkoeZt08I5NiqUn_ibSN-38rJWaT8Jqd1CVUWD1Hptgs6fTUwp5L-j1FS69zZR2luYsAa6PBe7MdbSzGvMCe8oA-XywYTHcC6ioHzLPqGe0DWaL6sSE32Co4eFLTAfQxV6EX424QeQRjJE4OtsFRfkLoKsneaMV6je3gt8ZMnOmD2h4PbB1JzJZfiIX",
+          "widthPx": 3024,
+          "heightPx": 4032
+        },
+        {
+          "name": "places/ChIJk1FaKu4MlVQR-9HTB5o0QI4/photos/AciIO2cgzeEsmMk7Ba-xeUQrP3pRl62FSTMUPNsGNzW0wnLzrs0bnlLbMIQ6562aYLig8fzf1dbVaDoplujzC9zDkCEPfaZL65cEJAlpWl9HDLZxoRj8Qhft2UcsUxeCWacs5gCNNWdmFx4aupNvwAL-L-mZu0VVXBa7UCcBVJyVXtTEnqprgeqa6rREFIV9ysaF6vuAiydJ090fkJs0RQSFYxTVBXUcSpqckWGPxt6wpfiCnrm5i7FNGWfNt7fzESvnxCcPkF7JWNNwRQxsKzDeOCam1idsHWJyoXCMhYyhdBvDBA",
+          "widthPx": 1599,
+          "heightPx": 1199
+        },
+        {
+          "name": "places/ChIJk1FaKu4MlVQR-9HTB5o0QI4/photos/AciIO2cLi4CN-ESqsrrjebDcShc3qAMBuZVHYL37bsc7PEGwNBYUqf4nF7pHBYGXk1MVkMNHYk3vaZNb6Sp-Ts7jyix0UOaRtANfke-0TJko3M_rtuxoVo-mRRym_PxRCo3G5QKkbSruOEVZLWYWEbQXrNdAPAWSuyr_4DFsDxBnH8XQH5ckABrmc54vaJQn25yBzTzXGWS4V6Z-ajkLT78Dy9-3Y07noyjsf9Kp7jkHBCpJBEgqbQrW7C2KxWwaWyTiA1mY9ORaFIJPlH_wDVpyB82QVRxdzgh4WXQP7qq46BmGPg",
+          "widthPx": 1000,
+          "heightPx": 1000
+        },
+        {
+          "name": "places/ChIJk1FaKu4MlVQR-9HTB5o0QI4/photos/AciIO2egb8v0Gc9OApvAXDyPDTsz434dk-h7CFwp-iSLJhHKWsnTr6Z-6USinkKAkyCOz3bZvCGvkINQZArY2Uj4g9zJBGOVSc1nr5cDA8AjHt3Fl37wJDSECaNgARursTRS7CjuTMaEFdbJaq85kfI7X2Oq8ZYQsYBvtyMJHPbO9qA1LAJCvfJwfXSxTOixEMBtzlyCv9DbpN0ptFlOFcesgW7wDRamdBNHPo9_LF-DnQk6wrbofl5wE9DFMTC3xpv7PEA8KLU4EloSYB0cYdA6os_-t63REucyPIXR494agacV6g",
+          "widthPx": 3420,
+          "heightPx": 4275
+        },
+        {
+          "name": "places/ChIJk1FaKu4MlVQR-9HTB5o0QI4/photos/AciIO2dxvDFwFoqjsrbkEhqU28LsDzJtX-3rasi6uNcN1OhTnDBRQ2G10mry1xg8-en9rav5Edy7kgC3wUInvANYUDM42eF3prbOGdXaFV4eU-u3SuCXu7ypwhXumnw6uaVFGglQb18-bcJwgfe_viHk5TQs8j6rx1YWUwLlr9lW1z7zdRnD_QFvGTn2vQ9LMuANhBXf-xDpgQxHLLTWMytt1On6z8a3vm2Mjz_Xx2UHGaVwHHpGRdOXPRS1EdpjsOaatomY9ZRDz5deaAs6VpzLaP-pxSfpsc9JnSOYvrZQ0Tb4pg",
+          "widthPx": 2384,
+          "heightPx": 2980
+        },
+        {
+          "name": "places/ChIJk1FaKu4MlVQR-9HTB5o0QI4/photos/AciIO2fsK8Ki4HWrccbV7-6tJn9XNDSoXsmSVEkVO5FtwWWKH69Kxy8X2Hx01YmyZMV3sA2DKwBy0KdHnHDUCh3C9Ob_-gddRsA4gzdAWR_wXkEJ87Q5D6ITS6_JdnXmvf9OcREBRKHnHx-cDmHXhHpimuPcPcwNR3est8Ra8OXyhiUBGpo60pMAq1tFB2VAYfi3Zh0RTpgRBCjSDlmndGFCeFjaiy8JJn8GMgwFIGUGICtFIPutK0JHEkmu7yH2mJZqRzr7jSlgRl5_PJS_lqgqpGaoxlkf-JMtWoohjkdf-esejw",
+          "widthPx": 2384,
+          "heightPx": 2980
+        },
+        {
+          "name": "places/ChIJk1FaKu4MlVQR-9HTB5o0QI4/photos/AciIO2eHTKrxiRpeFQhCqBUBLMfy6cZzeCjudzJJXuG-c76kmxBnLVXxyBxx1aCsjUJ1Vbg-YnGBGbiLymkdz2fscqk-sAn-D4hNNl6rqI9ERzloqHgdCDjy0HIktLJwd_ayxw5iD9Hc1HivoB0cyec58kg7Sw5l_3sAW6qvwQ_xPuHTuMz4Uqytwa-0ZpoG2rDe89p3WbdJk2ZC-kZFf4C-1BUxur7Fk4sXG8jaJj_Y2LEcW7HEFqs4RmegqtQcls48kYSBZLXBYHbJx9bkU1KEZ-Z01eSYEcm_cbrj-0A78gRmNQ",
+          "widthPx": 2384,
+          "heightPx": 2980
+        },
+        {
+          "name": "places/ChIJk1FaKu4MlVQR-9HTB5o0QI4/photos/AciIO2elziYf1-siA83SFTbPJAwUfE0QAhMm_6OdajtwWquzQyltLB--a8xVVD_4awooYKXJU5W9I5F9XIzQOloFwtY3gjLapzH00UDSBnb6-fsoDPb33K9AXXklGMh9z1j76NbOO9PfIcLb3bYeLm6QroaI6vw4LEBLpd-rEb4vcEMR324kLbBjrMgx42GLY1AwH_vB0l3X4CwkDTtNfkmfZvNc6mg-uuApG8QWyY7Ufv75BeC3c6ku7M7QNvLMYMHa32Y6AmG5E_cVspQ8Crtdsh2lWJGq7BubJPLQy6JMYXZ16A",
+          "widthPx": 4800,
+          "heightPx": 3840
+        },
+        {
+          "name": "places/ChIJk1FaKu4MlVQR-9HTB5o0QI4/photos/AciIO2eTtUBpcECXES9kdEHtcJmWkBOSg7Y2scVPboOLyXAL54lIiFF7HlkaU_vCbZkNbmUAj9idlerxlYf5kDhGfJXu2yUONJPPJk9dRTf0KuA2Yv7ji-ilmX7jQP5OruQsd7xZ40YDqE__fKiT203h5fGErHtNvb069n3bseN00q4iKbaEbuAGRnuGKr2g5Ht0FnXBf3yUsSriUYB8yfoES1RjuzgGI7aa0bbgzqHtTTpT1YMzNf-LIPiZLuMu_aCnBAD6ZW_QPVRkAhtf4zP5x9H1GgvKk0NGFMJvVT6i_QaBjA",
+          "widthPx": 2384,
+          "heightPx": 2980
+        },
+        {
+          "name": "places/ChIJk1FaKu4MlVQR-9HTB5o0QI4/photos/AciIO2dgZ7OnJ51zRx-U3TH6c_SRXI0-aXrh1xHvdOnNM08J_K4rNLAmcDjO1T71_AsDJ0LBWWQzcV834vsjCwCyM47QjlJAL0JVQemU-jiaYKLJsK0DX7gSGiLEB9TJENpcMs3onelbgrQNezma3v-RXb6zAS4aH35KbmKQ5dta312v03s-uG1Wp1ZTXc-1aKWqBxx6N4Ayny1DMbCKP61sZcm_eOHgvEHKUkb1L1JY_h-R79xCyGm1fplDV-iAG8oX6TIv8DHAkYvcd8oTtgwjSllcW9StjD2YHJ7KqZvDktY_1Q",
+          "widthPx": 1050,
+          "heightPx": 450
+        }
+      ],
+      "last_fetched_at": "2025-10-25"
+    },
+    {
+      "place_id": "ChIJDbmGFzLGuFQR2NbUBaMZM8g",
+      "display_name": "Deschutes Dermatology Center",
+      "formatted_address": "325 SW Upper Terrace Dr, Bend, OR 97702",
+      "location": {
+        "lat": 44.047441899999995,
+        "lng": -121.3114532
+      },
+      "primary_type": "skin_care_clinic",
+      "types": [
+        "skin_care_clinic",
+        "doctor",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.9,
+      "user_rating_count": 684,
+      "current_open_now": false,
+      "phone": "(541) 330-0900",
+      "international_phone_number": "+1 541-330-0900",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": [
+          "Monday: 8:00 AM – 5:00 PM",
+          "Tuesday: 8:00 AM – 5:00 PM",
+          "Wednesday: 8:00 AM – 5:00 PM",
+          "Thursday: 8:00 AM – 5:00 PM",
+          "Friday: 7:30 AM – 4:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ]
+      },
+      "website": "https://deschutesdermatology.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_term=Deschutes-Dermatology-Center&utm_content=website",
+      "google_maps_uri": "https://maps.google.com/?cid=14425902219366029016&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "business_status": "OPERATIONAL",
+      "accessibility_options": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true,
+        "wheelchairAccessibleRestroom": true
+      },
+      "parking_options": null,
+      "payment_options": {
+        "acceptsCreditCards": true,
+        "acceptsDebitCards": true,
+        "acceptsCashOnly": false,
+        "acceptsNfc": true
+      },
+      "price_level": null,
+      "city": "Bend",
+      "state_code": "OR",
+      "postal_code": "97702",
+      "photos": [
+        {
+          "name": "places/ChIJDbmGFzLGuFQR2NbUBaMZM8g/photos/AciIO2cuJPBKj4D4-egp3_KNrSsN0Qd88ehILDWu9OVrpbKtf7hRA2GPZ7drCmb1vxg3bSg2__RIy7RmcqIWV0W3fNZlIG6mOC1aklOCHIVj2ZhBSzVdtRCkvNZ5f6ETgxhDz1Lqg3mp2dxkSdJdwkjObXsbg8YrBQrElO9Pe3MLqm6bDfBCg5D-hgD1UKyOdcEOtIV2ItxSpx7RWIjrKyLZq1_cIPSCBKjbYMt8S6R9z2_cYQRjgrPUjLZup0Qn_oXsfrnNLtnof3YCayln6dF9Fv1ElXR-AoKKtql-6eoMNfjjXA",
+          "widthPx": 1920,
+          "heightPx": 2886
+        },
+        {
+          "name": "places/ChIJDbmGFzLGuFQR2NbUBaMZM8g/photos/AciIO2caNfBZ_5QfJW1xb_iLEGzwmpUd2fY7UKcOuMdSdJ4BPiGvaD0vIH2FuLBClhIVhkCLCGUU34kAxtyBNPMs1xgO4aPfLAeZV3HlQbMFNiZ7FpRKc22crCfykmzbW9bLuqST5g5qaSMPHtqYJg3SVz1s40KjLvO0Ke03oG8YHwZMi66ZARLm3jiCC61-qkLvEbRmbsz0XFNiCRze91-faAqxiBBuCD3w0oxGil_NMWEIGL11q6dDt5GNhx_f6RopPx5mNPDLBtA-kFK9d_Lku2thguXPorEvAZdyTGKRZGmP7Q",
+          "widthPx": 1416,
+          "heightPx": 2128
+        },
+        {
+          "name": "places/ChIJDbmGFzLGuFQR2NbUBaMZM8g/photos/AciIO2ckNx_rU3HBxIz8H3o6dKEVT3YQdm57qBGgo6s7tJuVHDT-NQMJ0N8FwGkkYj-ld7ZA1lOg_RxTOnbZKifaIAjrfRAfI96te5frQmjv8iBflZtzeteVQo2fTRyU6V21eZq7mnXcwa27896CZTczskdrrm5lZKQX8E3cRUUPqMxEZXRwpqb3AxgU-G7jge4hnBQIZZ2T3ZTboKbTfmAZmRe4bm2OD4RXRMhrElaabf0RxHT_gzGLdDNzac9sw_7-Es3P5AWMyipg7IruB9xiuA8P-P7TLBOhJXOOoGKiUKPnVA",
+          "widthPx": 2048,
+          "heightPx": 1152
+        }
+      ],
+      "last_fetched_at": "2025-10-25"
+    },
+    {
+      "place_id": "ChIJ-YXmBCBzlVQRuQFllXlzoj4",
+      "display_name": "Dermatology Associates - Lake Oswego",
+      "formatted_address": "4004 Kruse Way Pl # 220, Lake Oswego, OR 97034",
+      "location": {
+        "lat": 45.4170891,
+        "lng": -122.71790969999999
+      },
+      "primary_type": "doctor",
+      "types": [
+        "skin_care_clinic",
+        "doctor",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.9,
+      "user_rating_count": 251,
+      "current_open_now": false,
+      "phone": "(503) 245-2415",
+      "international_phone_number": "+1 503-245-2415",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": [
+          "Monday: 7:30 AM – 5:30 PM",
+          "Tuesday: 7:30 AM – 5:30 PM",
+          "Wednesday: 7:30 AM – 5:30 PM",
+          "Thursday: 7:30 AM – 5:30 PM",
+          "Friday: 7:30 AM – 4:30 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ]
+      },
+      "website": "https://www.da-pdx.com/",
+      "google_maps_uri": "https://maps.google.com/?cid=4513296742613320121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "business_status": "OPERATIONAL",
+      "accessibility_options": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true,
+        "wheelchairAccessibleRestroom": true
+      },
+      "parking_options": null,
+      "payment_options": {
+        "acceptsCreditCards": true,
+        "acceptsDebitCards": true,
+        "acceptsCashOnly": false,
+        "acceptsNfc": true
+      },
+      "price_level": null,
+      "city": "Lake Oswego",
+      "state_code": "OR",
+      "postal_code": "97034",
+      "photos": [
+        {
+          "name": "places/ChIJ-YXmBCBzlVQRuQFllXlzoj4/photos/AciIO2ec0jSh3l_3YdqN-PmwGzi5_dKht0u1cMUDtzIpWkf4QFFwsoFRYe4MoJiEGLuFg6mpFTxUJg80qm_P2QqYTHEnu26DzNAghKSDGexMuAMem_1ARTSJrFf2FqEr47VsuXsGj_G0aQ_YYIwj4H7hQN-JcYF0qivGa7PSADxv6OHwgusW-w24CY5YMlyF6UPAs3PHPu9hh1l-Rb0ML-2lqtfKeHxpuEHpObLmPQUgi0tnPixtxJ85ECW1PAFyag74PvPg1M3Yj_0IgFeakj6RO4J8s2e25IdSSAuF8O6Okana3g",
+          "widthPx": 1045,
+          "heightPx": 588
+        },
+        {
+          "name": "places/ChIJ-YXmBCBzlVQRuQFllXlzoj4/photos/AciIO2ekWnFu5ye-bOep73RoHCNHHNjJ2oe4E8jQCtOOIcPU2LBGlkm33khJ_UKSt6mXK1J-bS9--p9ZU4Y-7CSZPshwTDE71zFwIXB1N-Gudl2vZq9PVxbj6LEiMZUzWgJ4MHCFi9AYsrQ8L-R6a9WET96t4DoyUGZM_t4hQAXEZAx9VL4V2mUGz-S1-FX955wRamLDIICyVo0OQDjxJ4ZnL4TmjCE3O5fFN383lO47Lrg6Ej9LINPrFKsrEYrypWaeE8F8PrZbI0KqYmHbtjct3wO7KeSq4yPgQD19u9MVWExPhg",
+          "widthPx": 2448,
+          "heightPx": 3264
+        },
+        {
+          "name": "places/ChIJ-YXmBCBzlVQRuQFllXlzoj4/photos/AciIO2cbeYQBf6A7yfMOSn-Cy5puu_k3rLU1ieCajj_Z5F99K1YV2Qu5CZiz5rhXL6ip88cwQa7_39jVPBV8CMscHUm3WTCJjUWGOXb980lzToEm5xz_0uPtCfkNIoRqJeuRYKTA7Bpa3bgiPByvawDySASSh8_yRbBp0_elXBI0_DPRlOCfAkvJ5ALrnTH5r8WNUXjE-OqbIEP90NJ7elY-xTbqcCMlGQMhwTSQbk7NE2-skDp06ujYmOyeJ3HCRhrHMDOq-5WmfrizNMf-NLJFM2Vozc5Fzv-hXRTcNxEeRz_LMcZBewE98cDmfpIjvZ_CNHrOELj5WB80kkW2b2lalVoVJCfdsmKzjfikdQdJ8t2tYEp1tOONRxHsZhzmfmamMj9YANJ19xDAAJGPIoG-UQq0y4cjVRiGxZMBFpOnwXYncUoW",
+          "widthPx": 4000,
+          "heightPx": 3000
+        },
+        {
+          "name": "places/ChIJ-YXmBCBzlVQRuQFllXlzoj4/photos/AciIO2eUnacthtIgZGzGU1W5bTmNpzB85_FDhEY0E0vloP-MygVmM5qVPs6hbO_7_0kMTQ9xFYFyovYRhs4TlgwoJlDrnwYld9TJII6Xki3KdxyZKvKT4zmUMryjQ_zE4-GybwLqer7VOTnh9pCauzHWMwuvyreK-idorr_W4bZVaWi8VtvHqRZ5KK-3RPySsHjgO5mqYnQH2POnn1BLM-m9-co3nfqpRa_Pu-wx4ED41BqC3oD0ZhlrkKDjYL7ZgutNs-9ybaEcT8q0AD-x3xX6q_S8eqxm1PN1xycs771PFUWpYA",
+          "widthPx": 2082,
+          "heightPx": 2776
+        },
+        {
+          "name": "places/ChIJ-YXmBCBzlVQRuQFllXlzoj4/photos/AciIO2dnA8qubC_BK2WP9u2T-k_Nv4_JxvnCrDVYImWIXQq-Ht0vRMa56mDp0SkAP6yjLHcY2L8E_K0Te_THk8s-iaD3lOw9l4HJ8q6QFmEhsKAIUVYD4BfMAxlmmUFLFMIVVQ5JGEaxvVzqJUuHVxYKKGc7pw8aMixjm73Hix9FnOaYxdaLUwbRilUlyfqyflM1Xvr27gIbgS4VZVgGbIkDuN23g6qaOKbF2aE1xG5tB8VJ9pBhhopWe8OTYKMYlCSLRChJAV-fDhsg0wmmn4B97zihreuFf3uElgPDKDMst6U9jorCyM2zYSkBcIYraO_ixs4zD2rQgNkwqpWEw8c7Ly-BKFGmNeqnn91lTIbbybZJyqseFl3_NGnkYG5XWvWbucYA0tKEIccdFkiuoa9vt2nPJE-L8rISfpqXG1sYiBp76A",
+          "widthPx": 3000,
+          "heightPx": 4000
+        },
+        {
+          "name": "places/ChIJ-YXmBCBzlVQRuQFllXlzoj4/photos/AciIO2ftMWexB2FbYifv1ftn-CSc1-o-hdxcht-j2zq-xYfQfz75pM6kaWYhXzAxESZNNjMstpnq23LHTXQz7jIuQN-mWp_9dNI67PmuizYRAXe0X74VhTqQh9GsM0kt2GWs8g3bprFMhHwSoGyaMqMM30tCs9qT7P1KpNMxiagRQkTpu8uez0kI9QoaiWXt5MCqvrFNRAbr8ZTVa6jWAUvZluTPL2tl8Y-Nvul6oPdQl9IOsYPlVrGwo3VSUKWRWAQs_Nv6DK7Z-9BetTLsVulp1RPEB4SjyOm7lkAUlus0ilXHtw",
+          "widthPx": 4032,
+          "heightPx": 3024
+        }
+      ],
+      "last_fetched_at": "2025-10-25"
+    },
+    {
+      "place_id": "ChIJG_3BQ_oMlVQRO3j0lZvlUPg",
+      "display_name": "Klein Dermatology & Associates",
+      "formatted_address": "5200 Meadows Rd #250, Lake Oswego, OR 97035",
+      "location": {
+        "lat": 45.417049999999996,
+        "lng": -122.73058350000001
+      },
+      "primary_type": "doctor",
+      "types": [
+        "skin_care_clinic",
+        "doctor",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.9,
+      "user_rating_count": 1118,
+      "current_open_now": false,
+      "phone": "(503) 445-2200",
+      "international_phone_number": "+1 503-445-2200",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": [
+          "Monday: 8:00 AM – 4:30 PM",
+          "Tuesday: 8:00 AM – 4:30 PM",
+          "Wednesday: 8:00 AM – 4:30 PM",
+          "Thursday: 8:00 AM – 4:30 PM",
+          "Friday: 8:00 AM – 4:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ]
+      },
+      "website": "http://www.kda-derm.com/",
+      "google_maps_uri": "https://maps.google.com/?cid=17893053775941498939&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "business_status": "OPERATIONAL",
+      "accessibility_options": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true,
+        "wheelchairAccessibleRestroom": true
+      },
+      "parking_options": null,
+      "payment_options": {
+        "acceptsCreditCards": true,
+        "acceptsDebitCards": true,
+        "acceptsCashOnly": false,
+        "acceptsNfc": true
+      },
+      "price_level": null,
+      "city": "Lake Oswego",
+      "state_code": "OR",
+      "postal_code": "97035",
+      "photos": [
+        {
+          "name": "places/ChIJG_3BQ_oMlVQRO3j0lZvlUPg/photos/AciIO2e-Y8EqhQ_KSA5M8uWAQdwi1LM8VafN2CbBossHebjKwSbAv2T3uoVw3XZpO2sWgZZq2CE3ggjBaQfcuN8k3_b18a5u3fa6yrPPWMWo9PF6A9FUpTHHJ9e_0udq5dcT08o-SXtUHZBrYAG2pJdqv8jbTROJMJzfLmxc2-M1Dsz2DIwo96qkji5aj_NKs9WXI11SAVhRbhVU2TFq7CBruHuCR-EBJTqp_yXkhyCWUIacyAeTMkdAP1MAinQPAdS6sDb_bUF60z4aTz662gYDqSSa4KioGSxiYFZmuIcnEM7lCA",
+          "widthPx": 960,
+          "heightPx": 540
+        },
+        {
+          "name": "places/ChIJG_3BQ_oMlVQRO3j0lZvlUPg/photos/AciIO2dMoV21VjvvmvWeEuYIoCZ5qk44y1o9F4dboRITF3CaotK4aS5ZaUwjbZcMYIJsIeBxBicyxfGwId3NJKacNiKde19zRB2RbZjue4FIW8QooJkcXnsGX7GJXx3nDqOdhjXb2r-zizZeot33tWcOarHEaaAJB8OmlHY8cBRLuyxkQavtj2Da0y4rA8UE54BYw-E5MdNZt-rdI_vFTZRwC1-vIaKF7nBTv24xnrOEeeoCd-bMfyZYWFyTklmZAMDJEY2XL8lLd_J5cJzEgs7H_xecfmRIEYnNxcGH2gTGeLKXMg",
+          "widthPx": 4800,
+          "heightPx": 3200
+        },
+        {
+          "name": "places/ChIJG_3BQ_oMlVQRO3j0lZvlUPg/photos/AciIO2f7LkVOiPyl8C5c8XJrleM-Upk5KDxR8c_tXI6Fb92lBf8ZDSs5YYYZYIktX7qOigq4NwUdshVAyV-_3zuT-WzGT2Wxg0F7AICh8yJ3TxvOcL9L_ErV0VsJphJvJBf3g9OkJEn640RudsHC-4mMd9ztSp0M7PrMlH1hUKJPSWZuiWpTbsdA1VWjrkGs9cDxjTVxnTXEK76RJcnAwJJZjAyXhG3lInCM1dz0YWtXuOhUmW_MYRLiQXeDKrFbTqOmIqaAfqsrWmRv73MWiGtGYoEIjZYJqhJvxrh1cW-BGrgZhg",
+          "widthPx": 4800,
+          "heightPx": 3200
+        },
+        {
+          "name": "places/ChIJG_3BQ_oMlVQRO3j0lZvlUPg/photos/AciIO2epyGQI_XGvJDPoJ7obHeI5MYBw8eFCQ2fMnGwM7VJw5vH8lCQDNGCpdmic06m7fwbmIx87PfvB5okxVvrtA7AwYcAc4WuUyFnwPpSNWnN4Ovu4wOyzcAEDMbEdppNXJwLaH4xmjjMfMSbZhXt1TmNk-Yhz07xcdXASInXfs0XozPEwD6R7AKhQrc91vVb3Ww42LlR96ECSCyaxiqobeKq4dzHm-eaf1zXaxvspF9jO_txWIV3jAall_Ie2oSIfoDO8DvG10R7QRivfcMY4jfgdFQ8tzLsCLaGVAVQWURlMqHOZ49nIxN6YYbAKcnlBCzqFk7HLY5_1Rj2e3M5RhM5xJCPumbSqoHA5vnUVMgO0AcXY4FOZvCSoDIohR9TSyaOn3qd_Ex675iFM6RAKejvCPJ_nXsaj3gQh3SGTY_Um6P0QgOrTmZFfKpKNxII5",
+          "widthPx": 1920,
+          "heightPx": 2560
+        },
+        {
+          "name": "places/ChIJG_3BQ_oMlVQRO3j0lZvlUPg/photos/AciIO2esguw7M_-ZN1hkW-e36xTPvXVAzCZ-1wAO2-TxzHOA6o7MRsYosJ5g3HXv1J2YZOMr1bv1Nz-7arnPO8uMUJV4dEjuSKaiAwqIwLLyCMzz3KqbR3Xva1enC3uak0Qvclf_98i_2wptMYY-QkNbHmfQHPu7fl98_QvZvSMYjmaooCjfOr5X09QuioibbsQWDK0aw4m34xCrYCZRPhyTK-_rN8s7LU668KmygPCiqhO6hqhM2V14Q2AczxQ7udK7hhe3tIPEBEGzonkiLBIOMCRFiBYNTROAAxTjL5XUpkbTrw",
+          "widthPx": 4800,
+          "heightPx": 3200
+        },
+        {
+          "name": "places/ChIJG_3BQ_oMlVQRO3j0lZvlUPg/photos/AciIO2f0SCW5jC6mPYNdD_DW_NNBjPoV-uvWNFhn8rKeHUokoLz8Y8EX9ntzfmHvEj8kHaRL1iMA2LG-h5Mw0OBoUTBq4MJMlyHUis5GXpvseA-GW36gXGXPl0nAnx0PzqkuDse4jOFlCnY0yOCpJfDXgyqQJNnvcUAyDs1cAws_X4S2UaYwRWcCAbTeGmw4QaDMV_-qJDhYAmsV_z6lI_G4qYybY4wT8SB_bmrPKu-QEjixmOgp81s8I_JwNgLIEsIJM7UtQu7hVpRPhUNP-kgaNR9aozdcvHdPAhkcLJs9NFIECQ",
+          "widthPx": 448,
+          "heightPx": 448
+        },
+        {
+          "name": "places/ChIJG_3BQ_oMlVQRO3j0lZvlUPg/photos/AciIO2eiFuMlyGwd_U7JD2xdq7MfRW7btIxlHNB8Td08UCW1RclnRBGWLtDUXNyTLc_ETwrA6pGcmUf4yP6AIsiI3jf3gijDAlPumI5vwzlzG7cT5rUCpnr8RCrv-IDMRtCVB6CxRBZeyBmn--m4XspM8mKWExihCETTCoIGuctARSxsMw3l7G-6SxGJgBkaQeZRXWQhfSBwxgqGknbULE8QpADXRenfINIg_XZC-nxU9MHX7Vg_7lZcUaQaE-G93x5FBvD-Z1DSnNNCPRoFHsSCwj1QPYCt9455osZQc9chKD7BkA",
+          "widthPx": 3200,
+          "heightPx": 4800
+        }
+      ],
+      "last_fetched_at": "2025-10-25"
+    },
+    {
+      "place_id": "ChIJ868vKHp6z1QR4a5zh4Vwtug",
+      "display_name": "Dermatology & Laser Associates of Medford LLP",
+      "formatted_address": "2959 Siskiyou Blvd, Medford, OR 97504",
+      "location": {
+        "lat": 42.317621599999995,
+        "lng": -122.82469490000001
+      },
+      "primary_type": "skin_care_clinic",
+      "types": [
+        "skin_care_clinic",
+        "doctor",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.9,
+      "user_rating_count": 2285,
+      "current_open_now": false,
+      "phone": "(541) 773-3636",
+      "international_phone_number": "+1 541-773-3636",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": [
+          "Monday: 7:00 AM – 5:00 PM",
+          "Tuesday: 7:00 AM – 5:00 PM",
+          "Wednesday: 7:00 AM – 5:00 PM",
+          "Thursday: 7:00 AM – 5:00 PM",
+          "Friday: Closed",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ]
+      },
+      "website": "https://dermlasermedford.com/",
+      "google_maps_uri": "https://maps.google.com/?cid=16768713981366087393&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "business_status": "OPERATIONAL",
+      "accessibility_options": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true,
+        "wheelchairAccessibleRestroom": true
+      },
+      "parking_options": null,
+      "payment_options": {
+        "acceptsCreditCards": true,
+        "acceptsDebitCards": true,
+        "acceptsCashOnly": false,
+        "acceptsNfc": true
+      },
+      "price_level": null,
+      "city": "Medford",
+      "state_code": "OR",
+      "postal_code": "97504",
+      "photos": [
+        {
+          "name": "places/ChIJ868vKHp6z1QR4a5zh4Vwtug/photos/AciIO2eWftOSxbHsn6SlhWT5GOmf95-50MqhZAsXvF-oIEflX_tbSk3IKvjquMpSIMCXHD3gMn-6gV5djt144yegjA7YbehhKTuNFz4yu4u5ZAARsAcaMwLhNqVyeZjeWxh7eKu0cE6T-knQsn586DiDMn2b2C-4bso25OXhCiFrLbiKMGXg1Wl4imN8u3qkRJ6E1bvnyjHPtcl3RpBVL3vaLe3mQ8k4BWaGqqEEM5O6sypuuYNwH5e0ygGPuDrsJEBYkwEBfrMtrae7XeMnONzfFEu0TcInUs9gJtrKDo7kXT9bEQ",
+          "widthPx": 960,
+          "heightPx": 836
+        },
+        {
+          "name": "places/ChIJ868vKHp6z1QR4a5zh4Vwtug/photos/AciIO2cFFAtvcYU6QJquUOaqU_zU6h4KNtHTVDfq_sk9xESQqsTcIISoKd1H60EHpoOBTHjRAvm83XkpIhOi32zTlrxHLhpAtiqMxOO_LCGr_LMynYh573t3HrHTeU1YI8H22AocdXAgCwpIhgw--xpSFV3b72TM7S13K4VvCT_Ej4K-j_2reJ8TPHsxUdwQR0KPKUr2uN3h3CYxqGBq70l9KEmd8YqWWHOTYbgxxAE-97ADDPHO7uo4EfHnYrBGuirKiXy3lOD3tg354d_HIUZRXPRIDPl2kL4dsQq84ZvIpjIQRTxK6yYEfug30anIz4nBGQwXvLzLYFXxeteqVCSTdl0kw7keq8WmpHfaeC5CCZxv_0Wp-ABa9Zg_65hol8d_bRBlJi4kTpaeocB5mXf-ZkkBG6TFixSzKaWZBOJfhqdYAE8H",
+          "widthPx": 3024,
+          "heightPx": 4032
+        }
+      ],
+      "last_fetched_at": "2025-10-25"
+    },
+    {
+      "place_id": "ChIJhVCenZ7_v1QR3uVlTMEp7jo",
+      "display_name": "Clear Choice Dermatology - Salem",
+      "formatted_address": "966 12th St SE #130, Salem, OR 97302",
+      "location": {
+        "lat": 44.928334899999996,
+        "lng": -123.0301233
+      },
+      "primary_type": "doctor",
+      "types": [
+        "doctor",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.8,
+      "user_rating_count": 432,
+      "current_open_now": false,
+      "phone": "(503) 837-6395",
+      "international_phone_number": "+1 503-837-6395",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": [
+          "Monday: 8:00 AM – 5:00 PM",
+          "Tuesday: 8:00 AM – 5:00 PM",
+          "Wednesday: 8:00 AM – 5:00 PM",
+          "Thursday: 8:00 AM – 5:00 PM",
+          "Friday: 8:00 AM – 5:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ]
+      },
+      "website": "https://www.clearchoicederm.com/schedule/appointment/new-salem-location",
+      "google_maps_uri": "https://maps.google.com/?cid=4246377408844129758&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "business_status": "OPERATIONAL",
+      "accessibility_options": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true,
+        "wheelchairAccessibleRestroom": true
+      },
+      "parking_options": null,
+      "payment_options": {
+        "acceptsCreditCards": true,
+        "acceptsDebitCards": true,
+        "acceptsCashOnly": false,
+        "acceptsNfc": true
+      },
+      "price_level": null,
+      "city": "Salem",
+      "state_code": "OR",
+      "postal_code": "97302",
+      "photos": [
+        {
+          "name": "places/ChIJhVCenZ7_v1QR3uVlTMEp7jo/photos/AciIO2eLnBGbmEzfMOwFf8eo361rEf4pWmpcc7iUU74uT6X_MBwZv7rCk4QR9p2XqLH7pB4R5C7LTciH0ailc92NcL5Pgsut9lY6HDVhZaezGu0D7AeFUja1K6WPx7Ug1C3pQfWd3dvD8vdd0aTkBHWbUJp29d6gUU9UgP1W40_0q2nTB8EbDqUbIIzdtSHvWSD3ElCeT-2slHx38HSDlsPxHsaE8PvlK4w0zfRh5mf-M1HMv0ql6o3BtMhlmIPeT-6FeDJvjSB4Vw6tTXRx1vGHKwmXTa0hgaWN4F83KWnC7Zy1kQ",
+          "widthPx": 800,
+          "heightPx": 450
+        },
+        {
+          "name": "places/ChIJhVCenZ7_v1QR3uVlTMEp7jo/photos/AciIO2dnzIxf4NekbK5FrBqc4RMBySWFFD0vgUOZ4HYnkOcTQSOccICFwb1itYCWBHJS9JXT2qdn3dZmKZMCsSwVcRBXXh95tUP7FL_ZvZbWmFERzCUY-TseZchXtKV-BmD0PK9ovcCG7TA-SY30sBR2CI7yhPR9MpU4TJ-Lz1g4fh0UDGxwXfL94Q2ScAviUw8HgEb03NrEhmoytrnqlR5u0p3v5EDPlovLjRNGgVeydUWUQr_4kIes2SHqdeOPgvUryB2S6LPqA9Ph2XoeztpkAvHgzemCxhH2gIJEa8DCucOHjgN0Wu1MGOQl-Z82nw7WT2S5ocXOwLvt63pFK3XqdQ0_s_cnw8oGFAvj5N3JammYnvYkJU1kj_1D_-1FHMQRJ14cinAzB74ZnbtDMtWs3VNPeZLKXdWew57tZf4ik_aEVanR",
+          "widthPx": 2080,
+          "heightPx": 4624
+        },
+        {
+          "name": "places/ChIJhVCenZ7_v1QR3uVlTMEp7jo/photos/AciIO2cx9Ux8LjtuuD6sDwrTB4VfcFrUwm74N9wW4bw5_LcUYwk9rUMUizqDNsG4WMupc_RhsUfasTf8tN9Kk9ktNhXjjdp5F0ied7TMhKMFfHMXT97Y9xDWvkvOUZQyp06gY-jiAq3cuXh7aIUCmIgDJ8n_Bg7cS8Ocx6cJyQYV4QSxsUAOCnHqzMOzqMQxcbDOHZoI654PCpWq6-AbOnjS-3FgUVb_ySy4DFdd4R361eRRbJH9JKF07_Rk4CoJJGVDo6y1yhA5OkY6eFSc01J_pNZBLV88QilHDo-cJPTVhSW13g",
+          "widthPx": 1080,
+          "heightPx": 1080
+        },
+        {
+          "name": "places/ChIJhVCenZ7_v1QR3uVlTMEp7jo/photos/AciIO2ewSiak_K38fqyiA-DKNrrjQ33y_hTpR9be-VwMdcDAIWJg5DkIhZk4WsOV87R7yj1DiJsX7IbmA5cij2-go7O9zCY5qogI7gBTw-EAh70IBz8Fc0t_brM5u7eKt8lhF7aJJKmPxHKZ6tQ6_3wQEoI8sMWaYDr98W4GiuCq-O8eFmKaLABwlKAxx9liKSBjsSbqP_cAvCqSmS3uDb7JIyYniIFckBSq6lzsbJufEr0V9wi8gGCMhRop7arRAVtfIlkCdMQQrBbnQGixsLiWKYUAxVK3qGxFGVm3zTBZwwS2aw",
+          "widthPx": 720,
+          "heightPx": 720
+        },
+        {
+          "name": "places/ChIJhVCenZ7_v1QR3uVlTMEp7jo/photos/AciIO2e9SKh3AXfnA00ML7b5ZEHgzGSjUybqdgG_oax5mdPZj7Sv9UMV_aC8ory2IbhTUoAGjXt3MO4hAvE15jFEmDdCC5amMzMPI2NQniq8HNYQx0vrHDApJJVCoRciDGfpOaBUwH1M9mdX2lBGM6gmEwZzfwQcIg83BueoZBW3if1lhGYJiVzUM7xRqfUCpbGerSvNbA7PsDiAxG39qlCH2NA5hcJr7BVEpCCCpKfUD6eGt_p2yyppSznVUEEk20zpUNe_05E7u3sstjSVlCO7KPT7BomxZKLm7TqAe760z2eiBQ",
+          "widthPx": 1080,
+          "heightPx": 1080
+        },
+        {
+          "name": "places/ChIJhVCenZ7_v1QR3uVlTMEp7jo/photos/AciIO2ertEvZMPec06uuGNkboqEq18CiLFFk6YtA2hGvaGZpDbx-Fqa0Xbt1QPJnt-M1XEMZkeEhwfiApJOvb7q7aLwvRKJ_O1DDedeum0Cuoh9bp-adXY8D3CySv9bJJBA-CNybPl_0BSAYP_fYYBBxMVnY8h8eWs0FLsk6ahgxVzDSiRprnG191MTqbve0xLyO5YAoKeLIHBPz-zvKgWma2RAfZwoHLWi0SbXb-_nLy6dUW7Z9-MClZOS9_Ijau9qgNhAy2s_sQmML5kHcYiyf0MApm9wyzWBkJNNMrIszPiWqcw",
+          "widthPx": 720,
+          "heightPx": 720
+        },
+        {
+          "name": "places/ChIJhVCenZ7_v1QR3uVlTMEp7jo/photos/AciIO2dHLhediTno4QIroZMprIQCrxJZ4ERiphB29HdeLRkvYsbox3C1aLjRGF8VzWAIfdTQZQoAWql9WxtRFjRr_WGQZ8nnpXRJBCILEnVpVqW-E6_ZVG2z7NkEbZPS7l74wHCslZuPgWIobEps26MxVn6EvIC2Y8yEWoB-7nhji_iIKwhY_00Y3xVTznlIFNoPO5vKMYwXX8OhgHpZLISx3tXhiDy9VaKGMVLQMlMmWBGrFJrcw4FB7ErSrsI69W5DGiUJaD2j24XZaBI29XdSLYz8P6JBbTo-x2NZM5ZezlUP2w",
+          "widthPx": 618,
+          "heightPx": 628
+        },
+        {
+          "name": "places/ChIJhVCenZ7_v1QR3uVlTMEp7jo/photos/AciIO2evCxSmhuQJ0govGk1IG36mi_7iXz8W7ecD0nvhJmGLLUbRb_QLkwF3mytnpcPZonTV6xg85N9hu6tywA92wP7-oUDnYOFLrhpfK1fWldvRu0CIQFEwEaXF9ovcsrGMhFgh7IvhUztNvhfhdelDfmvyDT9eqILsMUPCG4J4EQLTegOjMv8Q6Ns2wOCubcwLLA4KKGGIucs5wuDCFaPYuJCWKgkhLCeG-g5RLgpxRzgDggS_DO9p7MNdks11QxDZ776XIRjbp9xFqt2SsNCrMYoDKMam0kgzHpki2q_lpv4new",
+          "widthPx": 634,
+          "heightPx": 640
+        }
+      ],
+      "last_fetched_at": "2025-10-25"
+    },
+    {
+      "place_id": "ChIJWQqEMNR3o1QRAryfKopjAqo",
+      "display_name": "GRH Dermatology Clinic",
+      "formatted_address": "700 Sunset Dr Ste F, La Grande, OR 97850",
+      "location": {
+        "lat": 45.3177594,
+        "lng": -118.1053414
+      },
+      "primary_type": "doctor",
+      "types": [
+        "doctor",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.8,
+      "user_rating_count": 46,
+      "current_open_now": false,
+      "phone": "(541) 663-3030",
+      "international_phone_number": "+1 541-663-3030",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": [
+          "Monday: Closed",
+          "Tuesday: 7:00 AM – 5:30 PM",
+          "Wednesday: 7:00 AM – 5:30 PM",
+          "Thursday: 7:00 AM – 5:30 PM",
+          "Friday: 7:00 AM – 5:30 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ]
+      },
+      "website": "https://www.grh.org/our-services/clinics/dermatology-clinic/",
+      "google_maps_uri": "https://maps.google.com/?cid=12250463381472918530&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "business_status": "OPERATIONAL",
+      "accessibility_options": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true,
+        "wheelchairAccessibleRestroom": true
+      },
+      "parking_options": null,
+      "payment_options": {
+        "acceptsCreditCards": true,
+        "acceptsDebitCards": true,
+        "acceptsCashOnly": false
+      },
+      "price_level": null,
+      "city": "La Grande",
+      "state_code": "OR",
+      "postal_code": "97850",
+      "photos": [],
+      "last_fetched_at": "2025-10-25"
+    },
+    {
+      "place_id": "ChIJifJm3eIdwVQRB6dTuY3EFcI",
+      "display_name": "Cascade Dermatology and Aesthetics",
+      "formatted_address": "4765 Village Plaza Loop STE 100, Eugene, OR 97401",
+      "location": {
+        "lat": 44.087568499999996,
+        "lng": -123.10548750000001
+      },
+      "primary_type": "doctor",
+      "types": [
+        "doctor",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.6,
+      "user_rating_count": 863,
+      "current_open_now": false,
+      "phone": "(541) 485-7546",
+      "international_phone_number": "+1 541-485-7546",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": [
+          "Monday: 8:00 AM – 5:00 PM",
+          "Tuesday: 8:00 AM – 5:00 PM",
+          "Wednesday: 8:00 AM – 5:00 PM",
+          "Thursday: 8:00 AM – 5:00 PM",
+          "Friday: 8:00 AM – 5:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ]
+      },
+      "website": "https://www.cascadedermatology.com/",
+      "google_maps_uri": "https://maps.google.com/?cid=13985300330847643399&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "business_status": "OPERATIONAL",
+      "accessibility_options": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true,
+        "wheelchairAccessibleRestroom": true
+      },
+      "parking_options": null,
+      "payment_options": {
+        "acceptsCreditCards": true,
+        "acceptsDebitCards": true,
+        "acceptsCashOnly": false,
+        "acceptsNfc": true
+      },
+      "price_level": null,
+      "city": "Eugene",
+      "state_code": "OR",
+      "postal_code": "97401",
+      "photos": [
+        {
+          "name": "places/ChIJifJm3eIdwVQRB6dTuY3EFcI/photos/AciIO2cUV5D1F9kBiWcaXfcHYs6fJsdNvxt3FlgEMTAA-iszCYHJgwNcX3-gO5ThfDfnOMzteVjtnL9NDmkN3TEgdIneojCNh8fPaNUlCyAuMlFxJyZyk_jy0XjvzdtUQbr24v3XV7cA-xQFPWohQIGVtYDc9MPXJiZBtJH63m_iYDLcHXcXw_56KQRuYASLW3jzJhTR3QTwHUTNNMhvW2SDHnvwDk58_2DTptrKCMNvyVwEFxv_j5pnIXfaUxt5_bPAWpcZlyNg67WqNoSYLzrTnUoo-Lka0T7PCJZxsmP58pgjeA",
+          "widthPx": 928,
+          "heightPx": 588
+        }
+      ],
+      "last_fetched_at": "2025-10-25"
+    },
+    {
+      "place_id": "ChIJpVJq9Hl6z1QR76-6PQoTG3Y",
+      "display_name": "CK Derm | Medford",
+      "formatted_address": "2924 Siskiyou Blvd #100, Medford, OR 97504",
+      "location": {
+        "lat": 42.3190763,
+        "lng": -122.8272519
+      },
+      "primary_type": "doctor",
+      "types": [
+        "skin_care_clinic",
+        "doctor",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.9,
+      "user_rating_count": 291,
+      "current_open_now": false,
+      "phone": "(541) 930-7777",
+      "international_phone_number": "+1 541-930-7777",
+      "opening_hours": {
+        "open_now": false,
+        "weekday_text": [
+          "Monday: 8:00 AM – 5:00 PM",
+          "Tuesday: 8:00 AM – 5:00 PM",
+          "Wednesday: 8:00 AM – 5:00 PM",
+          "Thursday: 8:00 AM – 5:00 PM",
+          "Friday: 8:00 AM – 12:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ]
+      },
+      "website": "http://ckderm.com/medford",
+      "google_maps_uri": "https://maps.google.com/?cid=8510416855552929775&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "business_status": "OPERATIONAL",
+      "accessibility_options": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true,
+        "wheelchairAccessibleRestroom": true,
+        "wheelchairAccessibleSeating": true
+      },
+      "parking_options": null,
+      "payment_options": {
+        "acceptsCreditCards": true,
+        "acceptsDebitCards": true,
+        "acceptsCashOnly": false,
+        "acceptsNfc": true
+      },
+      "price_level": null,
+      "city": "Medford",
+      "state_code": "OR",
+      "postal_code": "97504",
+      "photos": [
+        {
+          "name": "places/ChIJpVJq9Hl6z1QR76-6PQoTG3Y/photos/AciIO2dN__8WNR2kDBzhzY5FQVuxVufxuSMbMR3D0XUjFY6RGNL75gJz5KaZ4dB86OR2CRz4dgeZ2JpVcAA5YkTqSZ6bIk846TfD8Do01hBvvDmmnv2z6R70euWysEWdhYSopyiz3GjoWiF6mg4AYu_5dnhdq8dKCthJul4Sa_pIPg-f_PAG8EBPRcG4wCpbRmKFM5uN_MOTvHIRjLytKEUnR8xCQNed8ApE_gkDEiFGXASsaw_gSOJgHPyTS-uKsQhQ-2KY1b8G7iiXbF8o4MD3deny_a7tPkglcpNL5VS7AyF3ZA",
+          "widthPx": 1024,
+          "heightPx": 768
+        },
+        {
+          "name": "places/ChIJpVJq9Hl6z1QR76-6PQoTG3Y/photos/AciIO2fZ0CunNvBTCw53GIeB01RRSVdSIEziyrqksFlN6cmNvNr-sw4HcoyNh1M-9mfPWn8JgMyz8tpgUO-w4EzNNagzcXY3BxCFrAAVzq_vDPWKAYEQJLYBZWLsd_991FfWzWK9kl00ITLjJBNELxeJJnvuudFILEDvgcIsVTLi54PnYV73C_loie2H6V12uYJiI2hs5DzgWwCkwDNiOi3htj1M5wnJD725ZyUu9i_j6tUHVkW6TQu9JN7KyJD_k_pog4gsjBwr_UhrruuE7xOub8RKR1NARs2nQyrmRopH-KlFnQ",
+          "widthPx": 4800,
+          "heightPx": 3200
+        },
+        {
+          "name": "places/ChIJpVJq9Hl6z1QR76-6PQoTG3Y/photos/AciIO2fdvJvy203mfFkQokHVqAf_E2jzdqsapuzF2prPVcdswcoR1D1xIGo30Q4xA0VBTE08_7YBBC-8ZqWDPsWExHyn4cpNXPLAsnCrUJApcwf9nv5MXV7VIGbeiaG-5xzvL54sTsI3vYKVkXVyYRFHuTZRKBHNPLSKGzQtSRlqOlR8b011Divcw4Cc5iPu0iGjz5VKv5eoYbH2qNaTD6TUWqBXH4-tpnoOiqnKr3dfbOJRrkxaNRuMNlgFMAb_5SbBYNArBJVll1NngFWpuUALO2Iv4RJVV4wa4QfTf8fXEk6y4Q",
+          "widthPx": 4792,
+          "heightPx": 3195
+        },
+        {
+          "name": "places/ChIJpVJq9Hl6z1QR76-6PQoTG3Y/photos/AciIO2ceYLbWPE6h3hEm_x9z9MjhEfEx0Wjpu52xqrAeGZuttYmuM3cJ-h56rIn-tS-RAAPIh_noOYYq-gfj089pbztq-jS54v37L2r30dLPqAvmOVCSo91B9eDPWDJtWdknMqd1LFYCVcFEbQWP4P8IYqAd2qTNFjwMTbwc9xJM8i86-iLJjLKacq-uMb51Uv7Pdmi51Gkpc8QhIY_qpXJcPDa2x50qpGrpWiLSke68OR7SOZVwshBzBMXKrzVgVZhah_-e3oI9GtznjO8ajrMTZeAJrojdyfYVG5v-ZJlFUODs2g",
+          "widthPx": 4032,
+          "heightPx": 3024
+        },
+        {
+          "name": "places/ChIJpVJq9Hl6z1QR76-6PQoTG3Y/photos/AciIO2ecM0JtE8MtWtY5Od40K6DbfFnrG31BCBKaGi3_zn1Ho4CtjrdtUgHvOytBUAn4pvhUC3w4cmdbDyDB26gBNrXFeZ3_DOKk4kniFpI9PUJSqrFd4LWIBx61MDffhBBex6UgbD9XLJtmIhfwoWbjL0iHikulvgRPdYmR69MXBCgfbksbROhYEFxHqHfV-WZEP2dArhC9CLV1_D6m-MOsSg__olZv290ju9B0yLgjYvRCJZ2cTNiNEJHKRPMRiDG9LOrTog7OQaHTYBVB-PUgPExMmCASREFavVgo7vuksqc0hA",
+          "widthPx": 4800,
+          "heightPx": 3200
+        },
+        {
+          "name": "places/ChIJpVJq9Hl6z1QR76-6PQoTG3Y/photos/AciIO2dhnoXp68sTiMGiFOMtKranbsPlIaMZCJ9IxzJqvwwdCOtjxSplrMeipYdvagqRAUb8LItUXyDX85BsORLHGGqUj7iSIwugfEa57y8T22OYFouFL3qrwscku-pt8cOt5Y4qKpqFtwF0ZCFbJhHH-PS8UC5Qs1cz0NJ9zX-NZN3LTl613AsRLL_-2HJ4L9JbNuEma7CHzr3KclgiDu8tCR0lrINQy08IXolszIWGuv2yQc_4jHDr5pvYZIyuzyNsr4SOYn2EfXLfQF6gkMbppaT3eZhdcGgpjB9abTj_wTFlEA",
+          "widthPx": 4032,
+          "heightPx": 3024
+        },
+        {
+          "name": "places/ChIJpVJq9Hl6z1QR76-6PQoTG3Y/photos/AciIO2fX1pR-BdMCS5s6ykr_9LhrboRzDT-0odNcucguh0Ec2k8XC1KS0cFDYrU0T-bPqhjjfsWhSXobVj6vZ72UcNyQzaRV_6LIB9peDEdNHxazQkqpKVHIcX2itft3vKS1wpAYJHyEYDNhyW8G6PUU4zi1W796cYqMtexYbjLku_JfaBiwIzw4iJRsqnwUt4vq6t6zjJ8YbZ0gRG61QWMcLr4cvOM6r2TyoXSdGhg0UA0kWUW9MMZxmBhp3qRgWRjhl_7SqcjbjsywIpT0yk0oNO002FtKVa_LlqLSwnW9T8hjMw",
+          "widthPx": 4032,
+          "heightPx": 3024
+        },
+        {
+          "name": "places/ChIJpVJq9Hl6z1QR76-6PQoTG3Y/photos/AciIO2c-dMRw7Hh9REuh6c0ToyD2S8l-qPv3cauFytgZGCwWGWwJPeyA1NLJAmBJohgLVkye-QpMFobE-KtJAK2vDch-JyNIUMuiz0ZFQD2I9LR45HO2DlQaLi3VChTyoMJw9rfIFS8VWmmyLG6VeYjOQFiGiQn3tnITChtcoExnUZrMGZT445L01_HtFW0GpbkSoYZBpB29AInMxIMPaE2wI6_FE6hNdq7m1e7faHMUEO2dGWqdY7mYLho80MO1_Noj3sEHtDNR1xi-DgXClqborlrgIOvmjXEnRSWjmEIUjlxFMQ",
+          "widthPx": 4032,
+          "heightPx": 3024
+        },
+        {
+          "name": "places/ChIJpVJq9Hl6z1QR76-6PQoTG3Y/photos/AciIO2fvvA8VEZZuLMrZFGAGUz0ZzDw4lg4HaVyJAsAA0HHClESdotQSSNKkGntbSKI9aoE1qIQ3altx0fFymSb_8uGRAclp1i3jSEqe5aNM-4s6zoUymZ8HuC45j8t9U4MFGCDBf12Uqr5PMtnO1VBHROn9B9lk_wdO0v1DAOzBRcTZpij4A4a4HN4sVd66d1RwUDmH8ZljXSYPlG6wQzNx5DSSCHNn1x8vErhBsCdTp75iwYm_hJRfLktd7hnr4Yy-Sgnjh9nI8yaxcJeUmQ0p61b0fZXqORm6bCrwscg_iE7sKg",
+          "widthPx": 4032,
+          "heightPx": 3024
+        },
+        {
+          "name": "places/ChIJpVJq9Hl6z1QR76-6PQoTG3Y/photos/AciIO2enxzaUqMLC2IY25Q0O5spx9AWIjici3ltiEAmeDfcYF3wDtNhLLFdJEfjffBxyKQjeP1wfxZg5UD7PpIjp0FuMw7a5FfDPprW2OH1uO6Qf8mAvij8Wcua8SuepaiweV6hQB5QINTb2-mtNph5AG8M_7MiHFSDmqcVW5gPQWZ1Bum9922ND8KS8rE5Hx3XQGf_5NEGjAy79TLD2a-Kf4NyKDfDx8jy6e_MURDqq_ecYWmlotU0ArfaDwmWtZWLhD3nQwot9AN8FyvhPwU0CeKwuWwhmqt6rBAtSo8eQqYq1Eg",
+          "widthPx": 4800,
+          "heightPx": 3600
+        }
+      ],
+      "last_fetched_at": "2025-10-25"
+    }
+  ]
+}
