@@ -54,3 +54,5 @@ Thumbs.db
 
 # --- OPTIONAL: Ignore the lockfile ONLY if you build locally and upload the artifact ---
 # /package-lock.json
+/autoFeatureTopClinics.ts
+/data
