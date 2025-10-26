@@ -1,7 +1,7 @@
 // app/clinics/[id]/page.tsx
 export const dynamic = 'force-dynamic';
 
-import { createClient } from '@/utils/supabase/server';
+import { createSupabaseClient } from '@/lib/supabase';
 import { Clinic } from '@/lib/dataTypes';
 import Link from 'next/link';
 import ClinicBanner from '@/components/ClinicBanner';
@@ -420,3 +420,4 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
     </div>
   );
 }
+
