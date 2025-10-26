@@ -21,6 +21,77 @@ interface ClinicPageProps {
 }
 // ----------------------
 
+// Normalize nested options to snake_case so the UI sees the same shape as /api/clinics
+function normalizeClinicForUI(raw: any) {
+  const accessibility_options = raw?.accessibility_options
+    ? {
+        wheelchair_accessible_entrance:
+          raw.accessibility_options.wheelchair_accessible_entrance ??
+          raw.accessibility_options.wheelchairAccessibleEntrance,
+        wheelchair_accessible_parking:
+          raw.accessibility_options.wheelchair_accessible_parking ??
+          raw.accessibility_options.wheelchairAccessibleParking,
+        wheelchair_accessible_restroom:
+          raw.accessibility_options.wheelchair_accessible_restroom ??
+          raw.accessibility_options.wheelchairAccessibleRestroom,
+        wheelchair_accessible_seating:
+          raw.accessibility_options.wheelchair_accessible_seating ??
+          raw.accessibility_options.wheelchairAccessibleSeating,
+      }
+    : undefined;
+
+  const payment_options = raw?.payment_options
+    ? {
+        accepts_credit_cards:
+          raw.payment_options.accepts_credit_cards ??
+          raw.payment_options.acceptsCreditCards,
+        accepts_debit_cards:
+          raw.payment_options.accepts_debit_cards ??
+          raw.payment_options.acceptsDebitCards,
+        accepts_cash_only:
+          raw.payment_options.accepts_cash_only ??
+          raw.payment_options.acceptsCashOnly,
+        accepts_nfc:
+          raw.payment_options.accepts_nfc ??
+          raw.payment_options.acceptsNfc,
+      }
+    : undefined;
+
+  const parking_options = raw?.parking_options
+    ? {
+        free_parking_lot:
+          raw.parking_options.free_parking_lot ??
+          raw.parking_options.freeParkingLot,
+        paid_parking_lot:
+          raw.parking_options.paid_parking_lot ??
+          raw.parking_options.paidParkingLot,
+        free_street_parking:
+          raw.parking_options.free_street_parking ??
+          raw.parking_options.freeStreetParking,
+        paid_street_parking:
+          raw.parking_options.paid_street_parking ??
+          raw.parking_options.paidStreetParking,
+        valet_parking:
+          raw.parking_options.valet_parking ??
+          raw.parking_options.valetParking,
+        free_garage_parking:
+          raw.parking_options.free_garage_parking ??
+          raw.parking_options.freeGarageParking,
+        paid_garage_parking:
+          raw.parking_options.paid_garage_parking ??
+          raw.parking_options.paidGarageParking,
+      }
+    : undefined;
+
+  return {
+    ...raw,
+    accessibility_options,
+    payment_options,
+    parking_options,
+  };
+}
+
+
 // Server-side data fetching
 async function getClinic(id: string): Promise<Clinic | null> {
   const supabase = createSupabaseClient();
@@ -50,6 +121,7 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
   if (!clinic) {
     notFound();
   }
+  const clinic = normalizeClinicForUI(rawClinic as any) as Clinic;
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -291,3 +363,4 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
     </div>
   );
 }
+
