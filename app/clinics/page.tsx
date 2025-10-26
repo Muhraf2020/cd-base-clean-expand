@@ -179,17 +179,26 @@ function ClinicsContent() {
       {/* Header */}
       <header className="bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <Link href="/" className="text-blue-600 hover:text-blue-700 font-medium mb-4 inline-block">
-            ← Back to Home
+          <Link 
+            href={cityParam && stateParam ? `/state/${stateParam}` : "/"} 
+            className="text-blue-600 hover:text-blue-700 font-medium mb-4 inline-block"
+          >
+            ← Back to {cityParam ? `${stateParam} Cities` : 'Home'}
           </Link>
           
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">
-                {stateParam ? `${stateParam} ` : ''}Dermatology Clinics
+                {cityParam 
+                  ? `${cityParam}, ${stateParam || ''} ` 
+                  : stateParam 
+                    ? `${stateParam} ` 
+                    : ''}
+                Dermatology Clinics
               </h1>
               <p className="text-sm text-gray-600 mt-1">
                 Find the best skin care specialists
+                {cityParam && ` in ${cityParam}`}
               </p>
             </div>
       
@@ -307,4 +316,5 @@ export default function ClinicsPage() {
     </Suspense>
   );
 }
+
 
