@@ -37,36 +37,56 @@ const STATE_TIMEZONES: Record<string, string> = {
 };
 
 /**
- * Transform Supabase data (camelCase) to frontend format (snake_case)
+ * Transform Supabase data to frontend format
+ * Handles both camelCase (from Google API) and snake_case (already normalized)
  * and calculate real-time open_now status
  */
 function transformClinicData(rawClinic: any): Clinic {
-  // Transform accessibility_options from camelCase to snake_case
-  const accessibility_options = rawClinic.accessibility_options ? {
-    wheelchair_accessible_entrance: rawClinic.accessibility_options.wheelchairAccessibleEntrance,
-    wheelchair_accessible_parking: rawClinic.accessibility_options.wheelchairAccessibleParking,
-    wheelchair_accessible_restroom: rawClinic.accessibility_options.wheelchairAccessibleRestroom,
-    wheelchair_accessible_seating: rawClinic.accessibility_options.wheelchairAccessibleSeating,
-  } : undefined;
+  // Helper function to get value from either camelCase or snake_case
+  const getValue = (obj: any, snakeKey: string, camelKey: string): boolean | undefined => {
+    if (obj?.[snakeKey] !== undefined) return obj[snakeKey];
+    if (obj?.[camelKey] !== undefined) return obj[camelKey];
+    return undefined;
+  };
 
-  // Transform payment_options from camelCase to snake_case
-  const payment_options = rawClinic.payment_options ? {
-    accepts_credit_cards: rawClinic.payment_options.acceptsCreditCards,
-    accepts_debit_cards: rawClinic.payment_options.acceptsDebitCards,
-    accepts_cash_only: rawClinic.payment_options.acceptsCashOnly,
-    accepts_nfc: rawClinic.payment_options.acceptsNfc,
-  } : undefined;
+  // Transform accessibility_options - handle both formats
+  let accessibility_options = undefined;
+  if (rawClinic.accessibility_options && typeof rawClinic.accessibility_options === 'object') {
+    const ao = rawClinic.accessibility_options;
+    accessibility_options = {
+      wheelchair_accessible_entrance: getValue(ao, 'wheelchair_accessible_entrance', 'wheelchairAccessibleEntrance'),
+      wheelchair_accessible_parking: getValue(ao, 'wheelchair_accessible_parking', 'wheelchairAccessibleParking'),
+      wheelchair_accessible_restroom: getValue(ao, 'wheelchair_accessible_restroom', 'wheelchairAccessibleRestroom'),
+      wheelchair_accessible_seating: getValue(ao, 'wheelchair_accessible_seating', 'wheelchairAccessibleSeating'),
+    };
+  }
 
-  // Transform parking_options from camelCase to snake_case
-  const parking_options = rawClinic.parking_options ? {
-    free_parking_lot: rawClinic.parking_options.freeParkingLot,
-    paid_parking_lot: rawClinic.parking_options.paidParkingLot,
-    free_street_parking: rawClinic.parking_options.freeStreetParking,
-    paid_street_parking: rawClinic.parking_options.paidStreetParking,
-    valet_parking: rawClinic.parking_options.valetParking,
-    free_garage_parking: rawClinic.parking_options.freeGarageParking,
-    paid_garage_parking: rawClinic.parking_options.paidGarageParking,
-  } : undefined;
+  // Transform payment_options - handle both formats
+  let payment_options = undefined;
+  if (rawClinic.payment_options && typeof rawClinic.payment_options === 'object') {
+    const po = rawClinic.payment_options;
+    payment_options = {
+      accepts_credit_cards: getValue(po, 'accepts_credit_cards', 'acceptsCreditCards'),
+      accepts_debit_cards: getValue(po, 'accepts_debit_cards', 'acceptsDebitCards'),
+      accepts_cash_only: getValue(po, 'accepts_cash_only', 'acceptsCashOnly'),
+      accepts_nfc: getValue(po, 'accepts_nfc', 'acceptsNfc'),
+    };
+  }
+
+  // Transform parking_options - handle both formats
+  let parking_options = undefined;
+  if (rawClinic.parking_options && typeof rawClinic.parking_options === 'object') {
+    const pko = rawClinic.parking_options;
+    parking_options = {
+      free_parking_lot: getValue(pko, 'free_parking_lot', 'freeParkingLot'),
+      paid_parking_lot: getValue(pko, 'paid_parking_lot', 'paidParkingLot'),
+      free_street_parking: getValue(pko, 'free_street_parking', 'freeStreetParking'),
+      paid_street_parking: getValue(pko, 'paid_street_parking', 'paidStreetParking'),
+      valet_parking: getValue(pko, 'valet_parking', 'valetParking'),
+      free_garage_parking: getValue(pko, 'free_garage_parking', 'freeGarageParking'),
+      paid_garage_parking: getValue(pko, 'paid_garage_parking', 'paidGarageParking'),
+    };
+  }
 
   // Calculate real-time open_now status from weekday_text
   let current_open_now = false;
