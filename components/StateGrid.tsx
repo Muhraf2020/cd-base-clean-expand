@@ -50,7 +50,7 @@ export default function StateGrid() {
       {states.map((state) => (
         <Link
           key={state.code}
-          href={`/clinics?state=${state.code}`}
+          href={`/state/${state.code}`}
           className="bg-gradient-to-br from-blue-50 to-blue-100 hover:from-blue-100 hover:to-blue-200 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 p-4 sm:p-6 group border-2 border-blue-200 hover:border-blue-400 active:scale-95"
         >
           <div className="flex flex-col items-center text-center">
@@ -73,3 +73,4 @@ export default function StateGrid() {
     </div>
   );
 }
+
