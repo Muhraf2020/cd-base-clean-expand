@@ -3,21 +3,31 @@
 
 import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
-import { Clinic } from '@/lib/dataTypes';
+import type { Clinic } from '@/lib/dataTypes';
 
 export default function ClinicDetailPage() {
-  const params = useParams();
+  const params = useParams() as { id?: string | string[] };
+  const id = Array.isArray(params?.id) ? params.id[0] : params?.id;
+
   const [clinic, setClinic] = useState<Clinic | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (!id) return;
+
     async function fetchClinic() {
+      setLoading(true);
+      setError(null);
       try {
-        const response = await fetch(`/api/clinics/${params.id}`);
-        if (!response.ok) throw new Error('Failed to fetch clinic');
-        const data = await response.json();
-        setClinic(data.clinic);
+        const res = await fetch(`/api/clinics/${encodeURIComponent(id)}`, {
+          headers: { 'accept': 'application/json' },
+          cache: 'no-store',
+        });
+        if (!res.ok) throw new Error(`Failed to fetch clinic (${res.status})`);
+        const data = await res.json();
+        // Keep state typed as Clinic; we’ll compute fallbacks at render time
+        setClinic((data?.clinic ?? null) as Clinic | null);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'An error occurred');
       } finally {
@@ -26,7 +36,15 @@ export default function ClinicDetailPage() {
     }
 
     fetchClinic();
-  }, [params.id]);
+  }, [id]);
+
+  if (!id) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-lg text-red-600">Invalid clinic URL.</div>
+      </div>
+    );
+  }
 
   if (loading) {
     return (
@@ -44,6 +62,13 @@ export default function ClinicDetailPage() {
     );
   }
 
+  // ---- Field fallbacks to tolerate either API/DB shape without changing `Clinic` ----
+  const cAny = clinic as any;
+  const phone: string | null = cAny.phone ?? cAny.phone_number ?? null;
+  const website: string | null = cAny.website ?? cAny.website_uri ?? null;
+  const ratingCount: number | null =
+    cAny.user_rating_count ?? cAny.user_ratings_total ?? null;
+
   return (
     <div className="min-h-screen bg-gray-50 py-8">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -52,7 +77,7 @@ export default function ClinicDetailPage() {
           <h1 className="text-3xl font-bold text-gray-900 mb-2">
             {clinic.display_name}
           </h1>
-          
+
           {clinic.current_open_now !== undefined && (
             <div className="mb-4">
               <span
@@ -72,27 +97,24 @@ export default function ClinicDetailPage() {
               <span className="mr-2">📍</span>
               <span>{clinic.formatted_address}</span>
             </p>
-            
-            {clinic.phone_number && (
+
+            {phone && (
               <p className="flex items-center">
                 <span className="mr-2">📞</span>
-                <a 
-                  href={`tel:${clinic.phone_number}`}
-                  className="text-blue-600 hover:underline"
-                >
-                  {clinic.phone_number}
+                <a href={`tel:${phone}`} className="text-blue-600 hover:underline">
+                  {phone}
                 </a>
               </p>
             )}
 
-            {clinic.website_uri && (
+            {website && (
               <p className="flex items-center">
                 <span className="mr-2">🌐</span>
-                <a 
-                  href={clinic.website_uri}
+                <a
+                  href={website}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-blue-600 hover:underline break-all"
                 >
                   Visit Website
                 </a>
@@ -102,11 +124,13 @@ export default function ClinicDetailPage() {
             {clinic.rating && (
               <p className="flex items-center">
                 <span className="mr-2">⭐</span>
-                <span className="font-semibold">{clinic.rating}</span>
-                {clinic.user_ratings_total && (
-                  <span className="ml-1 text-gray-500">
-                    ({clinic.user_ratings_total} reviews)
-                  </span>
+                <span className="font-semibold">
+                  {typeof clinic.rating === 'number'
+                    ? clinic.rating.toFixed(1)
+                    : clinic.rating}
+                </span>
+                {ratingCount != null && (
+                  <span className="ml-1 text-gray-500">({ratingCount} reviews)</span>
                 )}
               </p>
             )}
@@ -116,17 +140,15 @@ export default function ClinicDetailPage() {
         {/* Opening Hours */}
         {clinic.opening_hours?.weekday_text && (
           <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Opening Hours
-            </h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Opening Hours</h2>
             <ul className="space-y-2">
-              {clinic.opening_hours.weekday_text.map((hours, index) => {
+              {clinic.opening_hours.weekday_text.map((hours: string, i: number) => {
                 const [day, times] = hours.split(': ');
-                const isToday = new Date().toLocaleDateString('en-US', { weekday: 'long' }) === day;
-                
+                const isToday =
+                  new Date().toLocaleDateString('en-US', { weekday: 'long' }) === day;
                 return (
                   <li
-                    key={index}
+                    key={i}
                     className={`flex justify-between py-2 px-3 rounded ${
                       isToday ? 'bg-blue-50 font-semibold' : ''
                     }`}
@@ -140,22 +162,20 @@ export default function ClinicDetailPage() {
           </div>
         )}
 
-        {/* Amenities Section */}
+        {/* Amenities */}
         <div className="bg-white rounded-lg shadow-md p-6 mb-6">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">
             Amenities & Features
           </h2>
 
-          {/* Check if any amenities are available */}
-          {!clinic.accessibility_options && 
-           !clinic.payment_options && 
-           !clinic.parking_options ? (
+          {!clinic.accessibility_options &&
+          !clinic.payment_options &&
+          !clinic.parking_options ? (
             <p className="text-gray-500 italic">
               No amenity information available for this clinic.
             </p>
           ) : (
             <div className="space-y-6">
-              {/* Accessibility Options */}
               {clinic.accessibility_options && (
                 <AmenitiesSection
                   title="♿ Accessibility"
@@ -178,13 +198,13 @@ export default function ClinicDetailPage() {
                     {
                       key: 'wheelchair_accessible_seating',
                       label: 'Wheelchair Accessible Seating',
-                      value: clinic.accessibility_options.wheelchair_accessible_seating,
+                      value: (clinic as any).accessibility_options
+                        ?.wheelchair_accessible_seating,
                     },
                   ]}
                 />
               )}
 
-              {/* Payment Options */}
               {clinic.payment_options && (
                 <AmenitiesSection
                   title="💳 Payment Methods"
@@ -197,7 +217,7 @@ export default function ClinicDetailPage() {
                     {
                       key: 'accepts_debit_cards',
                       label: 'Debit Cards',
-                      value: clinic.payment_options.accepts_debit_cards,
+                      value: (clinic as any).payment_options?.accepts_debit_cards,
                     },
                     {
                       key: 'accepts_cash_only',
@@ -207,13 +227,12 @@ export default function ClinicDetailPage() {
                     {
                       key: 'accepts_nfc',
                       label: 'NFC/Contactless',
-                      value: clinic.payment_options.accepts_nfc,
+                      value: (clinic as any).payment_options?.accepts_nfc,
                     },
                   ]}
                 />
               )}
 
-              {/* Parking Options */}
               {clinic.parking_options && (
                 <AmenitiesSection
                   title="🅿️ Parking"
@@ -231,27 +250,27 @@ export default function ClinicDetailPage() {
                     {
                       key: 'free_street_parking',
                       label: 'Free Street Parking',
-                      value: clinic.parking_options.free_street_parking,
+                      value: (clinic as any).parking_options?.free_street_parking,
                     },
                     {
                       key: 'paid_street_parking',
                       label: 'Paid Street Parking',
-                      value: clinic.parking_options.paid_street_parking,
+                      value: (clinic as any).parking_options?.paid_street_parking,
                     },
                     {
                       key: 'valet_parking',
                       label: 'Valet Parking',
-                      value: clinic.parking_options.valet_parking,
+                      value: (clinic as any).parking_options?.valet_parking,
                     },
                     {
                       key: 'free_garage_parking',
                       label: 'Free Garage Parking',
-                      value: clinic.parking_options.free_garage_parking,
+                      value: (clinic as any).parking_options?.free_garage_parking,
                     },
                     {
                       key: 'paid_garage_parking',
                       label: 'Paid Garage Parking',
-                      value: clinic.parking_options.paid_garage_parking,
+                      value: (clinic as any).parking_options?.paid_garage_parking,
                     },
                   ]}
                 />
@@ -279,7 +298,6 @@ export default function ClinicDetailPage() {
   );
 }
 
-// Component for displaying amenities sections
 interface AmenitiesSectionProps {
   title: string;
   options: Array<{
@@ -290,25 +308,20 @@ interface AmenitiesSectionProps {
 }
 
 function AmenitiesSection({ title, options }: AmenitiesSectionProps) {
-  // Filter out options with undefined or false values
-  const availableOptions = options.filter(opt => opt.value === true);
-
-  // If no options are available, don't render the section
-  if (availableOptions.length === 0) {
-    return null;
-  }
+  const available = options.filter((o) => o.value === true);
+  if (available.length === 0) return null;
 
   return (
     <div>
       <h3 className="text-lg font-semibold text-gray-900 mb-3">{title}</h3>
       <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        {availableOptions.map(option => (
+        {available.map((o) => (
           <li
-            key={option.key}
+            key={o.key}
             className="flex items-center text-gray-700 bg-gray-50 rounded-lg px-4 py-2"
           >
             <span className="text-green-600 mr-2">✓</span>
-            <span>{option.label}</span>
+            <span>{o.label}</span>
           </li>
         ))}
       </ul>
