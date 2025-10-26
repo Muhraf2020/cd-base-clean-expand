@@ -2,7 +2,6 @@
 // export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
 
-import { createSupabaseClient } from '@/lib/supabase';
 import { Clinic } from '@/lib/dataTypes';
 import Link from 'next/link';
 import ClinicBanner from '@/components/ClinicBanner';
@@ -17,21 +16,40 @@ interface ClinicPageProps {
 }
 // ----------------------
 
-// Server-side data fetching
+// Server-side data fetching using API route (includes transformation)
 async function getClinic(id: string): Promise<Clinic | null> {
-  const supabase = createSupabaseClient();
+  try {
+    // Use the API route which includes proper data transformation
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
+    
+    // Fetch from API with place_id filter
+    const response = await fetch(`${baseUrl}/api/clinics?place_id=${id}`, {
+      cache: 'no-store', // Ensure fresh data
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
 
-  const { data, error } = await supabase
-    .from('clinics')
-    .select('*')
-    .eq('place_id', id)
-    .single();
+    if (!response.ok) {
+      console.error(`API returned ${response.status}`);
+      return null;
+    }
 
-  if (error || !data) {
+    const data = await response.json();
+    
+    // The API returns { clinics: [...] }, get the first matching clinic
+    const clinic = data.clinics?.[0];
+    
+    if (!clinic) {
+      console.error(`No clinic found with place_id: ${id}`);
+      return null;
+    }
+
+    return clinic;
+  } catch (error) {
+    console.error('Error fetching clinic:', error);
     return null;
   }
-
-  return data as Clinic;
 }
 
 // ----------------------
@@ -147,62 +165,119 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
               </div>
             )}
 
-            {/* Features */}
-            <div className="bg-white rounded-lg shadow-md p-6">
-              <h2 className="text-xl font-bold text-gray-900 mb-4">
-                Features & Amenities
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {clinic.accessibility_options?.wheelchair_accessible_entrance && (
-                  <div className="flex items-center gap-2">
-                    <span className="text-green-600">✓</span>
-                    <span className="text-gray-700">
-                      Wheelchair Accessible Entrance
-                    </span>
-                  </div>
-                )}
-                {clinic.accessibility_options?.wheelchair_accessible_parking && (
-                  <div className="flex items-center gap-2">
-                    <span className="text-green-600">✓</span>
-                    <span className="text-gray-700">
-                      Wheelchair Accessible Parking
-                    </span>
-                  </div>
-                )}
-                {clinic.accessibility_options?.wheelchair_accessible_restroom && (
-                  <div className="flex items-center gap-2">
-                    <span className="text-green-600">✓</span>
-                    <span className="text-gray-700">
-                      Wheelchair Accessible Restroom
-                    </span>
-                  </div>
-                )}
-                {clinic.parking_options?.free_parking_lot && (
-                  <div className="flex items-center gap-2">
-                    <span className="text-green-600">✓</span>
-                    <span className="text-gray-700">Free Parking Lot</span>
-                  </div>
-                )}
-                {clinic.parking_options?.paid_parking_lot && (
-                  <div className="flex items-center gap-2">
-                    <span className="text-blue-600">$</span>
-                    <span className="text-gray-700">Paid Parking Lot</span>
-                  </div>
-                )}
-                {clinic.payment_options?.accepts_credit_cards && (
-                  <div className="flex items-center gap-2">
-                    <span className="text-green-600">✓</span>
-                    <span className="text-gray-700">Accepts Credit Cards</span>
-                  </div>
-                )}
-                {clinic.payment_options?.accepts_cash_only && (
-                  <div className="flex items-center gap-2">
-                    <span className="text-green-600">✓</span>
-                    <span className="text-gray-700">Cash Only</span>
-                  </div>
-                )}
+            {/* Features - FIXED: Now shows amenities from transformed data */}
+            {(clinic.accessibility_options || clinic.parking_options || clinic.payment_options) && (
+              <div className="bg-white rounded-lg shadow-md p-6">
+                <h2 className="text-xl font-bold text-gray-900 mb-4">
+                  Features & Amenities
+                </h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {/* Accessibility Features */}
+                  {clinic.accessibility_options?.wheelchair_accessible_entrance && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-green-600">✓</span>
+                      <span className="text-gray-700">
+                        Wheelchair Accessible Entrance
+                      </span>
+                    </div>
+                  )}
+                  {clinic.accessibility_options?.wheelchair_accessible_parking && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-green-600">✓</span>
+                      <span className="text-gray-700">
+                        Wheelchair Accessible Parking
+                      </span>
+                    </div>
+                  )}
+                  {clinic.accessibility_options?.wheelchair_accessible_restroom && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-green-600">✓</span>
+                      <span className="text-gray-700">
+                        Wheelchair Accessible Restroom
+                      </span>
+                    </div>
+                  )}
+                  {clinic.accessibility_options?.wheelchair_accessible_seating && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-green-600">✓</span>
+                      <span className="text-gray-700">
+                        Wheelchair Accessible Seating
+                      </span>
+                    </div>
+                  )}
+                  
+                  {/* Parking Features */}
+                  {clinic.parking_options?.free_parking_lot && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-green-600">✓</span>
+                      <span className="text-gray-700">Free Parking Lot</span>
+                    </div>
+                  )}
+                  {clinic.parking_options?.paid_parking_lot && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-blue-600">$</span>
+                      <span className="text-gray-700">Paid Parking Lot</span>
+                    </div>
+                  )}
+                  {clinic.parking_options?.free_street_parking && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-green-600">✓</span>
+                      <span className="text-gray-700">Free Street Parking</span>
+                    </div>
+                  )}
+                  {clinic.parking_options?.paid_street_parking && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-blue-600">$</span>
+                      <span className="text-gray-700">Paid Street Parking</span>
+                    </div>
+                  )}
+                  {clinic.parking_options?.valet_parking && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-blue-600">🚗</span>
+                      <span className="text-gray-700">Valet Parking</span>
+                    </div>
+                  )}
+                  {clinic.parking_options?.free_garage_parking && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-green-600">✓</span>
+                      <span className="text-gray-700">Free Garage Parking</span>
+                    </div>
+                  )}
+                  {clinic.parking_options?.paid_garage_parking && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-blue-600">$</span>
+                      <span className="text-gray-700">Paid Garage Parking</span>
+                    </div>
+                  )}
+                  
+                  {/* Payment Features */}
+                  {clinic.payment_options?.accepts_credit_cards && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-green-600">✓</span>
+                      <span className="text-gray-700">Accepts Credit Cards</span>
+                    </div>
+                  )}
+                  {clinic.payment_options?.accepts_debit_cards && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-green-600">✓</span>
+                      <span className="text-gray-700">Accepts Debit Cards</span>
+                    </div>
+                  )}
+                  {clinic.payment_options?.accepts_cash_only && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-green-600">✓</span>
+                      <span className="text-gray-700">Cash Only</span>
+                    </div>
+                  )}
+                  {clinic.payment_options?.accepts_nfc && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-green-600">✓</span>
+                      <span className="text-gray-700">Contactless Payment</span>
+                    </div>
+                  )}
+                </div>
               </div>
-            </div>
+            )}
           </div>
 
           {/* Sidebar */}
