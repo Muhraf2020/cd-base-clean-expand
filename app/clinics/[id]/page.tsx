@@ -1,64 +1,106 @@
 // app/clinics/[id]/page.tsx
-// export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
 
+import { createClient } from '@/utils/supabase/server';
 import { Clinic } from '@/lib/dataTypes';
 import Link from 'next/link';
 import ClinicBanner from '@/components/ClinicBanner';
 import { notFound } from 'next/navigation';
 
-// ----------------------
-// 1. Updated for Next.js 15 - params is now a Promise
+// Interface for Next.js 15 - params is now a Promise
 interface ClinicPageProps {
   params: Promise<{
     id: string;
   }>;
 }
-// ----------------------
 
-// Server-side data fetching using API route (includes transformation)
+// Transform raw Supabase data to match Clinic type
+function transformClinicData(raw: any): Clinic {
+  return {
+    place_id: raw.place_id,
+    display_name: raw.display_name || raw.displayName?.text || '',
+    formatted_address: raw.formatted_address || raw.formattedAddress || '',
+    primary_type: raw.primary_type || raw.primaryType || '',
+    rating: raw.rating || null,
+    user_rating_count: raw.user_rating_count || raw.userRatingCount || null,
+    google_maps_uri: raw.google_maps_uri || raw.googleMapsUri || '',
+    website: raw.website || raw.websiteUri || null,
+    phone: raw.phone || raw.nationalPhoneNumber || null,
+    business_status: raw.business_status || raw.businessStatus || 'OPERATIONAL',
+    
+    // Handle current opening hours
+    current_open_now: raw.current_open_now !== undefined 
+      ? raw.current_open_now 
+      : raw.currentOpeningHours?.openNow,
+    
+    // Handle regular opening hours with nested structure
+    opening_hours: raw.opening_hours || {
+      weekday_text: raw.regularOpeningHours?.weekdayDescriptions || 
+                    raw.currentOpeningHours?.weekdayDescriptions || 
+                    []
+    },
+    
+    // Handle accessibility options
+    accessibility_options: raw.accessibility_options || {
+      wheelchair_accessible_entrance: raw.accessibilityOptions?.wheelchairAccessibleEntrance || false,
+      wheelchair_accessible_parking: raw.accessibilityOptions?.wheelchairAccessibleParking || false,
+      wheelchair_accessible_restroom: raw.accessibilityOptions?.wheelchairAccessibleRestroom || false,
+      wheelchair_accessible_seating: raw.accessibilityOptions?.wheelchairAccessibleSeating || false
+    },
+    
+    // Handle parking options
+    parking_options: raw.parking_options || {
+      free_parking_lot: raw.parkingOptions?.freeParkingLot || false,
+      paid_parking_lot: raw.parkingOptions?.paidParkingLot || false,
+      free_street_parking: raw.parkingOptions?.freeStreetParking || false,
+      paid_street_parking: raw.parkingOptions?.paidStreetParking || false,
+      valet_parking: raw.parkingOptions?.valetParking || false,
+      free_garage_parking: raw.parkingOptions?.freeGarageParking || false,
+      paid_garage_parking: raw.parkingOptions?.paidGarageParking || false
+    },
+    
+    // Handle payment options
+    payment_options: raw.payment_options || {
+      accepts_credit_cards: raw.paymentOptions?.acceptsCreditCards || false,
+      accepts_debit_cards: raw.paymentOptions?.acceptsDebitCards || false,
+      accepts_cash_only: raw.paymentOptions?.acceptsCashOnly || false,
+      accepts_nfc: raw.paymentOptions?.acceptsNfc || false
+    }
+  };
+}
+
+// Server-side data fetching directly from Supabase
 async function getClinic(id: string): Promise<Clinic | null> {
   try {
-    // Use the API route which includes proper data transformation
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
+    const supabase = await createClient();
     
-    // Fetch from API with place_id filter
-    const response = await fetch(`${baseUrl}/api/clinics?place_id=${id}`, {
-      cache: 'no-store', // Ensure fresh data
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
+    const { data, error } = await supabase
+      .from('clinics')
+      .select('*')
+      .eq('place_id', id)
+      .single();
 
-    if (!response.ok) {
-      console.error(`API returned ${response.status}`);
+    if (error) {
+      console.error('Supabase error:', error);
       return null;
     }
 
-    const data = await response.json();
-    
-    // The API returns { clinics: [...] }, get the first matching clinic
-    const clinic = data.clinics?.[0];
-    
-    if (!clinic) {
+    if (!data) {
       console.error(`No clinic found with place_id: ${id}`);
       return null;
     }
 
-    return clinic;
+    // Transform the raw data to match our Clinic type
+    return transformClinicData(data);
   } catch (error) {
     console.error('Error fetching clinic:', error);
     return null;
   }
 }
 
-// ----------------------
-// 2. Await the params promise before using
+// Main page component - await params in Next.js 15+
 export default async function ClinicDetailPage({ params }: ClinicPageProps) {
-  // CRITICAL: Await params in Next.js 15+
   const { id } = await params;
-  // ----------------------
-
   const clinic = await getClinic(id);
 
   if (!clinic) {
@@ -165,7 +207,7 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
               </div>
             )}
 
-            {/* Features - FIXED: Now shows amenities from transformed data */}
+            {/* Features - Now properly shows amenities from transformed data */}
             {(clinic.accessibility_options || clinic.parking_options || clinic.payment_options) && (
               <div className="bg-white rounded-lg shadow-md p-6">
                 <h2 className="text-xl font-bold text-gray-900 mb-4">
