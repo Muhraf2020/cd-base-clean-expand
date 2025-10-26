@@ -77,6 +77,7 @@ export interface Clinic {
   postal_code?: string;
   created_at?: string;
   updated_at?: string;
+  featured_clinic?: boolean;
 }
   
 export interface SearchParams {
@@ -127,3 +128,4 @@ export interface FilterOptions {
   sort_by?: 'rating' | 'reviews' | 'name' | 'distance';
   sort_order?: 'asc' | 'desc';
 }
+
