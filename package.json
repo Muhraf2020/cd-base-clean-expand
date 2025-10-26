@@ -1,5 +1,5 @@
 {
-  "name": "dermaclinicsnearme",
+  "name": "derclinnm",
   "version": "1.0.0",
   "description": "A comprehensive directory of dermatology clinics across the USA",
   "private": true,
@@ -8,12 +8,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "collect-data": "tsx scripts/collectClinicData.ts",
+    "collect-data": "tsx scripts/collectClinicDataFinal.ts",
     "fetch:unsplash": "node scripts/fetch-unsplash-images.js",
     "verify:routes": "node -e \"const fs=require('fs');const p='.open-next/_routes.json';if(!fs.existsSync(p)){console.error('❌ .open-next/_routes.json MISSING');process.exit(1);}const j=JSON.parse(fs.readFileSync(p,'utf8'));const expect={version:1,include:['/*'],exclude:['/assets/*']};if(JSON.stringify(j)!==JSON.stringify(expect)){console.error('❌ _routes.json CONTENT MISMATCH:', j);process.exit(1);}console.log('✅ _routes.json OK');\"",
     "pages:build": "npx @opennextjs/cloudflare@latest build && cp cloudflare/worker-wrapper.js .open-next/_worker.js && cp -f _routes.json .open-next/_routes.json",
     "preview": "npm run pages:build && wrangler pages dev .open-next",
-    "deploy": "npm run pages:build && wrangler pages deploy .open-next"
+    "deploy": "npm run pages:build && wrangler pages deploy .open-next --project-name cd-base-clean-expand --branch main"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.75.1",
@@ -40,3 +40,4 @@
     "node": ">=18.0.0"
   }
 }
+
