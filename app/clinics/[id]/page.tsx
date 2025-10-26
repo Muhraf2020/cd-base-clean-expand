@@ -1,108 +1,52 @@
 // app/clinics/[id]/page.tsx
+// export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
 
+
+// app/clinics/[id]/page.tsx
 import { createSupabaseClient } from '@/lib/supabase';
 import { Clinic } from '@/lib/dataTypes';
 import Link from 'next/link';
 import ClinicBanner from '@/components/ClinicBanner';
 import { notFound } from 'next/navigation';
 
-// Interface for Next.js 15 - params is now a Promise
+
+
+// ----------------------
+// 1. Updated for Next.js 15 - params is now a Promise
 interface ClinicPageProps {
   params: Promise<{
     id: string;
   }>;
 }
+// ----------------------
 
-// Transform raw Supabase data to match Clinic type
-function transformClinicData(raw: any): Clinic {
-  return {
-    place_id: raw.place_id,
-    display_name: raw.display_name || raw.displayName?.text || '',
-    formatted_address: raw.formatted_address || raw.formattedAddress || '',
-    primary_type: raw.primary_type || raw.primaryType || '',
-    rating: raw.rating || null,
-    user_rating_count: raw.user_rating_count || raw.userRatingCount || null,
-    google_maps_uri: raw.google_maps_uri || raw.googleMapsUri || '',
-    website: raw.website || raw.websiteUri || null,
-    phone: raw.phone || raw.nationalPhoneNumber || null,
-    business_status: raw.business_status || raw.businessStatus || 'OPERATIONAL',
-    
-    // Handle current opening hours
-    current_open_now: raw.current_open_now !== undefined 
-      ? raw.current_open_now 
-      : raw.currentOpeningHours?.openNow,
-    
-    // Handle regular opening hours with nested structure
-    opening_hours: raw.opening_hours || {
-      weekday_text: raw.regularOpeningHours?.weekdayDescriptions || 
-                    raw.currentOpeningHours?.weekdayDescriptions || 
-                    []
-    },
-    
-    // Handle accessibility options
-    accessibility_options: raw.accessibility_options || {
-      wheelchair_accessible_entrance: raw.accessibilityOptions?.wheelchairAccessibleEntrance || false,
-      wheelchair_accessible_parking: raw.accessibilityOptions?.wheelchairAccessibleParking || false,
-      wheelchair_accessible_restroom: raw.accessibilityOptions?.wheelchairAccessibleRestroom || false,
-      wheelchair_accessible_seating: raw.accessibilityOptions?.wheelchairAccessibleSeating || false
-    },
-    
-    // Handle parking options
-    parking_options: raw.parking_options || {
-      free_parking_lot: raw.parkingOptions?.freeParkingLot || false,
-      paid_parking_lot: raw.parkingOptions?.paidParkingLot || false,
-      free_street_parking: raw.parkingOptions?.freeStreetParking || false,
-      paid_street_parking: raw.parkingOptions?.paidStreetParking || false,
-      valet_parking: raw.parkingOptions?.valetParking || false,
-      free_garage_parking: raw.parkingOptions?.freeGarageParking || false,
-      paid_garage_parking: raw.parkingOptions?.paidGarageParking || false
-    },
-    
-    // Handle payment options
-    payment_options: raw.payment_options || {
-      accepts_credit_cards: raw.paymentOptions?.acceptsCreditCards || false,
-      accepts_debit_cards: raw.paymentOptions?.acceptsDebitCards || false,
-      accepts_cash_only: raw.paymentOptions?.acceptsCashOnly || false,
-      accepts_nfc: raw.paymentOptions?.acceptsNfc || false
-    }
-  };
-}
-
-// Server-side data fetching directly from Supabase
+// Server-side data fetching
 async function getClinic(id: string): Promise<Clinic | null> {
-  try {
-    const supabase = await createClient();
-    
-    const { data, error } = await supabase
-      .from('clinics')
-      .select('*')
-      .eq('place_id', id)
-      .single();
+  const supabase = createSupabaseClient();
 
-    if (error) {
-      console.error('Supabase error:', error);
-      return null;
-    }
+  const { data, error } = await supabase
+    .from('clinics')
+    .select('*')
+    .eq('place_id', id)
+    .single();
 
-    if (!data) {
-      console.error(`No clinic found with place_id: ${id}`);
-      return null;
-    }
-
-    // Transform the raw data to match our Clinic type
-    return transformClinicData(data);
-  } catch (error) {
-    console.error('Error fetching clinic:', error);
+  if (error || !data) {
     return null;
   }
+
+  return data as Clinic;
 }
 
-// Main page component - await params in Next.js 15+
+// ----------------------
+// 2. Await the params promise before using
 export default async function ClinicDetailPage({ params }: ClinicPageProps) {
+  // CRITICAL: Await params in Next.js 15+
   const { id } = await params;
-  const clinic = await getClinic(id);
+// ----------------------
 
+  const clinic = await getClinic(id);
+  
   if (!clinic) {
     notFound();
   }
@@ -144,9 +88,7 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
                   <h1 className="text-3xl font-bold text-gray-900 mb-2">
                     {clinic.display_name}
                   </h1>
-                  <p className="text-gray-600">
-                    {clinic.primary_type?.replace(/_/g, ' ')}
-                  </p>
+                  <p className="text-gray-600">{clinic.primary_type?.replace(/_/g, ' ')}</p>
                 </div>
 
                 {clinic.current_open_now !== undefined && (
@@ -168,7 +110,7 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
                   <div className="flex items-center gap-2">
                     <span className="text-3xl text-yellow-400">★</span>
                     <span className="text-2xl font-bold text-gray-900">
-                      {Number(clinic.rating).toFixed(1)}
+                      {clinic.rating.toFixed(1)}
                     </span>
                   </div>
                   {clinic.user_rating_count && (
@@ -194,9 +136,7 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
             {/* Opening Hours */}
             {clinic.opening_hours?.weekday_text && (
               <div className="bg-white rounded-lg shadow-md p-6">
-                <h2 className="text-xl font-bold text-gray-900 mb-4">
-                  Opening Hours
-                </h2>
+                <h2 className="text-xl font-bold text-gray-900 mb-4">Opening Hours</h2>
                 <div className="space-y-2">
                   {clinic.opening_hours.weekday_text.map((text, index) => (
                     <p key={index} className="text-gray-700">
@@ -207,128 +147,61 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
               </div>
             )}
 
-            {/* Features - Now properly shows amenities from transformed data */}
-            {(clinic.accessibility_options || clinic.parking_options || clinic.payment_options) && (
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <h2 className="text-xl font-bold text-gray-900 mb-4">
-                  Features & Amenities
-                </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {/* Accessibility Features */}
-                  {clinic.accessibility_options?.wheelchair_accessible_entrance && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-green-600">✓</span>
-                      <span className="text-gray-700">
-                        Wheelchair Accessible Entrance
-                      </span>
-                    </div>
-                  )}
-                  {clinic.accessibility_options?.wheelchair_accessible_parking && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-green-600">✓</span>
-                      <span className="text-gray-700">
-                        Wheelchair Accessible Parking
-                      </span>
-                    </div>
-                  )}
-                  {clinic.accessibility_options?.wheelchair_accessible_restroom && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-green-600">✓</span>
-                      <span className="text-gray-700">
-                        Wheelchair Accessible Restroom
-                      </span>
-                    </div>
-                  )}
-                  {clinic.accessibility_options?.wheelchair_accessible_seating && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-green-600">✓</span>
-                      <span className="text-gray-700">
-                        Wheelchair Accessible Seating
-                      </span>
-                    </div>
-                  )}
-                  
-                  {/* Parking Features */}
-                  {clinic.parking_options?.free_parking_lot && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-green-600">✓</span>
-                      <span className="text-gray-700">Free Parking Lot</span>
-                    </div>
-                  )}
-                  {clinic.parking_options?.paid_parking_lot && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-blue-600">$</span>
-                      <span className="text-gray-700">Paid Parking Lot</span>
-                    </div>
-                  )}
-                  {clinic.parking_options?.free_street_parking && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-green-600">✓</span>
-                      <span className="text-gray-700">Free Street Parking</span>
-                    </div>
-                  )}
-                  {clinic.parking_options?.paid_street_parking && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-blue-600">$</span>
-                      <span className="text-gray-700">Paid Street Parking</span>
-                    </div>
-                  )}
-                  {clinic.parking_options?.valet_parking && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-blue-600">🚗</span>
-                      <span className="text-gray-700">Valet Parking</span>
-                    </div>
-                  )}
-                  {clinic.parking_options?.free_garage_parking && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-green-600">✓</span>
-                      <span className="text-gray-700">Free Garage Parking</span>
-                    </div>
-                  )}
-                  {clinic.parking_options?.paid_garage_parking && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-blue-600">$</span>
-                      <span className="text-gray-700">Paid Garage Parking</span>
-                    </div>
-                  )}
-                  
-                  {/* Payment Features */}
-                  {clinic.payment_options?.accepts_credit_cards && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-green-600">✓</span>
-                      <span className="text-gray-700">Accepts Credit Cards</span>
-                    </div>
-                  )}
-                  {clinic.payment_options?.accepts_debit_cards && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-green-600">✓</span>
-                      <span className="text-gray-700">Accepts Debit Cards</span>
-                    </div>
-                  )}
-                  {clinic.payment_options?.accepts_cash_only && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-green-600">✓</span>
-                      <span className="text-gray-700">Cash Only</span>
-                    </div>
-                  )}
-                  {clinic.payment_options?.accepts_nfc && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-green-600">✓</span>
-                      <span className="text-gray-700">Contactless Payment</span>
-                    </div>
-                  )}
-                </div>
+            {/* Features */}
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h2 className="text-xl font-bold text-gray-900 mb-4">Features & Amenities</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {clinic.accessibility_options?.wheelchair_accessible_entrance && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-green-600">✓</span>
+                    <span className="text-gray-700">Wheelchair Accessible Entrance</span>
+                  </div>
+                )}
+                {clinic.accessibility_options?.wheelchair_accessible_parking && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-green-600">✓</span>
+                    <span className="text-gray-700">Wheelchair Accessible Parking</span>
+                  </div>
+                )}
+                {clinic.accessibility_options?.wheelchair_accessible_restroom && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-green-600">✓</span>
+                    <span className="text-gray-700">Wheelchair Accessible Restroom</span>
+                  </div>
+                )}
+                {clinic.parking_options?.free_parking_lot && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-green-600">✓</span>
+                    <span className="text-gray-700">Free Parking Lot</span>
+                  </div>
+                )}
+                {clinic.parking_options?.paid_parking_lot && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-blue-600">$</span>
+                    <span className="text-gray-700">Paid Parking Lot</span>
+                  </div>
+                )}
+                {clinic.payment_options?.accepts_credit_cards && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-green-600">✓</span>
+                    <span className="text-gray-700">Accepts Credit Cards</span>
+                  </div>
+                )}
+                {clinic.payment_options?.accepts_cash_only && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-green-600">✓</span>
+                    <span className="text-gray-700">Cash Only</span>
+                  </div>
+                )}
               </div>
-            )}
+            </div>
           </div>
 
           {/* Sidebar */}
           <div className="space-y-6">
             {/* Contact Card */}
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h2 className="text-xl font-bold text-gray-900 mb-4">
-                Contact Information
-              </h2>
+              <h2 className="text-xl font-bold text-gray-900 mb-4">Contact Information</h2>
 
               {/* Address */}
               <div className="mb-4">
@@ -400,9 +273,7 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
             {/* Map Preview */}
             <div className="bg-white rounded-lg shadow-md p-6">
               <h2 className="text-xl font-bold text-gray-900 mb-2">Location</h2>
-              <p className="text-gray-600 mb-3">
-                View on Google Maps for directions.
-              </p>
+              <p className="text-gray-600 mb-3">View on Google Maps for directions.</p>
               {clinic.google_maps_uri && (
                 <a
                   href={clinic.google_maps_uri}
@@ -420,4 +291,3 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
     </div>
   );
 }
-
