@@ -6,6 +6,7 @@ import { createSupabaseClient } from '@/lib/supabase';
 import { Clinic } from '@/lib/dataTypes';
 import Link from 'next/link';
 import ClinicBanner from '@/components/ClinicBanner';
+import FeaturedClinicsSection from '@/components/FeaturedClinicsSection';
 import { notFound } from 'next/navigation';
 
 // ----------------------
@@ -387,6 +388,15 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
             </div>
           </div>
         </div>
+
+        {/* Featured Clinics Section - NEW */}
+        {clinic.city && clinic.state_code && (
+          <FeaturedClinicsSection
+            currentClinicId={clinic.place_id}
+            city={clinic.city}
+            stateCode={clinic.state_code}
+          />
+        )}
       </main>
     </div>
   );
