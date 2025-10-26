@@ -87,6 +87,49 @@ function normalizeClinicForUI(raw: any) {
   };
 }
 
+// Build a neat list of amenity chips to render (icon + label + tone)
+function buildAmenityChips(c: any) {
+  const chips: Array<{ label: string; icon: string; tone: 'green' | 'blue' | 'amber' }> = [];
+
+  // Accessibility
+  if (c?.accessibility_options?.wheelchair_accessible_entrance) {
+    chips.push({ label: 'Wheelchair Accessible Entrance', icon: '♿️', tone: 'green' });
+  }
+  if (c?.accessibility_options?.wheelchair_accessible_parking) {
+    chips.push({ label: 'Wheelchair Accessible Parking', icon: '🅿️', tone: 'blue' });
+  }
+  if (c?.accessibility_options?.wheelchair_accessible_restroom) {
+    chips.push({ label: 'Wheelchair Accessible Restroom', icon: '🚻', tone: 'blue' });
+  }
+  if (c?.accessibility_options?.wheelchair_accessible_seating) {
+    chips.push({ label: 'Wheelchair Accessible Seating', icon: '♿️', tone: 'green' });
+  }
+
+  // Parking
+  if (c?.parking_options?.free_parking_lot) {
+    chips.push({ label: 'Free Parking Lot', icon: '🅿️', tone: 'green' });
+  }
+  if (c?.parking_options?.paid_parking_lot) {
+    chips.push({ label: 'Paid Parking Lot', icon: '🅿️', tone: 'amber' });
+  }
+
+  // Payments
+  if (c?.payment_options?.accepts_credit_cards) {
+    chips.push({ label: 'Accepts Credit Cards', icon: '💳', tone: 'green' });
+  }
+  if (c?.payment_options?.accepts_cash_only) {
+    chips.push({ label: 'Cash Only', icon: '💵', tone: 'amber' });
+  }
+
+  return chips;
+}
+
+function toneClasses(tone: 'green' | 'blue' | 'amber') {
+  if (tone === 'green') return 'bg-green-50/70 border-green-100';
+  if (tone === 'blue') return 'bg-blue-50/70 border-blue-100';
+  return 'bg-amber-50/70 border-amber-100';
+}
+
 // Server-side data fetching
 async function getClinic(id: string): Promise<Clinic | null> {
   const supabase = createSupabaseClient();
@@ -117,8 +160,22 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
   }
   const clinic = normalizeClinicForUI(rawClinic) as Clinic;
 
+  const amenityChips = buildAmenityChips(clinic);
+
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* Lightweight, dependency-free keyframe animations */}
+      <style>{`
+        @keyframes fadeUp {
+          0% { opacity: 0; transform: translateY(6px); }
+          100% { opacity: 1; transform: translateY(0); }
+        }
+        .feature-chip {
+          opacity: 0;
+          animation: fadeUp 420ms ease forwards;
+        }
+      `}</style>
+
       {/* Header */}
       <header className="bg-white shadow-sm">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -218,50 +275,25 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
             {/* Features */}
             <div className="bg-white rounded-lg shadow-md p-6">
               <h2 className="text-xl font-bold text-gray-900 mb-4">Features & Amenities</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {clinic.accessibility_options?.wheelchair_accessible_entrance && (
-                  <div className="flex items-center gap-2">
-                    <span className="text-green-600">✓</span>
-                    <span className="text-gray-700">Wheelchair Accessible Entrance</span>
-                  </div>
-                )}
-                {clinic.accessibility_options?.wheelchair_accessible_parking && (
-                  <div className="flex items-center gap-2">
-                    <span className="text-green-600">✓</span>
-                    <span className="text-gray-700">Wheelchair Accessible Parking</span>
-                  </div>
-                )}
-                {clinic.accessibility_options?.wheelchair_accessible_restroom && (
-                  <div className="flex items-center gap-2">
-                    <span className="text-green-600">✓</span>
-                    <span className="text-gray-700">Wheelchair Accessible Restroom</span>
-                  </div>
-                )}
-                {clinic.parking_options?.free_parking_lot && (
-                  <div className="flex items-center gap-2">
-                    <span className="text-green-600">✓</span>
-                    <span className="text-gray-700">Free Parking Lot</span>
-                  </div>
-                )}
-                {clinic.parking_options?.paid_parking_lot && (
-                  <div className="flex items-center gap-2">
-                    <span className="text-blue-600">$</span>
-                    <span className="text-gray-700">Paid Parking Lot</span>
-                  </div>
-                )}
-                {clinic.payment_options?.accepts_credit_cards && (
-                  <div className="flex items-center gap-2">
-                    <span className="text-green-600">✓</span>
-                    <span className="text-gray-700">Accepts Credit Cards</span>
-                  </div>
-                )}
-                {clinic.payment_options?.accepts_cash_only && (
-                  <div className="flex items-center gap-2">
-                    <span className="text-green-600">✓</span>
-                    <span className="text-gray-700">Cash Only</span>
-                  </div>
-                )}
-              </div>
+
+              {amenityChips.length === 0 ? (
+                <p className="text-gray-600">No amenities listed for this clinic.</p>
+              ) : (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  {amenityChips.map((chip, i) => (
+                    <div
+                      key={chip.label}
+                      className={`feature-chip flex items-center gap-3 rounded-xl border ${toneClasses(
+                        chip.tone
+                      )} p-3 shadow-sm hover:shadow-md transition-all hover:-translate-y-0.5`}
+                      style={{ animationDelay: `${i * 80}ms` }}
+                    >
+                      <span className="text-xl leading-none">{chip.icon}</span>
+                      <span className="text-gray-800">{chip.label}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
 
