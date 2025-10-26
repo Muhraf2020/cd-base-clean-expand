@@ -14,6 +14,7 @@ import Link from 'next/link';
 function ClinicsContent() {
   const searchParams = useSearchParams();
   const stateParam = searchParams.get('state');
+  const cityParam = searchParams.get('city');  // ADD THIS LINE
 
   const [clinics, setClinics] = useState<Clinic[]>([]);
   const [filteredClinics, setFilteredClinics] = useState<Clinic[]>([]);
@@ -24,18 +25,22 @@ function ClinicsContent() {
 
   useEffect(() => {
     loadClinics();
-  }, [stateParam]);
-
-  useEffect(() => {
-    applyFilters();
-  }, [clinics, filters]);
+  }, [stateParam, cityParam]);  // UPDATE THIS LINE - add cityParam
 
   const loadClinics = async () => {
     try {
       setLoading(true);
-      const url = stateParam 
-        ? `/api/clinics?state=${stateParam}&per_page=5000`
-        : '/api/clinics?per_page=5000';
+      
+      // BUILD URL WITH BOTH STATE AND CITY PARAMETERS
+      let url = '/api/clinics?per_page=5000';
+      
+      if (stateParam) {
+        url += `&state=${stateParam}`;
+      }
+      
+      if (cityParam) {
+        url += `&city=${encodeURIComponent(cityParam)}`;
+      }
       
       const response = await fetch(url);
       const data = await response.json();
@@ -48,6 +53,8 @@ function ClinicsContent() {
       setLoading(false);
     }
   };
+
+  // ... rest of the component stays the same
 
   const handleSearch = (query: string) => {
     if (!query || query.trim() === '') {
@@ -300,3 +307,4 @@ export default function ClinicsPage() {
     </Suspense>
   );
 }
+
