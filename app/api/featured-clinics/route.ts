@@ -52,8 +52,8 @@ export async function GET(request: Request) {
       .eq('state_code', state)
       .eq('featured_clinic', true)
       .eq('business_status', 'OPERATIONAL') // Only show operational clinics
-      .order('rating', { ascending: false, nullsLast: true }) // Sort by rating
-      .order('user_rating_count', { ascending: false, nullsLast: true }) // Then by review count
+      .order('rating', { ascending: false, nullsFirst: false }) // Sort by rating (nulls last)
+      .order('user_rating_count', { ascending: false, nullsFirst: false }) // Then by review count (nulls last)
       .limit(limit);
 
     // Exclude current clinic if specified
