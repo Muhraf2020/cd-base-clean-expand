@@ -1,330 +1,305 @@
 // app/clinics/[id]/page.tsx
-'use client';
+// export const runtime = 'edge';
+export const dynamic = 'force-dynamic';
 
-import { useEffect, useState } from 'react';
-import { useParams } from 'next/navigation';
-import type { Clinic } from '@/lib/dataTypes';
+import { createSupabaseClient } from '@/lib/supabase';
+import { Clinic } from '@/lib/dataTypes';
+import Link from 'next/link';
+import ClinicBanner from '@/components/ClinicBanner';
+import { notFound } from 'next/navigation';
 
-export default function ClinicDetailPage() {
-  const params = useParams() as { id?: string | string[] };
-  const id = Array.isArray(params?.id) ? params.id[0] : params?.id;
-
-  const [clinic, setClinic] = useState<Clinic | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    if (!id) return;
-
-    async function fetchClinic() {
-      setLoading(true);
-      setError(null);
-      try {
-        const res = await fetch(`/api/clinics/${encodeURIComponent(id)}`, {
-          headers: { 'accept': 'application/json' },
-          cache: 'no-store',
-        });
-        if (!res.ok) throw new Error(`Failed to fetch clinic (${res.status})`);
-        const data = await res.json();
-        // Keep state typed as Clinic; we’ll compute fallbacks at render time
-        setClinic((data?.clinic ?? null) as Clinic | null);
-      } catch (err) {
-        setError(err instanceof Error ? err.message : 'An error occurred');
-      } finally {
-        setLoading(false);
-      }
-    }
-
-    fetchClinic();
-  }, [id]);
-
-  if (!id) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-lg text-red-600">Invalid clinic URL.</div>
-      </div>
-    );
-  }
-
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-lg">Loading clinic details...</div>
-      </div>
-    );
-  }
-
-  if (error || !clinic) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-lg text-red-600">{error || 'Clinic not found'}</div>
-      </div>
-    );
-  }
-
-  // ---- Field fallbacks to tolerate either API/DB shape without changing `Clinic` ----
-  const cAny = clinic as any;
-  const phone: string | null = cAny.phone ?? cAny.phone_number ?? null;
-  const website: string | null = cAny.website ?? cAny.website_uri ?? null;
-  const ratingCount: number | null =
-    cAny.user_rating_count ?? cAny.user_ratings_total ?? null;
-
-  return (
-    <div className="min-h-screen bg-gray-50 py-8">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">
-            {clinic.display_name}
-          </h1>
-
-          {clinic.current_open_now !== undefined && (
-            <div className="mb-4">
-              <span
-                className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium ${
-                  clinic.current_open_now
-                    ? 'bg-green-100 text-green-800'
-                    : 'bg-red-100 text-red-800'
-                }`}
-              >
-                {clinic.current_open_now ? '🟢 Open Now' : '🔴 Closed'}
-              </span>
-            </div>
-          )}
-
-          <div className="space-y-2 text-gray-700">
-            <p className="flex items-start">
-              <span className="mr-2">📍</span>
-              <span>{clinic.formatted_address}</span>
-            </p>
-
-            {phone && (
-              <p className="flex items-center">
-                <span className="mr-2">📞</span>
-                <a href={`tel:${phone}`} className="text-blue-600 hover:underline">
-                  {phone}
-                </a>
-              </p>
-            )}
-
-            {website && (
-              <p className="flex items-center">
-                <span className="mr-2">🌐</span>
-                <a
-                  href={website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline break-all"
-                >
-                  Visit Website
-                </a>
-              </p>
-            )}
-
-            {clinic.rating && (
-              <p className="flex items-center">
-                <span className="mr-2">⭐</span>
-                <span className="font-semibold">
-                  {typeof clinic.rating === 'number'
-                    ? clinic.rating.toFixed(1)
-                    : clinic.rating}
-                </span>
-                {ratingCount != null && (
-                  <span className="ml-1 text-gray-500">({ratingCount} reviews)</span>
-                )}
-              </p>
-            )}
-          </div>
-        </div>
-
-        {/* Opening Hours */}
-        {clinic.opening_hours?.weekday_text && (
-          <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Opening Hours</h2>
-            <ul className="space-y-2">
-              {clinic.opening_hours.weekday_text.map((hours: string, i: number) => {
-                const [day, times] = hours.split(': ');
-                const isToday =
-                  new Date().toLocaleDateString('en-US', { weekday: 'long' }) === day;
-                return (
-                  <li
-                    key={i}
-                    className={`flex justify-between py-2 px-3 rounded ${
-                      isToday ? 'bg-blue-50 font-semibold' : ''
-                    }`}
-                  >
-                    <span className="text-gray-700">{day}</span>
-                    <span className="text-gray-900">{times}</span>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        )}
-
-        {/* Amenities */}
-        <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">
-            Amenities & Features
-          </h2>
-
-          {!clinic.accessibility_options &&
-          !clinic.payment_options &&
-          !clinic.parking_options ? (
-            <p className="text-gray-500 italic">
-              No amenity information available for this clinic.
-            </p>
-          ) : (
-            <div className="space-y-6">
-              {clinic.accessibility_options && (
-                <AmenitiesSection
-                  title="♿ Accessibility"
-                  options={[
-                    {
-                      key: 'wheelchair_accessible_entrance',
-                      label: 'Wheelchair Accessible Entrance',
-                      value: clinic.accessibility_options.wheelchair_accessible_entrance,
-                    },
-                    {
-                      key: 'wheelchair_accessible_parking',
-                      label: 'Wheelchair Accessible Parking',
-                      value: clinic.accessibility_options.wheelchair_accessible_parking,
-                    },
-                    {
-                      key: 'wheelchair_accessible_restroom',
-                      label: 'Wheelchair Accessible Restroom',
-                      value: clinic.accessibility_options.wheelchair_accessible_restroom,
-                    },
-                    {
-                      key: 'wheelchair_accessible_seating',
-                      label: 'Wheelchair Accessible Seating',
-                      value: (clinic as any).accessibility_options
-                        ?.wheelchair_accessible_seating,
-                    },
-                  ]}
-                />
-              )}
-
-              {clinic.payment_options && (
-                <AmenitiesSection
-                  title="💳 Payment Methods"
-                  options={[
-                    {
-                      key: 'accepts_credit_cards',
-                      label: 'Credit Cards',
-                      value: clinic.payment_options.accepts_credit_cards,
-                    },
-                    {
-                      key: 'accepts_debit_cards',
-                      label: 'Debit Cards',
-                      value: (clinic as any).payment_options?.accepts_debit_cards,
-                    },
-                    {
-                      key: 'accepts_cash_only',
-                      label: 'Cash Only',
-                      value: clinic.payment_options.accepts_cash_only,
-                    },
-                    {
-                      key: 'accepts_nfc',
-                      label: 'NFC/Contactless',
-                      value: (clinic as any).payment_options?.accepts_nfc,
-                    },
-                  ]}
-                />
-              )}
-
-              {clinic.parking_options && (
-                <AmenitiesSection
-                  title="🅿️ Parking"
-                  options={[
-                    {
-                      key: 'free_parking_lot',
-                      label: 'Free Parking Lot',
-                      value: clinic.parking_options.free_parking_lot,
-                    },
-                    {
-                      key: 'paid_parking_lot',
-                      label: 'Paid Parking Lot',
-                      value: clinic.parking_options.paid_parking_lot,
-                    },
-                    {
-                      key: 'free_street_parking',
-                      label: 'Free Street Parking',
-                      value: (clinic as any).parking_options?.free_street_parking,
-                    },
-                    {
-                      key: 'paid_street_parking',
-                      label: 'Paid Street Parking',
-                      value: (clinic as any).parking_options?.paid_street_parking,
-                    },
-                    {
-                      key: 'valet_parking',
-                      label: 'Valet Parking',
-                      value: (clinic as any).parking_options?.valet_parking,
-                    },
-                    {
-                      key: 'free_garage_parking',
-                      label: 'Free Garage Parking',
-                      value: (clinic as any).parking_options?.free_garage_parking,
-                    },
-                    {
-                      key: 'paid_garage_parking',
-                      label: 'Paid Garage Parking',
-                      value: (clinic as any).parking_options?.paid_garage_parking,
-                    },
-                  ]}
-                />
-              )}
-            </div>
-          )}
-        </div>
-
-        {/* Google Maps Link */}
-        {clinic.google_maps_uri && (
-          <div className="bg-white rounded-lg shadow-md p-6">
-            <a
-              href={clinic.google_maps_uri}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center w-full px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              <span className="mr-2">📍</span>
-              View on Google Maps
-            </a>
-          </div>
-        )}
-      </div>
-    </div>
-  );
-}
-
-interface AmenitiesSectionProps {
-  title: string;
-  options: Array<{
-    key: string;
-    label: string;
-    value: boolean | undefined;
+// ----------------------
+// 1. Updated for Next.js 15 - params is now a Promise
+interface ClinicPageProps {
+  params: Promise<{
+    id: string;
   }>;
 }
+// ----------------------
 
-function AmenitiesSection({ title, options }: AmenitiesSectionProps) {
-  const available = options.filter((o) => o.value === true);
-  if (available.length === 0) return null;
+// Server-side data fetching
+async function getClinic(id: string): Promise<Clinic | null> {
+  const supabase = createSupabaseClient();
+
+  const { data, error } = await supabase
+    .from('clinics')
+    .select('*')
+    .eq('place_id', id)
+    .single();
+
+  if (error || !data) {
+    return null;
+  }
+
+  return data as Clinic;
+}
+
+// ----------------------
+// 2. Await the params promise before using
+export default async function ClinicDetailPage({ params }: ClinicPageProps) {
+  // CRITICAL: Await params in Next.js 15+
+  const { id } = await params;
+  // ----------------------
+
+  const clinic = await getClinic(id);
+
+  if (!clinic) {
+    notFound();
+  }
 
   return (
-    <div>
-      <h3 className="text-lg font-semibold text-gray-900 mb-3">{title}</h3>
-      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        {available.map((o) => (
-          <li
-            key={o.key}
-            className="flex items-center text-gray-700 bg-gray-50 rounded-lg px-4 py-2"
+    <div className="min-h-screen bg-gray-50">
+      {/* Header */}
+      <header className="bg-white shadow-sm">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <Link
+            href="/"
+            className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
           >
-            <span className="text-green-600 mr-2">✓</span>
-            <span>{o.label}</span>
-          </li>
-        ))}
-      </ul>
+            ← Back to Directory
+          </Link>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Banner Image */}
+        <div className="mb-8 rounded-lg overflow-hidden shadow-lg">
+          <ClinicBanner
+            clinicName={clinic.display_name}
+            placeId={clinic.place_id}
+            rating={clinic.rating}
+            website={clinic.website}
+            className="w-full h-64 md:h-80 object-cover"
+          />
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* Main Info */}
+          <div className="lg:col-span-2 space-y-6">
+            {/* Title and Status */}
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <div className="flex items-start justify-between mb-4">
+                <div>
+                  <h1 className="text-3xl font-bold text-gray-900 mb-2">
+                    {clinic.display_name}
+                  </h1>
+                  <p className="text-gray-600">
+                    {clinic.primary_type?.replace(/_/g, ' ')}
+                  </p>
+                </div>
+
+                {clinic.current_open_now !== undefined && (
+                  <span
+                    className={`px-4 py-2 rounded-lg text-sm font-medium ${
+                      clinic.current_open_now
+                        ? 'bg-green-100 text-green-800'
+                        : 'bg-red-100 text-red-800'
+                    }`}
+                  >
+                    {clinic.current_open_now ? '● Open Now' : '● Closed'}
+                  </span>
+                )}
+              </div>
+
+              {/* Rating */}
+              {clinic.rating && (
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="flex items-center gap-2">
+                    <span className="text-3xl text-yellow-400">★</span>
+                    <span className="text-2xl font-bold text-gray-900">
+                      {Number(clinic.rating).toFixed(1)}
+                    </span>
+                  </div>
+                  {clinic.user_rating_count && (
+                    <span className="text-gray-600">
+                      Based on {clinic.user_rating_count} reviews
+                    </span>
+                  )}
+                </div>
+              )}
+
+              {/* Business Status */}
+              {clinic.business_status !== 'OPERATIONAL' && (
+                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-4">
+                  <p className="text-yellow-800 font-medium">
+                    {clinic.business_status === 'CLOSED_TEMPORARILY'
+                      ? '⚠️ This clinic is temporarily closed'
+                      : '❌ This clinic is permanently closed'}
+                  </p>
+                </div>
+              )}
+            </div>
+
+            {/* Opening Hours */}
+            {clinic.opening_hours?.weekday_text && (
+              <div className="bg-white rounded-lg shadow-md p-6">
+                <h2 className="text-xl font-bold text-gray-900 mb-4">
+                  Opening Hours
+                </h2>
+                <div className="space-y-2">
+                  {clinic.opening_hours.weekday_text.map((text, index) => (
+                    <p key={index} className="text-gray-700">
+                      {text}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Features */}
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h2 className="text-xl font-bold text-gray-900 mb-4">
+                Features & Amenities
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {clinic.accessibility_options?.wheelchair_accessible_entrance && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-green-600">✓</span>
+                    <span className="text-gray-700">
+                      Wheelchair Accessible Entrance
+                    </span>
+                  </div>
+                )}
+                {clinic.accessibility_options?.wheelchair_accessible_parking && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-green-600">✓</span>
+                    <span className="text-gray-700">
+                      Wheelchair Accessible Parking
+                    </span>
+                  </div>
+                )}
+                {clinic.accessibility_options?.wheelchair_accessible_restroom && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-green-600">✓</span>
+                    <span className="text-gray-700">
+                      Wheelchair Accessible Restroom
+                    </span>
+                  </div>
+                )}
+                {clinic.parking_options?.free_parking_lot && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-green-600">✓</span>
+                    <span className="text-gray-700">Free Parking Lot</span>
+                  </div>
+                )}
+                {clinic.parking_options?.paid_parking_lot && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-blue-600">$</span>
+                    <span className="text-gray-700">Paid Parking Lot</span>
+                  </div>
+                )}
+                {clinic.payment_options?.accepts_credit_cards && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-green-600">✓</span>
+                    <span className="text-gray-700">Accepts Credit Cards</span>
+                  </div>
+                )}
+                {clinic.payment_options?.accepts_cash_only && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-green-600">✓</span>
+                    <span className="text-gray-700">Cash Only</span>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+
+          {/* Sidebar */}
+          <div className="space-y-6">
+            {/* Contact Card */}
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h2 className="text-xl font-bold text-gray-900 mb-4">
+                Contact Information
+              </h2>
+
+              {/* Address */}
+              <div className="mb-4">
+                <h3 className="text-sm font-medium text-gray-500 mb-2">Address</h3>
+                <p className="text-gray-900">{clinic.formatted_address}</p>
+              </div>
+
+              {/* Phone */}
+              {clinic.phone && (
+                <div className="mb-4">
+                  <h3 className="text-sm font-medium text-gray-500 mb-2">Phone</h3>
+                  <a
+                    href={`tel:${clinic.phone}`}
+                    className="text-blue-600 hover:text-blue-700 font-medium"
+                  >
+                    {clinic.phone}
+                  </a>
+                </div>
+              )}
+
+              {/* Website */}
+              {clinic.website && (
+                <div className="mb-6">
+                  <h3 className="text-sm font-medium text-gray-500 mb-2">Website</h3>
+                  <a
+                    href={clinic.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-700 font-medium break-all"
+                  >
+                    Visit Website →
+                  </a>
+                </div>
+              )}
+
+              {/* Action Buttons */}
+              <div className="space-y-3">
+                {clinic.phone && (
+                  <a
+                    href={`tel:${clinic.phone}`}
+                    className="block w-full text-center px-4 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+                  >
+                    📞 Call Now
+                  </a>
+                )}
+
+                <a
+                  href={clinic.google_maps_uri}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-center px-4 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-colors"
+                >
+                  📍 Get Directions
+                </a>
+
+                {clinic.website && (
+                  <a
+                    href={clinic.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full text-center px-4 py-3 bg-purple-600 text-white font-medium rounded-lg hover:bg-purple-700 transition-colors"
+                  >
+                    🌐 Visit Website
+                  </a>
+                )}
+              </div>
+            </div>
+
+            {/* Map Preview */}
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h2 className="text-xl font-bold text-gray-900 mb-2">Location</h2>
+              <p className="text-gray-600 mb-3">
+                View on Google Maps for directions.
+              </p>
+              {clinic.google_maps_uri && (
+                <a
+                  href={clinic.google_maps_uri}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-4 py-2 rounded-md bg-blue-50 text-blue-700 hover:bg-blue-100 transition-colors"
+                >
+                  Open in Google Maps ↗
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
   );
 }
