@@ -49,35 +49,49 @@ function transformClinicData(rawClinic: any): Clinic {
     return undefined;
   };
 
+  // Helper to check if an object has any truthy values
+  const hasAnyValue = (obj: any): boolean => {
+    if (!obj || typeof obj !== 'object') return false;
+    return Object.values(obj).some(value => value === true);
+  };
+
   // Transform accessibility_options - handle both formats
   let accessibility_options = undefined;
   if (rawClinic.accessibility_options && typeof rawClinic.accessibility_options === 'object') {
     const ao = rawClinic.accessibility_options;
-    accessibility_options = {
+    const transformed = {
       wheelchair_accessible_entrance: getValue(ao, 'wheelchair_accessible_entrance', 'wheelchairAccessibleEntrance'),
       wheelchair_accessible_parking: getValue(ao, 'wheelchair_accessible_parking', 'wheelchairAccessibleParking'),
       wheelchair_accessible_restroom: getValue(ao, 'wheelchair_accessible_restroom', 'wheelchairAccessibleRestroom'),
       wheelchair_accessible_seating: getValue(ao, 'wheelchair_accessible_seating', 'wheelchairAccessibleSeating'),
     };
+    // Only include if at least one value is true
+    if (hasAnyValue(transformed)) {
+      accessibility_options = transformed;
+    }
   }
 
   // Transform payment_options - handle both formats
   let payment_options = undefined;
   if (rawClinic.payment_options && typeof rawClinic.payment_options === 'object') {
     const po = rawClinic.payment_options;
-    payment_options = {
+    const transformed = {
       accepts_credit_cards: getValue(po, 'accepts_credit_cards', 'acceptsCreditCards'),
       accepts_debit_cards: getValue(po, 'accepts_debit_cards', 'acceptsDebitCards'),
       accepts_cash_only: getValue(po, 'accepts_cash_only', 'acceptsCashOnly'),
       accepts_nfc: getValue(po, 'accepts_nfc', 'acceptsNfc'),
     };
+    // Only include if at least one value is true
+    if (hasAnyValue(transformed)) {
+      payment_options = transformed;
+    }
   }
 
   // Transform parking_options - handle both formats
   let parking_options = undefined;
   if (rawClinic.parking_options && typeof rawClinic.parking_options === 'object') {
     const pko = rawClinic.parking_options;
-    parking_options = {
+    const transformed = {
       free_parking_lot: getValue(pko, 'free_parking_lot', 'freeParkingLot'),
       paid_parking_lot: getValue(pko, 'paid_parking_lot', 'paidParkingLot'),
       free_street_parking: getValue(pko, 'free_street_parking', 'freeStreetParking'),
@@ -86,6 +100,10 @@ function transformClinicData(rawClinic: any): Clinic {
       free_garage_parking: getValue(pko, 'free_garage_parking', 'freeGarageParking'),
       paid_garage_parking: getValue(pko, 'paid_garage_parking', 'paidGarageParking'),
     };
+    // Only include if at least one value is true
+    if (hasAnyValue(transformed)) {
+      parking_options = transformed;
+    }
   }
 
   // Calculate real-time open_now status from weekday_text
