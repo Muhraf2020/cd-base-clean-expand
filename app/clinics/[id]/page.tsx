@@ -2,15 +2,11 @@
 // export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
 
-
-// app/clinics/[id]/page.tsx
 import { createSupabaseClient } from '@/lib/supabase';
 import { Clinic } from '@/lib/dataTypes';
 import Link from 'next/link';
 import ClinicBanner from '@/components/ClinicBanner';
 import { notFound } from 'next/navigation';
-
-
 
 // ----------------------
 // 1. Updated for Next.js 15 - params is now a Promise
@@ -91,7 +87,6 @@ function normalizeClinicForUI(raw: any) {
   };
 }
 
-
 // Server-side data fetching
 async function getClinic(id: string): Promise<Clinic | null> {
   const supabase = createSupabaseClient();
@@ -114,14 +109,13 @@ async function getClinic(id: string): Promise<Clinic | null> {
 export default async function ClinicDetailPage({ params }: ClinicPageProps) {
   // CRITICAL: Await params in Next.js 15+
   const { id } = await params;
-// ----------------------
 
-  const clinic = await getClinic(id);
-  
-  if (!clinic) {
+  // Fetch and normalize once (no duplicate declarations)
+  const rawClinic = await getClinic(id);
+  if (!rawClinic) {
     notFound();
   }
-  const clinic = normalizeClinicForUI(rawClinic as any) as Clinic;
+  const clinic = normalizeClinicForUI(rawClinic) as Clinic;
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -160,7 +154,9 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
                   <h1 className="text-3xl font-bold text-gray-900 mb-2">
                     {clinic.display_name}
                   </h1>
-                  <p className="text-gray-600">{clinic.primary_type?.replace(/_/g, ' ')}</p>
+                  <p className="text-gray-600">
+                    {clinic.primary_type?.replace(/_/g, ' ')}
+                  </p>
                 </div>
 
                 {clinic.current_open_now !== undefined && (
@@ -363,4 +359,3 @@ export default async function ClinicDetailPage({ params }: ClinicPageProps) {
     </div>
   );
 }
-
